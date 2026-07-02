@@ -1,7 +1,9 @@
 name: Sign Shortcuts
+
 on:
   push:
-    paths: ['shortcuts/*.plist']
+    paths:
+      - 'shortcuts/*.plist'
   workflow_dispatch:
 
 permissions:
@@ -10,31 +12,78 @@ permissions:
 jobs:
   sign:
     runs-on: macos-26
+
     steps:
       - uses: actions/checkout@v4
 
-      - name: Lint and sign
+      - name: Lint, normalize, and sign
         run: |
-          mkdir -p signed
-          FAIL=0
-          for f in shortcuts/*.plist; do
-            name=$(basename "$f" .plist)
-            echo "--- $name ---"
-            plutil -lint "$f" || { FAIL=1; continue; }
-            shortcuts sign --mode anyone -i "$f" -o "signed/${name}.shortcut" \
-              || { echo "::error::Signing failed for $name"; FAIL=1; }
-          done
-          exit $FAIL
+          set -u
 
-      - uses: actions/upload-artifact@v4
+          mkdir -p build signed
+          FAIL=0
+          FOUND=0
+
+          for f in shortcuts/*.plist; do
+            [ -e "$f" ] || continue
+            FOUND=1
+
+            name=$(basename "$f" .plist)
+            unsigned="build/${name}.unsigned.shortcut"
+            signed="signed/${name}.shortcut"
+
+            echo "--- $name ---"
+
+            echo "Checking XML/plist syntax..."
+            plutil -lint "$f" || { FAIL=1; continue; }
+
+            echo "Checking required Shortcut top-level keys..."
+            plutil -extract WFWorkflowActions raw -o - "$f" >/dev/null 2>&1 \
+              || { echo "::error::$f is missing WFWorkflowActions"; FAIL=1; continue; }
+
+            plutil -extract WFWorkflowIcon.WFWorkflowIconStartColor raw -o - "$f" >/dev/null 2>&1 \
+              || { echo "::error::$f is missing WFWorkflowIcon.WFWorkflowIconStartColor. Use WFWorkflowIconStartColor, not WFWorkflowIconColor."; FAIL=1; continue; }
+
+            plutil -extract WFWorkflowIcon.WFWorkflowIconGlyphNumber raw -o - "$f" >/dev/null 2>&1 \
+              || { echo "::error::$f is missing WFWorkflowIcon.WFWorkflowIconGlyphNumber"; FAIL=1; continue; }
+
+            echo "Converting XML plist to binary unsigned .shortcut..."
+            plutil -convert binary1 -o "$unsigned" "$f" \
+              || { echo "::error::Binary conversion failed for $name"; FAIL=1; continue; }
+
+            echo "Signing..."
+            shortcuts sign --mode anyone --input "$unsigned" --output "$signed" \
+              || { echo "::error::Signing failed for $name"; FAIL=1; continue; }
+
+            echo "Signed: $signed"
+          done
+
+          if [ "$FOUND" -eq 0 ]; then
+            echo "::warning::No .plist files found in shortcuts/"
+          fi
+
+          exit "$FAIL"
+
+      - name: Upload signing artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: signed-shortcuts
-          path: signed/
+          path: |
+            signed/
+            build/
+          if-no-files-found: warn
 
       - name: Publish to rolling release
+        if: success()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          if ! ls signed/*.shortcut >/dev/null 2>&1; then
+            echo "::warning::No signed shortcuts to publish"
+            exit 0
+          fi
+
           gh release delete latest-signed --yes --cleanup-tag || true
           gh release create latest-signed signed/*.shortcut \
             --title "Signed Shortcuts" \
