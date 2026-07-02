@@ -1,0 +1,5707 @@
+[
+ {
+  "typeId": "com.apple.systempreferences.AxKbHideEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbHideEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.BusinessCardEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SecondaryClickEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SecondaryClickEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.AddressBook.ContactEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.AddressBook.ContactEntity",
+  "identifier": "intentUpdatableEntity",
+  "protocol": {
+   "__base64__": "UhUKE1VwZGF0ZUNvbnRhY3RJbnRlbnQ="
+  }
+ },
+ {
+  "typeId": "com.apple.AddressBook.HighlightedDetail",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.reminders.GroupEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.reminders.ListEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.reminders.ListEntity",
+  "identifier": "collaborative",
+  "protocol": {
+   "__base64__": "mAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.MouseTrackingSpeedEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.MouseTrackingSpeedEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Safari.QuickWebsiteSearchProviderEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Safari.QuickWebsiteSearchProviderEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Safari.QuickWebsiteSearchProviderEntity",
+  "identifier": "appIntentSchema.browser.SearchableWebsiteEntity",
+  "protocol": {
+   "__base64__": "cigKJgoXU2VhcmNoYWJsZVdlYnNpdGVFbnRpdHkSAggBGgdicm93c2Vy"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SoundSettingsStartupSoundEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SoundSettingsStartupSoundEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.BatteryOptionsPaneDynamicDeepLinks",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.PersonEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.PersonEntity",
+  "identifier": "collaborative",
+  "protocol": {
+   "__base64__": "mAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.PersonEntity",
+  "identifier": "appIntentSchema.photos.PhotoPersonEntity",
+  "protocol": {
+   "__base64__": "ciEKHwoRUGhvdG9QZXJzb25FbnRpdHkSAggBGgZwaG90b3M="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxTrackpadScrollBehaviorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxTrackpadScrollBehaviorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.VoiceMemos.AudioQualityEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.VoiceMemos.AudioQualityEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.InternetAccountEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSiriAtypicalSpeechEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSiriAtypicalSpeechEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDifferentiateWithoutColorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDifferentiateWithoutColorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.BatterySettingsPaneDynamicDeepLinks",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.FamilySettingsDeepLink",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSlowKeysSoundEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSlowKeysSoundEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHeadMouseEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHeadMouseEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVoiceControlOverlayFadingEnabledEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVoiceControlOverlayFadingEnabledEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AutoBrightnessEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AutoBrightnessEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenHotkeyEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenHotkeyEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.ArticleEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.reminders.ReminderEntity",
+  "identifier": "collaborative",
+  "protocol": {
+   "__base64__": "mAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.reminders.ReminderEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenSelectionHighlightWordColorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenSelectionHighlightWordColorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.journal.AlwaysUseMomentDateEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.journal.AlwaysUseMomentDateEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Safari.TabEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Safari.TabEntity",
+  "identifier": "appIntentSchema.browser.TabEntity",
+  "protocol": {
+   "__base64__": "choKGAoJVGFiRW50aXR5EgIIARoHYnJvd3Nlcg=="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AutomaticReconnectEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AutomaticReconnectEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.reminders.SectionEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadZoomInOutEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadZoomInOutEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.podcasts.StationEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.podcasts.EpisodeEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.PeopleViewService.QuickActionAppHandle",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.AudiobookAppEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.AudiobookAppEntity",
+  "identifier": "appIntentSchema.books.AudiobookEntity",
+  "protocol": {
+   "__base64__": "ch4KHAoPQXVkaW9ib29rRW50aXR5EgIIARoFYm9va3M="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ScrollDirectionEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ScrollDirectionEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Preview.PageEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Preview.PageEntity",
+  "identifier": "appIntentSchema.reader.ReaderPageEntity",
+  "protocol": {
+   "__base64__": "ciAKHgoQUmVhZGVyUGFnZUVudGl0eRICCAEaBnJlYWRlcg=="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomMoveEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomMoveEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.shortcuts.ConfiguredCollection",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "identifier": "collaborative",
+  "protocol": {
+   "__base64__": "mAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "identifier": "appIntentSchema.photos.PhotoEntity",
+  "protocol": {
+   "__base64__": "chsKGQoLUGhvdG9FbnRpdHkSAggBGgZwaG90b3M="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.AccountEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.AccountEntity",
+  "identifier": "appIntentSchema.mail.MailAccountEntity",
+  "protocol": {
+   "__base64__": "ch8KHQoRTWFpbEFjY291bnRFbnRpdHkSAggBGgRtYWls"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadClickPressureEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadClickPressureEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ShowScreenSaverOnAllSpacesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxInvertColorModeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxInvertColorModeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.SiriSuggestionsAndPrivacyForAppEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.iCal.EventEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.InstallSecurityUpdatesPreferenceEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.InstallSecurityUpdatesPreferenceEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.DraftMessageEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.DraftMessageEntity",
+  "identifier": "intentUpdatableEntity",
+  "protocol": {
+   "__base64__": "UhMKEVVwZGF0ZURyYWZ0SW50ZW50"
+  }
+ },
+ {
+  "typeId": "com.apple.mail.DraftMessageEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.mail.DraftMessageEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.DraftMessageEntity",
+  "identifier": "appIntentSchema.mail.MailDraftEntity",
+  "protocol": {
+   "__base64__": "ch0KGwoPTWFpbERyYWZ0RW50aXR5EgIIARoEbWFpbA=="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDisplayFilterEnabledEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDisplayFilterEnabledEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenDetectLanguagesEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenDetectLanguagesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.iCal.AttendeeEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxStickyKeysEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxStickyKeysEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHoverTypingEnableEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHoverTypingEnableEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHotCornerBottomRightEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHotCornerBottomRightEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxAltMouseEnableSoundsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxAltMouseEnableSoundsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVoiceControlShowHintsEnabledEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVoiceControlShowHintsEnabledEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadAudioStoriesEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadAudioStoriesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.FilterEffect",
+  "identifier": "appIntentSchema.photos.PhotoFilterEffectType",
+  "protocol": {
+   "__base64__": "ciUKIwoVUGhvdG9GaWx0ZXJFZmZlY3RUeXBlEgIIARoGcGhvdG9z"
+  }
+ },
+ {
+  "typeId": "com.apple.mail.MailMessageEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.mail.MailMessageEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.MailMessageEntity",
+  "identifier": "intentUpdatableEntity",
+  "protocol": {
+   "__base64__": "UhUKE1VwZGF0ZU1lc3NhZ2VJbnRlbnQ="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.MailMessageEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.MailMessageEntity",
+  "identifier": "appIntentSchema.mail.MailMessageEntity",
+  "protocol": {
+   "__base64__": "ch8KHQoRTWFpbE1lc3NhZ2VFbnRpdHkSAggBGgRtYWls"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ShowAsScreenSaverEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHomePanelDwellActionsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHomePanelDwellActionsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.VPNConfigurationEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenPointerElementVerbosityEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenPointerElementVerbosityEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.freeform.CRLBoardEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.freeform.CRLBoardEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.freeform.CRLBoardEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.freeform.CRLBoardEntity",
+  "identifier": "appIntentSchema.whiteboard.CanvasEntity",
+  "protocol": {
+   "__base64__": "ciAKHgoMQ2FudmFzRW50aXR5EgIIARoKd2hpdGVib2FyZA=="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ControlCenterModule",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomFocusMovementEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomFocusMovementEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.PersonalCardEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxShowToolbarButtonShapesEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxShowToolbarButtonShapesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ApplicationNotificationsSettings",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Safari.BookmarkEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Safari.BookmarkEntity",
+  "identifier": "appIntentSchema.browser.BookmarkEntity",
+  "protocol": {
+   "__base64__": "ch8KHQoOQm9va21hcmtFbnRpdHkSAggBGgdicm93c2Vy"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AccentColorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AccentColorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.KeyboardShortcutEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.KeyboardShortcutEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomTrackpadEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomTrackpadEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.OptimizeStorageEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.OptimizeStorageEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMouseScrollBehaviorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMouseScrollBehaviorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomFollowFocusActivationEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomFollowFocusActivationEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.VehicleReservationEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ShareKeyboardEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ShareKeyboardEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.freeform.CRLCanvasItemType",
+  "identifier": "appIntentSchema.whiteboard.CanvasItemType",
+  "protocol": {
+   "__base64__": "ciIKIAoOQ2FudmFzSXRlbVR5cGUSAggBGgp3aGl0ZWJvYXJk"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.MagicEdgeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.MagicEdgeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMouseScrollEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMouseScrollEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ShowMenuBarBackgroundEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.HourFormatEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.HourFormatEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.SiriSuggestionsShowInAppEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.donotdisturb.DoNotDisturbAppIntents.FocusEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.FullScreenSwipeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.FullScreenSwipeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.SiriLanguageEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.SiriLanguageEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.MediaEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.BookNavigationDirection",
+  "identifier": "appIntentSchema.books.BookNavigationDirection",
+  "protocol": {
+   "__base64__": "ciYKJAoXQm9va05hdmlnYXRpb25EaXJlY3Rpb24SAggBGgVib29rcw=="
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.BookAppEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.BookAppEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.BookAppEntity",
+  "identifier": "appIntentSchema.books.BookEntity",
+  "protocol": {
+   "__base64__": "chkKFwoKQm9va0VudGl0eRICCAEaBWJvb2tz"
+  }
+ },
+ {
+  "typeId": "com.apple.VoiceMemos.RCRecordingEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.VoiceMemos.RCRecordingEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadSettingDeepLink",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.journal.AddCurrentLocationEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.journal.AddCurrentLocationEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.UserSwitcherMenuStyleEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.TriggerRecurrenceWeekdaysEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomDisableUniversalControlEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomDisableUniversalControlEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.journal.SaveToPhotosEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.journal.SaveToPhotosEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadAppExposeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadAppExposeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomKeepStationaryEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomKeepStationaryEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.MobileSMS.MessageEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.MobileSMS.MessageEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ClickScrollBarToEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ClickScrollBarToEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.RecentDocumentsOptionEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxTypeToSiriEnabledEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxTypeToSiriEnabledEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadSmartZoomEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadSmartZoomEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxPrefersHorizTextLayoutEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxPrefersHorizTextLayoutEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DockSettingsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DockSettingsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.stocks.ArticleEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.MouseSettingDeepLink",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenAlertsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenAlertsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DesktopSettingsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DesktopSettingsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.MailboxEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.MailboxEntity",
+  "identifier": "appIntentSchema.mail.MailboxEntity",
+  "protocol": {
+   "__base64__": "chsKGQoNTWFpbGJveEVudGl0eRICCAEaBG1haWw="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxCaptioningPreferSdhEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxCaptioningPreferSdhEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.MissionControlSettingsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.MissionControlSettingsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.AlbumEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.AlbumEntity",
+  "identifier": "collaborative",
+  "protocol": {
+   "__base64__": "mAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.AlbumEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.AlbumEntity",
+  "identifier": "appIntentSchema.photos.PhotoAlbumEntity",
+  "protocol": {
+   "__base64__": "ciAKHgoQUGhvdG9BbGJ1bUVudGl0eRICCAEaBnBob3Rvcw=="
+  }
+ },
+ {
+  "typeId": "com.apple.journal.SkipJournalingSuggestionsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.journal.SkipJournalingSuggestionsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenTypingEchoSelectionEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenTypingEchoSelectionEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxAltMouseButtonsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxAltMouseButtonsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SoundSettingsFeedbackSoundEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SoundSettingsFeedbackSoundEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadSavedStoriesEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadSavedStoriesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SpotlightSettingsDeepLinks",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.AddressBook.ContactLabeledValueEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.AddressBook.ContactLabeledPostalAddressEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.AddressBook.ContactLabeledDateEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SwipeBetweenPagesEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SwipeBetweenPagesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.MissionControlEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.MissionControlEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenPronunciationsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenPronunciationsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.NotificationCenterEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.NotificationCenterEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.BooksValueSizeChange",
+  "identifier": "appIntentSchema.books.BookRelativeFontChange",
+  "protocol": {
+   "__base64__": "ciUKIwoWQm9va1JlbGF0aXZlRm9udENoYW5nZRICCAEaBWJvb2tz"
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.BookSettingsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.BookSettingsEntity",
+  "identifier": "appIntentSchema.books.BookSettingsEntity",
+  "protocol": {
+   "__base64__": "ciEKHwoSQm9va1NldHRpbmdzRW50aXR5EgIIARoFYm9va3M="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenSelectionShowControllerEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenSelectionShowControllerEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SetupFamilyDeepLink",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomFollowFocusModeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomFollowFocusModeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.NewsTabDeepLink",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.GameCenterEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.GameCenterEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Safari.WindowEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Safari.WindowEntity",
+  "identifier": "appIntentSchema.browser.WindowEntity",
+  "protocol": {
+   "__base64__": "ch0KGwoMV2luZG93RW50aXR5EgIIARoHYnJvd3Nlcg=="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFacetimeTranscriptionsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFacetimeTranscriptionsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenPointerElementModeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenPointerElementModeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomMonitorSelectionEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomMonitorSelectionEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMouseKeysShortcutEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMouseKeysShortcutEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomToggleFsAndPipEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomToggleFsAndPipEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.BluetoothPowerEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.MobileSMS.ConversationEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.MobileSMS.ConversationEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellZoomEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellZoomEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbUseClickSoundsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbUseClickSoundsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.stocks.NewsTabDeepLink",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxStickyKeysDisplayEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxStickyKeysDisplayEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.DeviceResult",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchHoverTextToolbarEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchHoverTextToolbarEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbAutoCapitalizationEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbAutoCapitalizationEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AppearanceEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AppearanceEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDisplayFilterTypeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDisplayFilterTypeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFeatureLivespeechEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFeatureLivespeechEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.VoiceFeedbackToggleEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.VoiceFeedbackToggleEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrueToneEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrueToneEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxReduceMotionEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxReduceMotionEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.iCal.AttendeeEntity_v0",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.iCal.LocationEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.iCal.RecurrenceRuleEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.iCal.AlarmEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.AlwaysShowSpeechEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.AlwaysShowSpeechEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.TransparencySettingsIntents.TransparencyPublicVerificationCodeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.TransparencySettingsIntents.TransparencyPublicVerificationCodeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadLaunchpadEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadLaunchpadEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxAnimatedImagesEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxAnimatedImagesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.WindowsSettingsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.WindowsSettingsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.MemoryEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchMouseMoveStyleEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchMouseMoveStyleEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellCursorColorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellCursorColorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.WidgetsAndOnenessEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellInPanelsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellInPanelsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVirtualKeyboardEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVirtualKeyboardEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxReduceTransparencyEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxReduceTransparencyEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AutoHideMenuBarOptionEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbAutoSpacingEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbAutoSpacingEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SidebarIconSizeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SidebarIconSizeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchResumeAutoScanningEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchResumeAutoScanningEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.CurrentlyConnectedVPN",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.CurrentlyConnectedVPN",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFeatureSwitchcontrolEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFeatureSwitchcontrolEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.BookThemeSetting",
+  "identifier": "appIntentSchema.books.BookTheme",
+  "protocol": {
+   "__base64__": "chgKFgoJQm9va1RoZW1lEgIIARoFYm9va3M="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SoundSettingsInterfaceEffectsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SoundSettingsInterfaceEffectsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ScreenSaverDelayEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchScanRestartEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchScanRestartEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadTapToClickEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadTapToClickEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.podcasts.WarmupAudioQueueResult",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.podcasts.WarmupAudioQueueResult",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHoverTextActivationLockModeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHoverTextActivationLockModeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchSpotlightEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenPointerElementEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenPointerElementEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.GenericEventEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SettingsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.podcasts.ChannelEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.FamilyMemberDetailsDeepLink",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ShowWallpaperOnAllSpacesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFkaHighContrastCheckboxEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFkaHighContrastCheckboxEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomFlashEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomFlashEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxReduceCursorModulationEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxReduceCursorModulationEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHotCornerTopRightEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHotCornerTopRightEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenSelectionHighlightSentenceStyleEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenSelectionHighlightSentenceStyleEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFkaAutoHideCheckboxEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFkaAutoHideCheckboxEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.AlwaysPrintSiriResponseEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.AlwaysPrintSiriResponseEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.StubBookFont",
+  "identifier": "appIntentSchema.books.BookFont",
+  "protocol": {
+   "__base64__": "chcKFQoIQm9va0ZvbnQSAggBGgVib29rcw=="
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.BookPageNavigationSetting",
+  "identifier": "appIntentSchema.books.BookPageNavigationSetting",
+  "protocol": {
+   "__base64__": "cigKJgoZQm9va1BhZ2VOYXZpZ2F0aW9uU2V0dGluZxICCAEaBWJvb2tz"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbAppearanceTypeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbAppearanceTypeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxStickyKeysDisplayLocationEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxStickyKeysDisplayLocationEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadTrackingSpeedEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadTrackingSpeedEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxAltMouseEnableVisualsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxAltMouseEnableVisualsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadSecondaryClickEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadSecondaryClickEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomRestoreEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomRestoreEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxRttEnableEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxRttEnableEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHotCornerTopLeftEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHotCornerTopLeftEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.WidgetSettingsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.WidgetSettingsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AppearanceSettingsDeepLink",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.TicketedShowEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenTypingEchoWordsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenTypingEchoWordsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DateTimeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DateTimeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.podcasts.ShowEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxIgnoreTrackpadEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxIgnoreTrackpadEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.StorageSettingsDeeplinks",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.MailMessage",
+  "identifier": "mailMessage",
+  "protocol": {
+   "__base64__": "IAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFkaEnableCheckboxEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFkaEnableCheckboxEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DownloadUpdatesPreferenceEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DownloadUpdatesPreferenceEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TimeZoneEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TimeZoneEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFindCursorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFindCursorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ShowScrollBarsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ShowScrollBarsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenTypingEchoModifierKeysEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenTypingEchoModifierKeysEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomFreezePanningEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomFreezePanningEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.VoiceMemos.ResetAnalyticsIdentifierEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.VoiceMemos.ResetAnalyticsIdentifierEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadQuietClickEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadQuietClickEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ShowBatteryPercentageEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomTempDetachEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomTempDetachEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSlowKeysEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSlowKeysEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDimFlashingEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDimFlashingEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxTrackpadScrollEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxTrackpadScrollEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSystemTranscriptionEnabledEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSystemTranscriptionEnabledEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.TransparencySettingsIntents.TransparencyStatusEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.TransparencySettingsIntents.TransparencyStatusEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHotCornerBottomLeftEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHotCornerBottomLeftEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.PaperSizeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.RestrictStoriesInTodaySettingEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.RestrictStoriesInTodaySettingEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AutoTimeZoneEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AutoTimeZoneEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVoiceControlPlaySoundEnabledEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVoiceControlPlaySoundEnabledEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxStickyKeysBeepEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxStickyKeysBeepEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AutoDateTimeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AutoDateTimeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.journal.JournalEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.journal.JournalEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.journal.JournalEntity",
+  "identifier": "appIntentSchema.journal.JournalEntity",
+  "protocol": {
+   "__base64__": "ch4KHAoNSm91cm5hbEVudGl0eRICCAEaB2pvdXJuYWw="
+  }
+ },
+ {
+  "typeId": "com.apple.shortcuts.ConfiguredShortcut",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.FamilySubscriptionsDeepLink",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxRttSendImmediatelyEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxRttSendImmediatelyEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFeatureVoiceoverEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFeatureVoiceoverEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SmartZoomEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.SmartZoomEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.-Photos-AppIntents._Photos_AppIntents.PHAssetEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.VoiceMemos.ClearDeletedEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.VoiceMemos.ClearDeletedEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomTempToggleEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomTempToggleEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.InstallMacUpdatesPreferenceEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.InstallMacUpdatesPreferenceEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxTouchBarZoomEnableEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxTouchBarZoomEnableEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.RotationDirectionAssistantEnum",
+  "identifier": "appIntentSchema.photos.PhotoRotationDirection",
+  "protocol": {
+   "__base64__": "ciYKJAoWUGhvdG9Sb3RhdGlvbkRpcmVjdGlvbhICCAEaBnBob3Rvcw=="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ShowAsWallpaperEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomEnableGestureEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomEnableGestureEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpringLoadingEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpringLoadingEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenTypingEchoCharsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenTypingEchoCharsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbRightClickEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbRightClickEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.reminders.LocationTriggerEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomSmoothEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomSmoothEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHoverTextEnableEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHoverTextEnableEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellProgressIndicatorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellProgressIndicatorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomIndividualDisplaysEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomIndividualDisplaysEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.FlightReservationEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadSwipeBetweenPagesEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadSwipeBetweenPagesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMonoAudioEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMonoAudioEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMouseKeysIgnoreTrackpadEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMouseKeysIgnoreTrackpadEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxShowWindowTitlebarIconsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxShowWindowTitlebarIconsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Spotlight.SearchEntityFilter",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchAutoCapitalizationEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchAutoCapitalizationEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxIncreaseContrastEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxIncreaseContrastEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFeatureZoomEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFeatureZoomEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ClockOptionsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ClockOptionsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxBackgroundSoundsLockScreenEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxBackgroundSoundsLockScreenEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.EnergySaverPaneDynamicDeepLinks",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVoiceControlOverlayEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVoiceControlOverlayEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxBackgroundSoundsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxBackgroundSoundsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.NotificationSummarizationEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.NotificationSummarizationEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomMonitorSelectionTrackpadEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomMonitorSelectionTrackpadEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchControlAppearanceTypeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchControlAppearanceTypeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadMagazineIssuesEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadMagazineIssuesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomEnableHotkeysEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomEnableHotkeysEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.SiriVoiceEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.SiriVoiceEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxAdaptiveVoiceShortcutsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxAdaptiveVoiceShortcutsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.NewsSettingsDynamicDeepLinks",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchNavFeedbackEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchNavFeedbackEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.HotelReservationEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.KeyboardSettingsDeepLink",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadForceClickEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadForceClickEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadShowDesktopEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadShowDesktopEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomInvertEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomInvertEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.AskSiriEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.AskSiriEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMouseKeysEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMouseKeysEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMenubarDwellActionsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMenubarDwellActionsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AppleAccountMainDynamicDeepLinks",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFkaIncreaseSizeCheckboxEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFkaIncreaseSizeCheckboxEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.TicketedTransportationEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchHideAfterDelayEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchHideAfterDelayEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVideoDescriptionEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxVideoDescriptionEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadPuzzlesEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadPuzzlesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenSelectionHighlightSentenceColorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenSelectionHighlightSentenceColorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchMouseCursorEdgeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchMouseCursorEdgeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.VoiceMemos.LocationBasedNamingEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.VoiceMemos.LocationBasedNamingEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbKeyAcceptedMouseEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxKbKeyAcceptedMouseEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxInvertColorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxInvertColorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadStoriesInFeedsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadStoriesInFeedsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpatialAudioFollowsHeadEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpatialAudioFollowsHeadEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.MailAddresseeEntity",
+  "identifier": "mailAddressee",
+  "protocol": {
+   "__base64__": "GAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.MailAccountEntity",
+  "identifier": "mailAccount",
+  "protocol": {
+   "__base64__": "EAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.SiriAndDictationHistoryEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.SiriAndDictationHistoryEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadRotateEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadRotateEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellAutoRevertEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellAutoRevertEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadSwipeBetweenAppsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadSwipeBetweenAppsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadRecipesEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.news.AutoDownloadRecipesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AllowWallPaperTintingEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AllowWallPaperTintingEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchAutoSpacingEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchAutoSpacingEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.RestaurantReservationEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHoverTypingEntryLocationEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHoverTypingEntryLocationEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadMissionControlEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadMissionControlEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.BatteryHealthPaneDynamicDeepLinks",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomResizeShortcutsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomResizeShortcutsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxStickyKeysShortcutEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxStickyKeysShortcutEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenTypingEchoEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenTypingEchoEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFlashScreenEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFlashScreenEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenSelectionHighlightContentEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSpokenSelectionHighlightContentEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AirDropEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchAutoscanEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchAutoscanEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadLookUpAndDataDetectorsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadLookUpAndDataDetectorsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomStylePopupEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxZoomStylePopupEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellActionEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellActionEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.SiriSuggestionsAndPrivacyEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.siri.AssistantSettingsControls.SiriSuggestionsAndPrivacyEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.HighlightColorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.HighlightColorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFeatureVoicecontrolEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxFeatureVoicecontrolEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.StructuredQueryEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchEntityTypeIdentifier",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchContext",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.EntityMatch",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchPropertyRequest",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellInMenuExtraEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxDwellInMenuExtraEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMotionCuesEnabledEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxMotionCuesEnabledEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.freeform.CRLColorEntity",
+  "identifier": "appIntentSchema.whiteboard.CanvasColor",
+  "protocol": {
+   "__base64__": "ch8KHQoLQ2FudmFzQ29sb3ISAggBGgp3aGl0ZWJvYXJk"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadNotificiationCenterEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.TrackpadNotificiationCenterEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ClassroomDynamicDeepLinks",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ClassroomDynamicDeepLinks",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHotCornerMoveHomePanelEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHotCornerMoveHomePanelEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchCursorSizeEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxSwitchCursorSizeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.iBooksX.StubBookFontSize",
+  "identifier": "appIntentSchema.books.BookFontSize",
+  "protocol": {
+   "__base64__": "chsKGQoMQm9va0ZvbnRTaXplEgIIARoFYm9va3M="
+  }
+ },
+ {
+  "typeId": "com.apple.weather.SyncedDataEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHoverTextModifierEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AxHoverTextModifierEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.mail.MailThreadEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.homed.HomeEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.PossibleValuesForAttribute.rvc",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchPropertyResponse",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.-GeoToolbox-AppIntents.GeoToolbox.PlaceDescriptorEntity.SupportingPlaceRepresentationEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.leakDetected",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.rotationDirection",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.Person",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.AutomationOutcome.failure",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.ozoneDensity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.-GeoToolbox-AppIntents.GeoToolbox.PlaceDescriptorEntity.SupportingPlaceRepresentationEntity.ServiceIdentifier",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.MobileSMS.MessagePerson",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.targetDoorState",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.AppStore.ProductPageAppEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.AddressBook.ContactFetchResultEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.lightLevel",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.AddressBook.ContactAvatarEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.color",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.CollectionType",
+  "identifier": "appIntentSchema.photos.PhotoAlbumType",
+  "protocol": {
+   "__base64__": "ch4KHAoOUGhvdG9BbGJ1bVR5cGUSAggBGgZwaG90b3M="
+  }
+ },
+ {
+  "typeId": "com.apple.homed.SceneEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.SceneOutcome.success",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.HydrationEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.occupancyDetected",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.DeviceEntityResolverInputType.names",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.EventEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.sulphurDioxideDensity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.contactDetected",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.AppIntents.AppIntents.IntentPersonGroupEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.currentPosition",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.filterChangeNeeded",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.ApplessGlobalEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.lowBattery",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.humidifierDehumidifierModeAndValue",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.targetSecuritySystemState",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.news.NewsSettingsAutomaticDownloadDynamicDeepLinks",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.thermostatModeAndValue",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.IdCardEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.currentHumidity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ComputerNameEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.ComputerNameEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchAnswerEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.mail.Mailbox",
+  "identifier": "mailbox",
+  "protocol": {
+   "__base64__": "KAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.pm10Density",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceProcessorEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceProcessorEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.iCal.GeoLocationEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.MediaPlayer.AppIntents._MediaPlayer_AppIntents.AudioSearchResultItemEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.carbonDioxideLevel",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.AttributeResult",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.SceneResult",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.chargingState",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.humidifierDehumidifierMode",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.MediaPlayer.AppIntents._MediaPlayer_AppIntents.AudioSearchCriteriaEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.swingModeEnabled",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.TriggerEventType.absoluteTime",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceOSInfoEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceOSInfoEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.WritingTools.WritingToolsAppIntentsExtension.ResponseEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Outcome.failureWithHomeKitErrorCode",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.PossibleValuesForAttribute.serviceArea",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Outcome.failure",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchNLGEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.iCal.RecurrenceEndEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.finder.FINodeEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.finder.FINodeEntity",
+  "identifier": "persistentFileIdentifiable",
+  "protocol": {
+   "__base64__": "ggEcCgtwdWJsaWMuaXRlbQoNcHVibGljLmZvbGRlcg=="
+  }
+ },
+ {
+  "typeId": "com.apple.finder.FINodeEntity",
+  "identifier": "appIntentSchema.files.FileEntity",
+  "protocol": {
+   "__base64__": "chkKFwoKRmlsZUVudGl0eRICCAEaBWZpbGVz"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.thermostatMode",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceSerialNumberEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceSerialNumberEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.rotationSpeed",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.MediaRemoteAppIntentsExtension.PlayingState",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.batteryLevel",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.UserDefinedTypeCase",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.OnScreenContentEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.airParticulateDensity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.rvc",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GeneratedText",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.intelligenceplatform.IntelligencePlatform.IntelligencePlatformDataActionsAppIntentsExtension.AppUsageResultEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Outcome.success",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchApplicationRepresentableEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.smokeDetected",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.volatileOrganicCompoundDensity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.PersonQueryEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.childLockEnabled",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.LocationQueryEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.iCal.RecurrenceDayOfWeekEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.targetLockState",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.AutomationResult",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.nitrogenDioxideDensity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.targetVerticalTilt",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.ResponseTextEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.obstructionDetected",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.currentThermostatMode",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Outcome.deviceFailure",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.targetPosition",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.brightness",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.FirewallAllowSignedEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.-GeoToolbox-AppIntents.GeoToolbox.PlaceDescriptorEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.AppStore.ArticleEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.carbonMonoxidePeakLevel",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.setDuration",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.naturalLight",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceModelNameEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceModelNameEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.PossibleValuesForAttribute.rvcCurrentRun",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceMemoryEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceMemoryEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.podcasts.ContextualMetadata",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Preview.DocumentEntity",
+  "identifier": "persistentFileIdentifiable",
+  "protocol": {
+   "__base64__": "ggEdCgxwdWJsaWMuaW1hZ2UKDWNvbS5hZG9iZS5wZGY="
+  }
+ },
+ {
+  "typeId": "com.apple.Preview.DocumentEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Preview.DocumentEntity",
+  "identifier": "appIntentSchema.reader.ReaderDocumentEntity",
+  "protocol": {
+   "__base64__": "ciQKIgoUUmVhZGVyRG9jdW1lbnRFbnRpdHkSAggBGgZyZWFkZXI="
+  }
+ },
+ {
+  "typeId": "com.apple.Preview.DocumentKind",
+  "identifier": "appIntentSchema.reader.ReaderDocumentKind",
+  "protocol": {
+   "__base64__": "ciIKIAoSUmVhZGVyRG9jdW1lbnRLaW5kEgIIARoGcmVhZGVy"
+  }
+ },
+ {
+  "typeId": "com.apple.homed.ColorEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.SceneOutcome.failureWithHomeKitErrorCode",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Safari.HistoryEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceStorageEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceStorageEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.HydrationContext",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceGraphicsEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.DeviceGraphicsEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.LinkPresentation.-LinkPresentation-AppIntents.LinkPresentation.LinkMetadataEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.currentDoorState",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.targetAirPurifierState",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.iCal.ParticipantEntity",
+  "identifier": "unknown",
+  "protocol": {
+   "__base64__": "CAA="
+  }
+ },
+ {
+  "typeId": "com.apple.iCal.ParticipantEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.reminders.AccountCapabilities",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchCATEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.thermostatModeAndRange",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AvailableDisplaysEntity",
+  "identifier": "urlRepresentable",
+  "protocol": {
+   "__base64__": "WAA="
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.AvailableDisplaysEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.carbonDioxideDetected",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.ResponseImageEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.-GeoToolbox-AppIntents.GeoToolbox.PlaceDescriptorEntity.PlaceRepresentationEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.homed.RoomEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.AddressBook.ContactAvatarFetchResultEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.homed.TargetLocationEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GenerativeResponseEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.currentAirPurifierState",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.SceneOutcome.failure",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.stocks.SymbolQuoteEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.AppKit.RunIntelligenceCommandResultEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.MediaPlayer.AppIntents._MediaPlayer_AppIntents.AudioSearchSpotlightResultEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.homed.HomeGroupEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.MobileSMS.CustomAttachment",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.FirewallStateEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.DeviceInfoResult",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.SupportedAttributeInfo",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.power",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.TriggerEventType.currentUserPresence",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GeneratedImage",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.inUse",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.currentSecuritySystemState",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.intelligenceplatformd.PersonalKnowledgeResult",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchAppEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.currentTemperature",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.humidifierDehumidifierModeAndRange",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.homed.HomeDeviceEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.reminders.RemotePreferencesEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.AutomationOutcome.success",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.SingleTypeCase",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.reminders.LocationAlarmEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.intelligenceplatform.IntelligencePlatform.IntelligencePlatformDataActionsAppIntentsExtension.AppUsageAppEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.remainingDuration",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.targetHumidity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.homed.ZoneEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.pm2_5Density",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.podcasts.PodcastCollectionEntity",
+  "identifier": "indexedEntity",
+  "protocol": {
+   "__base64__": "kAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.filterLifeLevel",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.currentVerticalTilt",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.airQuality",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.airParticulateSize",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.currentHumidifierDehumidifierMode",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.ComponentTypeCase",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.TriggerEventType.significantTime",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.targetHorizontalTilt",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SourceDocument",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.carbonMonoxideLevel",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.findmy.LocationLabelEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.rvcCurrentRun",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchCATContext",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.ShippingOrderEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.currentHorizontalTilt",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.PossibleValuesForAttribute.serviceMap",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.MediaPlayer.AppIntents._MediaPlayer_AppIntents.AudioSearchResultItemChildEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Photos.MediaType",
+  "identifier": "appIntentSchema.photos.PhotoAssetType",
+  "protocol": {
+   "__base64__": "ch4KHAoOUGhvdG9Bc3NldFR5cGUSAggBGgZwaG90b3M="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.positionState",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.carbonMonoxideDetected",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.intelligenceplatform.IntelligencePlatform.IntelligencePlatformDataActionsAppIntentsExtension.SportsEventAppEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.motionDetected",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.waterLevel",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.MediaPlayer.AppIntents._MediaPlayer_AppIntents.AudioSearchResultEntity",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.FirewallAllowDownloadedSignedEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Spotlight.SearchFieldEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.DeviceEntityResolverInputType.ids",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.MemoryCreationQUResult",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.carbonDioxidePeakLevel",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ },
+ {
+  "typeId": "com.apple.systempreferences.FirewallStealthModeEntity",
+  "identifier": "uniqueEntity",
+  "protocol": {
+   "__base64__": "SAA="
+  }
+ },
+ {
+  "typeId": "com.apple.Home.Attribute.currentLockState",
+  "identifier": "transientEntity",
+  "protocol": {
+   "__base64__": "iAEA"
+  }
+ }
+]

@@ -1,0 +1,2312 @@
+[
+ {
+  "bundleId": "com.apple.widgetkit.simulator",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALgBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7gBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.SpotlightService",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.news",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOADAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+ADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.pluginIM.pluginIMRegistrator",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGACAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2ACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.DiscHelper",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxQDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.shortcuts.droplet",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.IOUIAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKACAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6ACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.backup.launcher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwgEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.finder.Open-Network",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEgGAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0gGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.WindowManager",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPQBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/QBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.findmy.FindMyIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHwCAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.DiskImageMounter",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJACAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5ACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.SoftwareUpdate.SoftwareUpdateSettingsWidget",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKQDAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.FeedbackRemoteView",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANwFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9wFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.SSMenuAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1wCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.accessibility.LiveTranscriptionAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.DateTimeIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGgGAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.notifications.NotificationsSettingsIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOgGAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.EscrowSecurityAlert",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMgBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8gBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.findmy",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Desktop-Settings.extension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACAIAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.TransferResetIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFQEAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.desktopsettings.DesktopSettingsIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACAEAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.Home.HomeWidgetIntentsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFwCAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.DirectoryUtility",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPACAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/ACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AOSHeartbeat",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.shortcuts.events",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKcywDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.EnhancedLogging",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.siri.launcher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.UsersGroupsIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGwGAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.AppleScriptUtility",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKczQDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Automator",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5wEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AppleAccountIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJAGAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.siri.AssistantSettingsControls",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEwEAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.JapaneseIM.RomajiTyping",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.generativeassistanttools.GenerativeAssistantExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGADAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.IMAutomaticHistoryDeletionAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.systempreferences.KeyboardSettingsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJACAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.DiagnosticsModeAssistant",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwwDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.keychainaccess",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.dt.CommandLineTools.installondemand",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIQBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4QBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PackageUIKit.Install-in-Progress",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANQBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9QBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.controlcenter.ControlCenterSettingsIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALQHAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.donotdisturb.DoNotDisturbAppIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFAGAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.coreservices.UASharedPasteboardProgressUI",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADgGAAAIAAAArn9Qzq3LRCOt9E2GVRJKczgGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.idsfoundation.IDSRemoteURLConnectionAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.rcd",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AppStore",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Chess",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.speech.SpeechDataInstallerd",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABQGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxQGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Image_Capture",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.WatchFaceAlert",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PreviewShellMac",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABACAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.syncservices.syncuid",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACQGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcyQGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.installer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7wCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Photos",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AOSAlertManager",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIwFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4wFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Profiles-Settings.intents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJgBAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.LoginItemsIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACwGAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.SoftwareUpdate",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPgBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/gBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AccessibilityVisualsAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.reminders",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4wEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.imageevents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5wCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ScriptEditor2",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKczgEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.WritingTools.WritingToolsAppIntentsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABwCAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.exposelauncher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2gEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.weather.menu",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMADAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8ADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PreviewShell",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.displaycalibrator",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKgBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6gBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Dictionary",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwAEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Sound-Settings.SoundIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIwEAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.syncservices.ConflictResolver",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACAGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcyAGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AccountsUISettings.AppIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEAHAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.AskPermissionUI",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7QFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.preference.displays.MirrorDisplays",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEwAAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0wAAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.KIM-Container",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8gEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.trackpad",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADQFAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.FileSystemUIAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.inputmethod.Ainu",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8wEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ProblemReporter",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMABAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8ABAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.coreservices.uiagent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.systempreferences.SharingSettingsIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANgDAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.intelligenceflow.IntelligenceFlowAppIntentsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANAFAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.speech.synthesis.SpeechSynthesisServer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0QFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ScreenReaderUIServer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAAGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwAGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ClassroomStudentMenuExtra",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFQGAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1QGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.podcasts",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ABAssistantService",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKczQFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AccessibilitySettingsWidgetExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMQBAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.Calibration-Assistant",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6QFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Passwords",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.games",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALADAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7ADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.iCal",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Siri",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIwBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4wBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PassViewer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.CMViewSrvc",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.LockScreenIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGgHAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.inputmethod.ironwood",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+wEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.dt.AutomationModeUI",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALwFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7wFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.PrinterScannerIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKAFAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.KerberosMenuExtra",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKwFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6wFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ClassroomDeviceExpert",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADgEAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.UserNotificationCenter",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKcyQDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.syncserver",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3QFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.FaceTime",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1wEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.JapaneseIM.KanaTyping",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9gEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.print.add",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEACAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0ACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.DeskCam",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOACAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+ACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.contacts.ContactsAppIntentsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACwHAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.systempreferences.AboutSettingsIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKgGAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.nbagent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.iBooksX",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.sociallayerd",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAwGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwwGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.systempreferences",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.mobilephone",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.loginwindow",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIACAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4ACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ScreenSaver.Engine",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOgBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+gBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AOSPushRelay",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5QFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AccessibilityUIServer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AOSUIPrefPaneLauncher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.finder",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPwBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/wBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PAH-Container",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/gEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Notes",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.FamilyExtensionHost",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACACAAAIAAAArn9Qzq3LRCOt9E2GVRJKcyACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.DwellControl",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJADAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5ADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.CertificateAssistant",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwwCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.finder.Open-iCloudDrive",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFAGAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1AGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.MakePDF",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ManagedClient",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6wCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.familycontrols.useragent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.universalcontrol",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxwDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.accessibility.LiveSpeech",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJwFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5wFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.BiometricsAndPasswordSettingsAppIntentsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEAFAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.mobiletimer.ClockAppIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGAEAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.OpenSpell",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6wEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.NetworkSettingsIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHQEAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.AccessibilityOnboarding",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACwGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcywGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AddressBook.UrlForwarder",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.frameworks.diskimages.diuiagent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.MigrateAssistant",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKczQEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ScreenSharing",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcygEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PeopleViewService",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALABAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7ABAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Pass-Viewer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOQBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+QBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.DigitalColorMeter",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.CalendarFileHandler",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEADAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0ADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ColorSyncUtility",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKczwEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.shortcuts",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AppSSOAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.TV",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPADAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/ADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.quicklook.qlmanage",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.stocks",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AddressBook",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwQEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.accessibility.AccessibilityReader",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOwBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+wBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.RemoteDesktopAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.AppearanceIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANwHAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.Terminal",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxQEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.mcx.ProfileHelper",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKczwDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ThermalTrap",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHADAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3ADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.FolderActionsSetup",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAADAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.wifi.WiFiAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.eap8021x.eaptlstrust",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9QFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.TYIM-Container",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AquaAppearanceHelper",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAgGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwgGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.BuildWebPage",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHwFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3wFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.OSDUIHelper",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALQBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7QBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.NewDeviceOutreach.NewDeviceOutreachIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADgDAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.ClassKit.ClassKitAppIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJwGAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.Spotlight-Settings.extension.SpotlightSettingsIntentsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOwGAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.identityservicesd",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+QFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PeopleMessageService",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.QuickTimePlayerX",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.journal",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.speech.SpeechRecognitionServer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABgGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxgGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.VoiceMemos",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.TransliterationIM-Container",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwAFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings.Storage.StorageSettingsIntentsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPwDAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.accessibility.AXVisualSupportAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACgGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcygGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.storeuid",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8QFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.systempreferences.DisplaysSettingsIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGwEAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.AirPlayUIAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Maps",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.MemorySlotUtility",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwQCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.printcenter",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKczAEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Time-Machine-Settings-Intents.extension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPwEAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.calls.PhoneAppIntentsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGAGAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.AutoFillPanelService",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AddressBook.sync",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKczAFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AddressBookSourceSync",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADwFAAAIAAAArn9Qzq3LRCOt9E2GVRJKczwFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.freeform",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANADAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9ADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.speech.SpeechService",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7gEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ScriptMonitor",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANwBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9wBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.finder.Open-Recents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEwGAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0wGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.CoreLocationAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKcygFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.BluetoothUIService",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.windowmanager.ShowDesktopEducation",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABADAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.FolderActionsDispatcher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAACAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.FontBook",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1gEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.iCloudUserNotificationsd",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.generativeassistanttools.settingsextension.GenerativeAssistantSettingsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIgCAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.ScriptMenuApp",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0wCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PairedDevices",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.WorkoutAlert-Mac",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKcygDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Magnifier",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.GameTrampoline",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIADAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4ADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.GameOverlayUI",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ScreenTimeWidgetApplication",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4wCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.SCIM-Container",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.BluetoothSettingsApp.BluetoothSettingsAppIntentsWidget",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGACAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.inputmethod.AssistiveControl",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.controlcenter",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKcyQFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.TrackpadIM-Container",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.accessibility.universalAccessAuthWarn",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADQGAAAIAAAArn9Qzq3LRCOt9E2GVRJKczQGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.CharacterPaletteIM",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwQFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AirScanScanner",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4QFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PhotoBooth",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.SystemIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2wCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.MTLReplayer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHgBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3gBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.bird",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADwGAAAIAAAArn9Qzq3LRCOt9E2GVRJKczwGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.finder.Open-AirDrop",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEAGAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0AGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.family.FamilyIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKgDAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.wallpaper.agent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.BluetoothUIServer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.OAHSoftwareUpdateApp",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJQBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5QBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ctkbind",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.musicrecognition.mac",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKcyQCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.intelligenceplatform.IntelligencePlatform.IntelligencePlatformDataActionsAppIntentsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEwFAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.VoiceOver",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJgBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5gBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.SetupAssistant",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFACAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1ACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.UniversalAccessControl",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKwBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6wBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.inputmethod.Tamil",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/wEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.weather",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.finder.Open-Computer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEQGAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0QGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.RapportUIAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANACAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9ACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.privatecloudcomputed",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPwFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/wFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.CCE.CIMFindInputCode",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.batteryui.BatterySettingsIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPgEAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.windowmanager.StageManagerOnboarding",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALwBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7wBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.MediaRemoteAppIntentsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFAFAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.Console",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.RemoteDesktopMessageAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Installer-Progress",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.OBEXAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFADAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1ADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Batteries",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3wCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.apps.launcher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.VPNAppIntentWidget",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANQDAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.ShortcutsActions",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHACAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3ACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.GameCenter.Settings.DeviceExpertExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEQDAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.VoiceOverUtility",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxAEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.50onPaletteIM",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.CaptiveNetworkAssistant",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKczgCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.SummaryService",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.calculator",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3wEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Preview",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AppleSpell",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7wEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ColorSyncCalibrator",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFgGAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1gGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.databaseevents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.FollowUpUI",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMwFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8wFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.archiveutility",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwQDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.systempreferences.InternationalSettingsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAwDAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.backgroundtaskmanagement.agent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ContinuityCaptureOnboardingUI",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEwFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0wFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.IPAInstaller",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.MDMMigrationTrampoline",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADADAAAIAAAArn9Qzq3LRCOt9E2GVRJKczADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ActivityMonitor",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxgEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ScreenContinuity",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKcyAFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.TextInputSwitcher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.screencaptureui",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.VoiceOverQuickstart",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAQGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwQGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AirPortBaseStationAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.QuickLookDaemon",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2QFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.HomeAppIntentsExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACgHAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.Safari",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6gEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.NowPlayingTouchUI",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxwCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.MobileSMS",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.clock",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5gEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.MedicalImagingCalibrator",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxgDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PasswordManagerBrowserExtensionHelper",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.grapher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcyAEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.VIM-Container",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.FileProvider-Feedback",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANABAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9ABAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.KeyboardSetupAssistant",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMQBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8QBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.systemuiserver",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPABAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/ABAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.gamecenter",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMwBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8wBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AMSEngagementViewService",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.tcltk.wish",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AboutThisMacLauncher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/wCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Family",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKABAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6ABAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.GenerativePlaygroundApp",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4gEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.SoftwareUpdateNotificationManager",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABAGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxAGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.TCIM-Container",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwgFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.mail",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.dock",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIABAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4ABAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.SpacesTouchBarAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.ExpansionSlotUtility",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AutomatorInstaller",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.CloudKit.ShareBear",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Automator.Automator-Application-Stub",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.quicklook.ui.helper",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PowerChime",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwgDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.DiagnosticsReporter",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.PIPAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANgBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9gBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Spotlight",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACADAAAIAAAArn9Qzq3LRCOt9E2GVRJKcyADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.quicklook.QuickLookSimulator",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.timemachine.HelperAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKczgDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Passwords.MenuBarExtra",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.BluetoothSetupAssistant",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKcygCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.icq",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIgDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4gDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.screenshot.launcher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxwEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.inputmethod.PluginIM",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+gEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.accessibility.DFRHUD",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADAGAAAIAAAArn9Qzq3LRCOt9E2GVRJKczAGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.imagent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOwFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+wFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.DiskUtility",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0QEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.security.Keychain-Circle-Notification",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALACAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7ACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings.SecurityPrefQADirector.SecurityPrivacyIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAQGAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.imtransferservices.IMTransferAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPQFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/QFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.WallpaperIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIQHAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.Music",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKADAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6ADAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.TransparencySettingsIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKABAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.omniSearch.SearchToolExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFQDAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.audio.AudioMIDISetup",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACQEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcyQEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.mouse",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALQCAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.ChineseTextConverterService",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.DVDPlayer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9gCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Ticket-Viewer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+wCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.NewDeviceOutreachApp",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADACAAAIAAAArn9Qzq3LRCOt9E2GVRJKczACAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Safari.WebApp",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.helpviewer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKAEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6AEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.EraseAssistant",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKczQCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.HydraUSDAppIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGgFAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.notificationcenterui",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKcywCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.StartupDisk.StartupDiskWidgetExtension",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANwDAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.controlstrip",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKczwCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.KeyboardAccessAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.FindMyMacMessenger",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.SystemProfiler",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcywEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.EmojiFunctionRowItem-Container",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9wEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.UnmountAssistantAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAKQBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc6QBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Language-Chooser",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwgCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.tips",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJwBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5wBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.wifi.diagnostics",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.settings-intents.AirDropHandoffIntents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABAEAAAkAAAArn9Qzq3LRCOt9E2GVRJKcw=="
+  }
+ },
+ {
+  "bundleId": "com.apple.AVB-Audio-Configuration",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxQCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.JavaLauncher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHwBAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3wBAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Stickies",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2wEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.TextInputMenuAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOABAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+ABAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.LinkedNotesUIService",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1gFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.BluetoothFileExchange",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEgEAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0gEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.UIKitSystemApp",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABgCAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxgCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.appleseed.FeedbackAssistant",
+  "persistentIdentifier": {
+   "__base64__": "AAAAANwCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc9wCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.Home",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAMwDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc8wDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.FontRegistryUIAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEAFAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0AFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.NetAuthAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEQCAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0QCAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.airport.airportutility",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAwEAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwwEAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AddressBook.abd",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADgFAAAIAAAArn9Qzq3LRCOt9E2GVRJKczgFAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.TextEdit",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAOQDAAAIAAAArn9Qzq3LRCOt9E2GVRJKc+QDAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.systemevents",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJABAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5ABAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.STMFramework.UIHelper",
+  "persistentIdentifier": {
+   "__base64__": "AAAAABwGAAAIAAAArn9Qzq3LRCOt9E2GVRJKcxwGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.AccessibilityInspector",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHgIAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3gIAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.IBCocoaSimulator3",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAwJAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwwJAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.IconComposer",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALwIAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7wIAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "previews.com.apple.PreviewAgent.macOS",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAQLAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwQLAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.dt.Xcode-Helper",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAAALAAAIAAAArn9Qzq3LRCOt9E2GVRJKcwALAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.FileMerge",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJAIAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5AIAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.RealityComposerPro",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIwIAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4wIAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.GPUToolsAgent",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACQLAAAIAAAArn9Qzq3LRCOt9E2GVRJKcyQLAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.itunes.altool",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADQJAAAIAAAArn9Qzq3LRCOt9E2GVRJKczQJAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "previews.com.apple.PreviewAgent.watchOS",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFwLAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1wLAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.iphonesimulator",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAFwIAAAIAAAArn9Qzq3LRCOt9E2GVRJKc1wIAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "previews.com.apple.PreviewAgent.tvOS",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEwLAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0wLAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "previews.com.apple.PreviewAgent.xrOS",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGQLAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2QLAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "previews.com.apple.PreviewAgent.Catalyst",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAPwKAAAIAAAArn9Qzq3LRCOt9E2GVRJKc/wKAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.python3",
+  "persistentIdentifier": {
+   "__base64__": "AAAAACwJAAAIAAAArn9Qzq3LRCOt9E2GVRJKcywJAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.dt.Xcode",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIAGAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4AGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.dt.Instruments",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIQIAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4QIAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.CreateML",
+  "persistentIdentifier": {
+   "__base64__": "AAAAADQLAAAIAAAArn9Qzq3LRCOt9E2GVRJKczQLAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.microsoft.powershell",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGQGAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2QGAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.apple.dt.instruments.backgroundinstruments",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAEgLAAAIAAAArn9Qzq3LRCOt9E2GVRJKc0gLAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.microsoft.edgemac",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJgLAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5gLAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "org.python.python",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAJALAAAIAAAArn9Qzq3LRCOt9E2GVRJKc5ALAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.google.chrome.for.testing",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHALAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3ALAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "org.mozilla.firefox",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAIALAAAIAAAArn9Qzq3LRCOt9E2GVRJKc4ALAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "monitorproduct",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAGwLAAAIAAAArn9Qzq3LRCOt9E2GVRJKc2wLAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "com.google.Chrome",
+  "persistentIdentifier": {
+   "__base64__": "AAAAAHgLAAAIAAAArn9Qzq3LRCOt9E2GVRJKc3gLAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "org.python.IDLE",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALgLAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7gLAAAAAAAA"
+  }
+ },
+ {
+  "bundleId": "org.python.PythonLauncher",
+  "persistentIdentifier": {
+   "__base64__": "AAAAALQLAAAIAAAArn9Qzq3LRCOt9E2GVRJKc7QLAAAAAAAA"
+  }
+ }
+]

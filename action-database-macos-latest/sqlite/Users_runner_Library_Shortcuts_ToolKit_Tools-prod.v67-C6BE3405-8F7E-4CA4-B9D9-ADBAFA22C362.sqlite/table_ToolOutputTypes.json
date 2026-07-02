@@ -1,0 +1,7650 @@
+[
+ {
+  "toolId": 1,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 2,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 3,
+  "typeIdentifier": "com.apple.shortcuts.WFEKParticipantContentItem"
+ },
+ {
+  "toolId": 4,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 5,
+  "typeIdentifier": "com.apple.systempreferences.AxKbHideEntity"
+ },
+ {
+  "toolId": 6,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 7,
+  "typeIdentifier": "com.apple.systempreferences.SecondaryClickEntity"
+ },
+ {
+  "toolId": 8,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 9,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 10,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 11,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 12,
+  "typeIdentifier": "com.apple.systempreferences.DeviceMemoryEntity"
+ },
+ {
+  "toolId": 13,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 14,
+  "typeIdentifier": "com.apple.systempreferences.AxIgnoreTrackpadEntity"
+ },
+ {
+  "toolId": 15,
+  "typeIdentifier": "com.apple.reminders.GroupEntity"
+ },
+ {
+  "toolId": 16,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchScanRestartEntity"
+ },
+ {
+  "toolId": 17,
+  "typeIdentifier": "com.apple.systempreferences.MouseTrackingSpeedEntity"
+ },
+ {
+  "toolId": 18,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 19,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 20,
+  "typeIdentifier": "com.apple.systempreferences.SoundSettingsStartupSoundEntity"
+ },
+ {
+  "toolId": 21,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 22,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 22,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 22,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 22,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 23,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 24,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 25,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 26,
+  "typeIdentifier": "com.apple.systempreferences.FirewallStateEntity"
+ },
+ {
+  "toolId": 27,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 28,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 29,
+  "typeIdentifier": "com.apple.systempreferences.AxTrackpadScrollBehaviorEntity"
+ },
+ {
+  "toolId": 30,
+  "typeIdentifier": "com.apple.news.AutoDownloadSavedStoriesEntity"
+ },
+ {
+  "toolId": 31,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 32,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 33,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 33,
+  "typeIdentifier": "placemark"
+ },
+ {
+  "toolId": 33,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 33,
+  "typeIdentifier": "com.apple.shortcuts.WFPhoneNumberContentItem"
+ },
+ {
+  "toolId": 33,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 33,
+  "typeIdentifier": "com.apple.shortcuts.WFFileSizeContentItem"
+ },
+ {
+  "toolId": 33,
+  "typeIdentifier": "com.apple.shortcuts.WFEmailAddressContentItem"
+ },
+ {
+  "toolId": 33,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 34,
+  "typeIdentifier": "com.apple.journal.AddCurrentLocationEntity"
+ },
+ {
+  "toolId": 35,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 36,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 37,
+  "typeIdentifier": "com.apple.AppKit.WritingToolsResult"
+ },
+ {
+  "toolId": 38,
+  "typeIdentifier": "com.apple.VoiceMemos.AudioQualityEntity"
+ },
+ {
+  "toolId": 39,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 40,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 41,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 42,
+  "typeIdentifier": "com.apple.systempreferences.AxSiriAtypicalSpeechEntity"
+ },
+ {
+  "toolId": 43,
+  "typeIdentifier": "com.apple.systempreferences.AxDifferentiateWithoutColorEntity"
+ },
+ {
+  "toolId": 44,
+  "typeIdentifier": "com.apple.systempreferences.AxStickyKeysDisplayEntity"
+ },
+ {
+  "toolId": 45,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 46,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 47,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 48,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 49,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 50,
+  "typeIdentifier": "com.apple.VoiceMemos.LocationBasedNamingEntity"
+ },
+ {
+  "toolId": 51,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 52,
+  "typeIdentifier": "person"
+ },
+ {
+  "toolId": 53,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 54,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 55,
+  "typeIdentifier": "com.apple.systempreferences.AxSlowKeysSoundEntity"
+ },
+ {
+  "toolId": 56,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 57,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 58,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 59,
+  "typeIdentifier": "com.apple.systempreferences.AxHeadMouseEntity"
+ },
+ {
+  "toolId": 60,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 61,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomRestoreEntity"
+ },
+ {
+  "toolId": 62,
+  "typeIdentifier": "com.apple.systempreferences.AxVoiceControlOverlayFadingEnabledEntity"
+ },
+ {
+  "toolId": 63,
+  "typeIdentifier": "com.apple.systempreferences.MagicEdgeEntity"
+ },
+ {
+  "toolId": 64,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 64,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 65,
+  "typeIdentifier": "com.apple.systempreferences.DeviceSerialNumberEntity"
+ },
+ {
+  "toolId": 66,
+  "typeIdentifier": "com.apple.systempreferences.NetworkServerStatusEntity"
+ },
+ {
+  "toolId": 67,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 68,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 69,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 70,
+  "typeIdentifier": "com.apple.systempreferences.AutoBrightnessEntity"
+ },
+ {
+  "toolId": 71,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenHotkeyEntity"
+ },
+ {
+  "toolId": 72,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 73,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 74,
+  "typeIdentifier": "com.apple.systempreferences.SoundSettingsFeedbackSoundEntity"
+ },
+ {
+  "toolId": 75,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 76,
+  "typeIdentifier": "com.apple.systempreferences.AxMouseKeysEntity"
+ },
+ {
+  "toolId": 77,
+  "typeIdentifier": "com.apple.reminders.ReminderEntity"
+ },
+ {
+  "toolId": 78,
+  "typeIdentifier": "com.apple.systempreferences.AxHotCornerTopLeftEntity"
+ },
+ {
+  "toolId": 79,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 80,
+  "typeIdentifier": "com.apple.systempreferences.AxStickyKeysDisplayLocationEntity"
+ },
+ {
+  "toolId": 81,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 82,
+  "typeIdentifier": "com.apple.shortcuts.WFParkedCarContentItem"
+ },
+ {
+  "toolId": 83,
+  "typeIdentifier": "com.apple.systempreferences.AxSlowKeysEntity"
+ },
+ {
+  "toolId": 84,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenSelectionHighlightWordColorEntity"
+ },
+ {
+  "toolId": 85,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 86,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 87,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 88,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 89,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 90,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 91,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchAutoscanEntity"
+ },
+ {
+  "toolId": 92,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomEnableHotkeysEntity"
+ },
+ {
+  "toolId": 93,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 94,
+  "typeIdentifier": "com.apple.news.GameCenterEntity"
+ },
+ {
+  "toolId": 95,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 96,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 97,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenTypingEchoWordsEntity"
+ },
+ {
+  "toolId": 98,
+  "typeIdentifier": "com.apple.weather.LocationOfInterestEntity"
+ },
+ {
+  "toolId": 99,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 100,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 100,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 100,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 100,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 100,
+  "typeIdentifier": "com.apple.shortcuts.WFFileSizeContentItem"
+ },
+ {
+  "toolId": 100,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 100,
+  "typeIdentifier": "com.apple.shortcuts.WFiTunesArtistContentItem"
+ },
+ {
+  "toolId": 100,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 101,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 102,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 103,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 104,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 105,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 106,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellProgressIndicatorEntity"
+ },
+ {
+  "toolId": 107,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 108,
+  "typeIdentifier": "com.apple.systempreferences.ClickScrollBarToEntity"
+ },
+ {
+  "toolId": 109,
+  "typeIdentifier": "com.apple.reminders.ReminderEntity"
+ },
+ {
+  "toolId": 110,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 111,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 112,
+  "typeIdentifier": "com.apple.systempreferences.AxAltMouseEnableVisualsEntity"
+ },
+ {
+  "toolId": 113,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 114,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 115,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 116,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadZoomInOutEntity"
+ },
+ {
+  "toolId": 117,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 118,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 119,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 120,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 121,
+  "typeIdentifier": "com.apple.shortcuts.WFEvernoteContentItem"
+ },
+ {
+  "toolId": 122,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 123,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 124,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 125,
+  "typeIdentifier": "com.apple.news.AutoDownloadRecipesEntity"
+ },
+ {
+  "toolId": 126,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 127,
+  "typeIdentifier": "com.apple.systempreferences.ScrollDirectionEntity"
+ },
+ {
+  "toolId": 128,
+  "typeIdentifier": "com.apple.systempreferences.AxAdaptiveVoiceShortcutsEntity"
+ },
+ {
+  "toolId": 129,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 130,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 131,
+  "typeIdentifier": "com.apple.systempreferences.AxHomePanelDwellActionsEntity"
+ },
+ {
+  "toolId": 132,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomMoveEntity"
+ },
+ {
+  "toolId": 133,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 134,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 135,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 136,
+  "typeIdentifier": "com.apple.mail.DraftMessageEntity"
+ },
+ {
+  "toolId": 137,
+  "typeIdentifier": "com.apple.Preview.DocumentEntity"
+ },
+ {
+  "toolId": 138,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 139,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadClickPressureEntity"
+ },
+ {
+  "toolId": 140,
+  "typeIdentifier": "com.apple.findmy.WidgetItemEntity"
+ },
+ {
+  "toolId": 141,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 142,
+  "typeIdentifier": "com.apple.systempreferences.ShowScreenSaverOnAllSpacesEntity"
+ },
+ {
+  "toolId": 143,
+  "typeIdentifier": "com.apple.reminders.ReminderEntity"
+ },
+ {
+  "toolId": 144,
+  "typeIdentifier": "com.apple.systempreferences.AxInvertColorModeEntity"
+ },
+ {
+  "toolId": 145,
+  "typeIdentifier": "com.apple.systempreferences.DeviceProcessorEntity"
+ },
+ {
+  "toolId": 146,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.SiriSuggestionsAndPrivacyForAppEntity"
+ },
+ {
+  "toolId": 147,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 148,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 149,
+  "typeIdentifier": "com.apple.systempreferences.InstallSecurityUpdatesPreferenceEntity"
+ },
+ {
+  "toolId": 150,
+  "typeIdentifier": "com.apple.mail.DraftMessageEntity"
+ },
+ {
+  "toolId": 151,
+  "typeIdentifier": "app"
+ },
+ {
+  "toolId": 152,
+  "typeIdentifier": "com.apple.news.NewsTabDeepLink"
+ },
+ {
+  "toolId": 153,
+  "typeIdentifier": "com.apple.news.OptimizeStorageEntity"
+ },
+ {
+  "toolId": 154,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 155,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 156,
+  "typeIdentifier": "com.apple.systempreferences.ClassroomDynamicDeepLinks"
+ },
+ {
+  "toolId": 157,
+  "typeIdentifier": "com.apple.systempreferences.AxDisplayFilterEnabledEntity"
+ },
+ {
+  "toolId": 158,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenDetectLanguagesEntity"
+ },
+ {
+  "toolId": 159,
+  "typeIdentifier": "com.apple.iCal.EventEntity"
+ },
+ {
+  "toolId": 160,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 161,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 161,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 161,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 161,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 161,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 162,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 163,
+  "typeIdentifier": "com.apple.Notes.FolderEntity"
+ },
+ {
+  "toolId": 164,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 165,
+  "typeIdentifier": "com.apple.systempreferences.AxStickyKeysEntity"
+ },
+ {
+  "toolId": 166,
+  "typeIdentifier": "com.apple.systempreferences.AxHoverTypingEnableEntity"
+ },
+ {
+  "toolId": 167,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 168,
+  "typeIdentifier": "com.apple.systempreferences.SoundSettingsStartupSoundEntity"
+ },
+ {
+  "toolId": 169,
+  "typeIdentifier": "com.apple.systempreferences.AllowWallPaperTintingEntity"
+ },
+ {
+  "toolId": 170,
+  "typeIdentifier": "com.apple.systempreferences.AxHotCornerBottomRightEntity"
+ },
+ {
+  "toolId": 171,
+  "typeIdentifier": "com.apple.systempreferences.AxAltMouseEnableSoundsEntity"
+ },
+ {
+  "toolId": 172,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 173,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 174,
+  "typeIdentifier": "com.apple.clock.AlarmEntity"
+ },
+ {
+  "toolId": 175,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 176,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 177,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 178,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 179,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 179,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 180,
+  "typeIdentifier": "com.apple.systempreferences.AxVoiceControlShowHintsEnabledEntity"
+ },
+ {
+  "toolId": 181,
+  "typeIdentifier": "com.apple.news.AutoDownloadAudioStoriesEntity"
+ },
+ {
+  "toolId": 182,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 183,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 184,
+  "typeIdentifier": "com.apple.news.AutoDownloadPuzzlesEntity"
+ },
+ {
+  "toolId": 185,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 186,
+  "typeIdentifier": "com.apple.systempreferences.DeviceGraphicsEntity"
+ },
+ {
+  "toolId": 187,
+  "typeIdentifier": "com.apple.systempreferences.ShowAsScreenSaverEntity"
+ },
+ {
+  "toolId": 188,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomToggleFsAndPipEntity"
+ },
+ {
+  "toolId": 189,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 190,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 191,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 192,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 193,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 194,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 195,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 196,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 197,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 198,
+  "typeIdentifier": "com.apple.Notes.AttachmentEntity"
+ },
+ {
+  "toolId": 199,
+  "typeIdentifier": "com.apple.systempreferences.AxHomePanelDwellActionsEntity"
+ },
+ {
+  "toolId": 200,
+  "typeIdentifier": "com.apple.systempreferences.VPNConfigurationEntity"
+ },
+ {
+  "toolId": 201,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 202,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 203,
+  "typeIdentifier": "com.apple.systempreferences.ShowWallpaperOnAllSpacesEntity"
+ },
+ {
+  "toolId": 204,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 205,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 206,
+  "typeIdentifier": "com.apple.systempreferences.AvailableDisplaysEntity"
+ },
+ {
+  "toolId": 207,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 208,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 209,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 210,
+  "typeIdentifier": "com.apple.Photos.AlbumEntity"
+ },
+ {
+  "toolId": 211,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenPointerElementVerbosityEntity"
+ },
+ {
+  "toolId": 212,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 213,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 214,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 215,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 216,
+  "typeIdentifier": "com.apple.systempreferences.InstallMacUpdatesPreferenceEntity"
+ },
+ {
+  "toolId": 217,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 218,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 219,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomFocusMovementEntity"
+ },
+ {
+  "toolId": 220,
+  "typeIdentifier": "com.apple.VoiceMemos.AudioQualityEntity"
+ },
+ {
+  "toolId": 221,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 222,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 223,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 224,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 225,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 226,
+  "typeIdentifier": "com.apple.shortcuts.WFTrelloBoardContentItem"
+ },
+ {
+  "toolId": 227,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 228,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 229,
+  "typeIdentifier": "com.apple.shortcuts.WFEmailAddressContentItem"
+ },
+ {
+  "toolId": 230,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 231,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 232,
+  "typeIdentifier": "com.apple.systempreferences.SoundSettingsInterfaceEffectsEntity"
+ },
+ {
+  "toolId": 233,
+  "typeIdentifier": "com.apple.reminders.ReminderEntity"
+ },
+ {
+  "toolId": 234,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 235,
+  "typeIdentifier": "com.apple.systempreferences.EnergySaverPaneDynamicDeepLinks"
+ },
+ {
+  "toolId": 236,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 237,
+  "typeIdentifier": "com.apple.systempreferences.AxVoiceControlPlaySoundEnabledEntity"
+ },
+ {
+  "toolId": 238,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 239,
+  "typeIdentifier": "com.apple.systempreferences.AxShowToolbarButtonShapesEntity"
+ },
+ {
+  "toolId": 240,
+  "typeIdentifier": "com.apple.Preview.PageEntity"
+ },
+ {
+  "toolId": 241,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 242,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 243,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 244,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 245,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 246,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 247,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 248,
+  "typeIdentifier": "com.apple.systempreferences.SmartZoomEntity"
+ },
+ {
+  "toolId": 249,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 250,
+  "typeIdentifier": "com.apple.systempreferences.SwipeBetweenPagesEntity"
+ },
+ {
+  "toolId": 251,
+  "typeIdentifier": "com.apple.systempreferences.AccentColorEntity"
+ },
+ {
+  "toolId": 252,
+  "typeIdentifier": "com.apple.systempreferences.DeviceModelNameEntity"
+ },
+ {
+  "toolId": 253,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 254,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 255,
+  "typeIdentifier": "com.apple.iCal.TransferableCalendarEntity"
+ },
+ {
+  "toolId": 256,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 257,
+  "typeIdentifier": "com.apple.shortcuts.WFPodcastEpisodeContentItem"
+ },
+ {
+  "toolId": 258,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 259,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 260,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 261,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 262,
+  "typeIdentifier": "com.apple.systempreferences.ApplicationNotificationsSettings"
+ },
+ {
+  "toolId": 263,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 264,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 265,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 266,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 267,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 268,
+  "typeIdentifier": "com.apple.systempreferences.SidebarIconSizeEntity"
+ },
+ {
+  "toolId": 269,
+  "typeIdentifier": "com.apple.Photos.AssetEntity"
+ },
+ {
+  "toolId": 270,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 271,
+  "typeIdentifier": "com.apple.mail.MailMessageEntity"
+ },
+ {
+  "toolId": 272,
+  "typeIdentifier": "com.apple.systempreferences.SpotlightSettingsDeepLinks"
+ },
+ {
+  "toolId": 273,
+  "typeIdentifier": "com.apple.Preview.PageEntity"
+ },
+ {
+  "toolId": 274,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomTrackpadEntity"
+ },
+ {
+  "toolId": 275,
+  "typeIdentifier": "com.apple.mail.DraftMessageEntity"
+ },
+ {
+  "toolId": 276,
+  "typeIdentifier": "com.apple.ShortcutsActions.ChargeLimit"
+ },
+ {
+  "toolId": 277,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 278,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 279,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 280,
+  "typeIdentifier": "com.apple.news.OptimizeStorageEntity"
+ },
+ {
+  "toolId": 281,
+  "typeIdentifier": "com.apple.systempreferences.AxMouseScrollBehaviorEntity"
+ },
+ {
+  "toolId": 282,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 283,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomFollowFocusActivationEntity"
+ },
+ {
+  "toolId": 284,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 285,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 286,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 287,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 288,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 289,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 290,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 291,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 292,
+  "typeIdentifier": "com.apple.systempreferences.SecondaryClickEntity"
+ },
+ {
+  "toolId": 293,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 294,
+  "typeIdentifier": "com.apple.systempreferences.AxTrackpadScrollEntity"
+ },
+ {
+  "toolId": 295,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 296,
+  "typeIdentifier": "com.apple.mail.DraftMessageEntity"
+ },
+ {
+  "toolId": 297,
+  "typeIdentifier": "com.apple.systempreferences.AxFeatureVoiceoverEntity"
+ },
+ {
+  "toolId": 298,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 299,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 300,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 301,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 302,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 303,
+  "typeIdentifier": "com.apple.systempreferences.AxMouseScrollEntity"
+ },
+ {
+  "toolId": 304,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 305,
+  "typeIdentifier": "com.apple.systempreferences.ShowMenuBarBackgroundEntity"
+ },
+ {
+  "toolId": 306,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 307,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 308,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 309,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 310,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomFollowFocusModeEntity"
+ },
+ {
+  "toolId": 311,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.SiriSuggestionsShowInAppEntity"
+ },
+ {
+  "toolId": 312,
+  "typeIdentifier": "com.apple.systempreferences.ScreenSaverDelayEntity"
+ },
+ {
+  "toolId": 313,
+  "typeIdentifier": "com.apple.systempreferences.AppearanceSettingsDeepLink"
+ },
+ {
+  "toolId": 314,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 315,
+  "typeIdentifier": "com.apple.intelligenceplatformd.PersonalKnowledgeResult"
+ },
+ {
+  "toolId": 316,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.SiriSuggestionsAndPrivacyForAppEntity"
+ },
+ {
+  "toolId": 317,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 318,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 319,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 320,
+  "typeIdentifier": "com.apple.intelligenceplatform.IntelligencePlatform.IntelligencePlatformDataActionsAppIntentsExtension.SportsEventAppEntity"
+ },
+ {
+  "toolId": 321,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 322,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 323,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 324,
+  "typeIdentifier": "com.apple.VoiceMemos.RCRecordingEntity"
+ },
+ {
+  "toolId": 325,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 326,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 327,
+  "typeIdentifier": "com.apple.systempreferences.FullScreenSwipeEntity"
+ },
+ {
+  "toolId": 328,
+  "typeIdentifier": "com.apple.systempreferences.AppearanceEntity"
+ },
+ {
+  "toolId": 329,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 330,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 331,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadSwipeBetweenAppsEntity"
+ },
+ {
+  "toolId": 332,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 333,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 334,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 335,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 336,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 337,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 338,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 339,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 340,
+  "typeIdentifier": "com.apple.systempreferences.AxTrackpadScrollBehaviorEntity"
+ },
+ {
+  "toolId": 341,
+  "typeIdentifier": "com.apple.systempreferences.AutoTimeZoneEntity"
+ },
+ {
+  "toolId": 342,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 343,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 344,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 345,
+  "typeIdentifier": "com.apple.systempreferences.AxReduceTransparencyEntity"
+ },
+ {
+  "toolId": 346,
+  "typeIdentifier": "com.apple.VoiceMemos.RCFolderEntity"
+ },
+ {
+  "toolId": 347,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 348,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 349,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 350,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 351,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 352,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 353,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 354,
+  "typeIdentifier": "com.apple.systempreferences.AxHotCornerMoveHomePanelEntity"
+ },
+ {
+  "toolId": 355,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 356,
+  "typeIdentifier": "com.apple.systempreferences.FamilyMemberDetailsDeepLink"
+ },
+ {
+  "toolId": 357,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 358,
+  "typeIdentifier": "com.apple.Home.DeviceResult"
+ },
+ {
+  "toolId": 359,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 360,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 361,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 362,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 363,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 364,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 365,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 365,
+  "typeIdentifier": "com.apple.shortcuts.WFTimeIntervalContentItem"
+ },
+ {
+  "toolId": 365,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 365,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 365,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 365,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 366,
+  "typeIdentifier": "com.apple.TransparencySettingsIntents.TransparencyPublicVerificationCodeEntity"
+ },
+ {
+  "toolId": 367,
+  "typeIdentifier": "com.apple.systempreferences.AxMotionCuesEnabledEntity"
+ },
+ {
+  "toolId": 368,
+  "typeIdentifier": "com.apple.systempreferences.BluetoothPowerEntity"
+ },
+ {
+  "toolId": 369,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 370,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 371,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 372,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 373,
+  "typeIdentifier": "com.apple.Notes.ChecklistItemEntity"
+ },
+ {
+  "toolId": 374,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 375,
+  "typeIdentifier": "com.apple.systempreferences.UserSwitcherMenuStyleEntity"
+ },
+ {
+  "toolId": 376,
+  "typeIdentifier": "com.apple.systempreferences.AccountEntity"
+ },
+ {
+  "toolId": 377,
+  "typeIdentifier": "com.apple.Home.AutomationResult"
+ },
+ {
+  "toolId": 378,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 379,
+  "typeIdentifier": "com.apple.shortcuts.WFPosterContentItem"
+ },
+ {
+  "toolId": 380,
+  "typeIdentifier": "com.apple.Spotlight.SearchFieldEntity"
+ },
+ {
+  "toolId": 381,
+  "typeIdentifier": "com.apple.Home.SelectedHomeEntity"
+ },
+ {
+  "toolId": 382,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 383,
+  "typeIdentifier": "com.apple.systempreferences.ShowScreenSaverOnAllSpacesEntity"
+ },
+ {
+  "toolId": 384,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 385,
+  "typeIdentifier": "com.apple.shortcuts.WFPodcastShowContentItem"
+ },
+ {
+  "toolId": 386,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 387,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomDisableUniversalControlEntity"
+ },
+ {
+  "toolId": 388,
+  "typeIdentifier": "com.apple.journal.SaveToPhotosEntity"
+ },
+ {
+  "toolId": 389,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 390,
+  "typeIdentifier": "placemark"
+ },
+ {
+  "toolId": 391,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 392,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 393,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.VoiceFeedbackToggleEntity"
+ },
+ {
+  "toolId": 394,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadAppExposeEntity"
+ },
+ {
+  "toolId": 395,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomKeepStationaryEntity"
+ },
+ {
+  "toolId": 396,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 396,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 396,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 397,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 398,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 399,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 400,
+  "typeIdentifier": "com.apple.systempreferences.AxSlowKeysSoundEntity"
+ },
+ {
+  "toolId": 401,
+  "typeIdentifier": "com.apple.Notes.AttachmentEntity"
+ },
+ {
+  "toolId": 402,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 403,
+  "typeIdentifier": "com.apple.systempreferences.ClickScrollBarToEntity"
+ },
+ {
+  "toolId": 404,
+  "typeIdentifier": "com.apple.systempreferences.RecentDocumentsOptionEntity"
+ },
+ {
+  "toolId": 405,
+  "typeIdentifier": "com.apple.systempreferences.AxTypeToSiriEnabledEntity"
+ },
+ {
+  "toolId": 406,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 407,
+  "typeIdentifier": "com.apple.stocks.NewsTabDeepLink"
+ },
+ {
+  "toolId": 408,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 409,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 410,
+  "typeIdentifier": "com.apple.reminders.ListEntity"
+ },
+ {
+  "toolId": 411,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadSmartZoomEntity"
+ },
+ {
+  "toolId": 412,
+  "typeIdentifier": "com.apple.systempreferences.AxPrefersHorizTextLayoutEntity"
+ },
+ {
+  "toolId": 413,
+  "typeIdentifier": "com.apple.TransparencySettingsIntents.TransparencyStatusEntity"
+ },
+ {
+  "toolId": 414,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenSelectionHighlightSentenceStyleEntity"
+ },
+ {
+  "toolId": 415,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 416,
+  "typeIdentifier": "com.apple.systempreferences.DockSettingsEntity"
+ },
+ {
+  "toolId": 417,
+  "typeIdentifier": "com.apple.shortcuts.WFUlyssesSheetContentItem"
+ },
+ {
+  "toolId": 418,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 419,
+  "typeIdentifier": "com.apple.generativeassistanttools.GenerativeAssistantExtension.OnScreenContentEntity"
+ },
+ {
+  "toolId": 420,
+  "typeIdentifier": "com.apple.Preview.DocumentEntity"
+ },
+ {
+  "toolId": 421,
+  "typeIdentifier": "com.apple.shortcuts.WFEmailAddressContentItem"
+ },
+ {
+  "toolId": 422,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 423,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 424,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 425,
+  "typeIdentifier": "com.apple.systempreferences.AxBackgroundSoundsLockScreenEntity"
+ },
+ {
+  "toolId": 426,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 427,
+  "typeIdentifier": "com.apple.weather.LocationEntity"
+ },
+ {
+  "toolId": 428,
+  "typeIdentifier": "com.apple.systempreferences.FirewallStealthModeEntity"
+ },
+ {
+  "toolId": 429,
+  "typeIdentifier": "com.apple.systempreferences.HourFormatEntity"
+ },
+ {
+  "toolId": 430,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 431,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenAlertsEntity"
+ },
+ {
+  "toolId": 432,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 433,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 434,
+  "typeIdentifier": "com.apple.systempreferences.DesktopSettingsEntity"
+ },
+ {
+  "toolId": 435,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenPointerElementEntity"
+ },
+ {
+  "toolId": 436,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 437,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 438,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 439,
+  "typeIdentifier": "com.apple.mail.MailMessageEntity"
+ },
+ {
+  "toolId": 440,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 441,
+  "typeIdentifier": "com.apple.systempreferences.NotificationSummarizationEntity"
+ },
+ {
+  "toolId": 442,
+  "typeIdentifier": "com.apple.systempreferences.AxMouseKeysShortcutEntity"
+ },
+ {
+  "toolId": 443,
+  "typeIdentifier": "com.apple.systempreferences.AxCaptioningPreferSdhEntity"
+ },
+ {
+  "toolId": 444,
+  "typeIdentifier": "com.apple.systempreferences.AxSpatialAudioFollowsHeadEntity"
+ },
+ {
+  "toolId": 445,
+  "typeIdentifier": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GenerativeResponseEntity"
+ },
+ {
+  "toolId": 446,
+  "typeIdentifier": "com.apple.systempreferences.MissionControlSettingsEntity"
+ },
+ {
+  "toolId": 447,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadSmartZoomEntity"
+ },
+ {
+  "toolId": 448,
+  "typeIdentifier": "com.apple.systempreferences.AxKbRightClickEntity"
+ },
+ {
+  "toolId": 449,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 450,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 451,
+  "typeIdentifier": "com.apple.systempreferences.SSOStatusEntity"
+ },
+ {
+  "toolId": 452,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 453,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 454,
+  "typeIdentifier": "com.apple.systempreferences.AccountEntity"
+ },
+ {
+  "toolId": 455,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 456,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 457,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 458,
+  "typeIdentifier": "com.apple.shortcuts.WFFocusModeContentItem"
+ },
+ {
+  "toolId": 459,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 460,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 461,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 462,
+  "typeIdentifier": "com.apple.systempreferences.AxFkaHighContrastCheckboxEntity"
+ },
+ {
+  "toolId": 463,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 464,
+  "typeIdentifier": "com.apple.systempreferences.AxMouseKeysIgnoreTrackpadEntity"
+ },
+ {
+  "toolId": 465,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 465,
+  "typeIdentifier": "placemark"
+ },
+ {
+  "toolId": 465,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 465,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 465,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 466,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 467,
+  "typeIdentifier": "com.apple.systempreferences.MouseTrackingSpeedEntity"
+ },
+ {
+  "toolId": 468,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 469,
+  "typeIdentifier": "com.apple.Safari.BookmarkEntity"
+ },
+ {
+  "toolId": 470,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 471,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 472,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 473,
+  "typeIdentifier": "com.apple.journal.SkipJournalingSuggestionsEntity"
+ },
+ {
+  "toolId": 474,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 475,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 476,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenTypingEchoSelectionEntity"
+ },
+ {
+  "toolId": 477,
+  "typeIdentifier": "com.apple.systempreferences.AxAltMouseButtonsEntity"
+ },
+ {
+  "toolId": 478,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 479,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 480,
+  "typeIdentifier": "com.apple.shortcuts.GeneratedContent"
+ },
+ {
+  "toolId": 480,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 480,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 480,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 480,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 480,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 481,
+  "typeIdentifier": "com.apple.Home.RoomEntity"
+ },
+ {
+  "toolId": 482,
+  "typeIdentifier": "com.apple.reminders.SmartListEntity"
+ },
+ {
+  "toolId": 483,
+  "typeIdentifier": "com.apple.news.AutoDownloadStoriesInFeedsEntity"
+ },
+ {
+  "toolId": 484,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenSelectionHighlightSentenceColorEntity"
+ },
+ {
+  "toolId": 485,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 486,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 487,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 488,
+  "typeIdentifier": "com.apple.systempreferences.InstallSecurityUpdatesPreferenceEntity"
+ },
+ {
+  "toolId": 489,
+  "typeIdentifier": "com.apple.news.AutoDownloadSavedStoriesEntity"
+ },
+ {
+  "toolId": 490,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 491,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 492,
+  "typeIdentifier": "com.apple.shortcuts.WFReminderContentItem"
+ },
+ {
+  "toolId": 493,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 494,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 495,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 496,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 497,
+  "typeIdentifier": "com.apple.AddressBook.ContactEntity"
+ },
+ {
+  "toolId": 498,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 499,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 500,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 500,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 500,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 500,
+  "typeIdentifier": "com.apple.shortcuts.WFiTunesArtistContentItem"
+ },
+ {
+  "toolId": 500,
+  "typeIdentifier": "com.apple.shortcuts.WFTimeIntervalContentItem"
+ },
+ {
+  "toolId": 500,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 500,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 500,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 501,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 502,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 503,
+  "typeIdentifier": "com.apple.systempreferences.AxTouchBarZoomEnableEntity"
+ },
+ {
+  "toolId": 504,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 505,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 506,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 507,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 508,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchResumeAutoScanningEntity"
+ },
+ {
+  "toolId": 509,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 510,
+  "typeIdentifier": "com.apple.systempreferences.SwipeBetweenPagesEntity"
+ },
+ {
+  "toolId": 511,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 512,
+  "typeIdentifier": "com.apple.systempreferences.MissionControlEntity"
+ },
+ {
+  "toolId": 513,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 514,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenPronunciationsEntity"
+ },
+ {
+  "toolId": 515,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomFreezePanningEntity"
+ },
+ {
+  "toolId": 516,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 517,
+  "typeIdentifier": "com.apple.systempreferences.AxSiriAtypicalSpeechEntity"
+ },
+ {
+  "toolId": 518,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 519,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 520,
+  "typeIdentifier": "com.apple.systempreferences.NotificationCenterEntity"
+ },
+ {
+  "toolId": 521,
+  "typeIdentifier": "com.apple.systempreferences.AxShowWindowTitlebarIconsEntity"
+ },
+ {
+  "toolId": 522,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 523,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 524,
+  "typeIdentifier": "app"
+ },
+ {
+  "toolId": 525,
+  "typeIdentifier": "com.apple.Preview.DocumentEntity"
+ },
+ {
+  "toolId": 526,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 527,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenSelectionShowControllerEntity"
+ },
+ {
+  "toolId": 528,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 529,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 530,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 531,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 532,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomFollowFocusModeEntity"
+ },
+ {
+  "toolId": 533,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenSelectionHighlightContentEntity"
+ },
+ {
+  "toolId": 534,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 535,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.SiriAndDictationHistoryEntity"
+ },
+ {
+  "toolId": 536,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 537,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 538,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 539,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 540,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 541,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 542,
+  "typeIdentifier": "com.apple.shortcuts.WFSafariWebPageContentItem"
+ },
+ {
+  "toolId": 543,
+  "typeIdentifier": "com.apple.systempreferences.ControlCenterModule"
+ },
+ {
+  "toolId": 544,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 545,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 545,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 545,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 545,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 546,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 547,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 548,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 549,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 550,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 551,
+  "typeIdentifier": "com.apple.systempreferences.AxStickyKeysBeepEntity"
+ },
+ {
+  "toolId": 552,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 553,
+  "typeIdentifier": "com.apple.news.GameCenterEntity"
+ },
+ {
+  "toolId": 554,
+  "typeIdentifier": "com.apple.MobileSMS.ConversationEntity"
+ },
+ {
+  "toolId": 555,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.AskSiriEntity"
+ },
+ {
+  "toolId": 556,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 557,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 558,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 559,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 560,
+  "typeIdentifier": "com.apple.shortcuts.WFEmailAddressContentItem"
+ },
+ {
+  "toolId": 561,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 562,
+  "typeIdentifier": "com.apple.shortcuts.WFTrelloBoardContentItem"
+ },
+ {
+  "toolId": 562,
+  "typeIdentifier": "com.apple.shortcuts.WFTrelloCardContentItem"
+ },
+ {
+  "toolId": 562,
+  "typeIdentifier": "com.apple.shortcuts.WFTrelloListContentItem"
+ },
+ {
+  "toolId": 563,
+  "typeIdentifier": "com.apple.AppKit.RunIntelligenceCommandResultEntity"
+ },
+ {
+  "toolId": 564,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 565,
+  "typeIdentifier": "com.apple.systempreferences.AxFacetimeTranscriptionsEntity"
+ },
+ {
+  "toolId": 566,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenPointerElementModeEntity"
+ },
+ {
+  "toolId": 567,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomMonitorSelectionEntity"
+ },
+ {
+  "toolId": 568,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 569,
+  "typeIdentifier": "com.apple.systempreferences.AxStickyKeysShortcutEntity"
+ },
+ {
+  "toolId": 570,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 571,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 572,
+  "typeIdentifier": "com.apple.systempreferences.CurrentlyConnectedVPN"
+ },
+ {
+  "toolId": 573,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 574,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadClickPressureEntity"
+ },
+ {
+  "toolId": 575,
+  "typeIdentifier": "com.apple.systempreferences.AxMouseKeysShortcutEntity"
+ },
+ {
+  "toolId": 576,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 577,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomToggleFsAndPipEntity"
+ },
+ {
+  "toolId": 578,
+  "typeIdentifier": "com.apple.news.NewsRecipeEntity"
+ },
+ {
+  "toolId": 579,
+  "typeIdentifier": "com.apple.systempreferences.BluetoothPowerEntity"
+ },
+ {
+  "toolId": 580,
+  "typeIdentifier": "com.apple.shortcuts.WFPhoneNumberContentItem"
+ },
+ {
+  "toolId": 581,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 582,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 583,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 584,
+  "typeIdentifier": "com.apple.journal.SaveToPhotosEntity"
+ },
+ {
+  "toolId": 585,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellZoomEntity"
+ },
+ {
+  "toolId": 586,
+  "typeIdentifier": "com.apple.iBooksX.AudiobookAppEntity"
+ },
+ {
+  "toolId": 587,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 588,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 589,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 590,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 591,
+  "typeIdentifier": "com.apple.systempreferences.AxKbUseClickSoundsEntity"
+ },
+ {
+  "toolId": 592,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 593,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 594,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 595,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadNotificiationCenterEntity"
+ },
+ {
+  "toolId": 596,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 597,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadSettingDeepLink"
+ },
+ {
+  "toolId": 598,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 599,
+  "typeIdentifier": "com.apple.systempreferences.UserSwitcherMenuStyleEntity"
+ },
+ {
+  "toolId": 600,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 601,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 602,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 603,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 604,
+  "typeIdentifier": "com.apple.Home.DeviceEntity"
+ },
+ {
+  "toolId": 605,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 605,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 605,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 605,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 606,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenTypingEchoSelectionEntity"
+ },
+ {
+  "toolId": 607,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 608,
+  "typeIdentifier": "com.apple.systempreferences.AxKbAutoSpacingEntity"
+ },
+ {
+  "toolId": 609,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 610,
+  "typeIdentifier": "com.apple.systempreferences.ClockOptionsEntity"
+ },
+ {
+  "toolId": 611,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 612,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 613,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 614,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 615,
+  "typeIdentifier": "com.apple.systempreferences.AxStickyKeysDisplayEntity"
+ },
+ {
+  "toolId": 616,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 617,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 618,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 619,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 620,
+  "typeIdentifier": "com.apple.news.AutoDownloadEntity"
+ },
+ {
+  "toolId": 621,
+  "typeIdentifier": "com.apple.systempreferences.AxPrefersHorizTextLayoutEntity"
+ },
+ {
+  "toolId": 622,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchHoverTextToolbarEntity"
+ },
+ {
+  "toolId": 623,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 624,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomResizeShortcutsEntity"
+ },
+ {
+  "toolId": 625,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 626,
+  "typeIdentifier": "com.apple.systempreferences.AxDifferentiateWithoutColorEntity"
+ },
+ {
+  "toolId": 627,
+  "typeIdentifier": "com.apple.systempreferences.AxHoverTextModifierEntity"
+ },
+ {
+  "toolId": 628,
+  "typeIdentifier": "com.apple.systempreferences.AxKbAutoCapitalizationEntity"
+ },
+ {
+  "toolId": 629,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 630,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 631,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 632,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 633,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 634,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 635,
+  "typeIdentifier": "com.apple.systempreferences.AppearanceEntity"
+ },
+ {
+  "toolId": 636,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 637,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 638,
+  "typeIdentifier": "com.apple.stocks.WatchlistEntity"
+ },
+ {
+  "toolId": 639,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 640,
+  "typeIdentifier": "com.apple.Safari.BookmarkEntity"
+ },
+ {
+  "toolId": 641,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenSelectionHighlightWordColorEntity"
+ },
+ {
+  "toolId": 642,
+  "typeIdentifier": "com.apple.systempreferences.AirPlayAccessEntity"
+ },
+ {
+  "toolId": 643,
+  "typeIdentifier": "com.apple.iBooksX.BookSettingsEntity"
+ },
+ {
+  "toolId": 644,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 645,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 646,
+  "typeIdentifier": "com.apple.shortcuts.WFPhoneNumberContentItem"
+ },
+ {
+  "toolId": 647,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 648,
+  "typeIdentifier": "com.apple.systempreferences.AxDisplayFilterTypeEntity"
+ },
+ {
+  "toolId": 649,
+  "typeIdentifier": "com.apple.systempreferences.AxFeatureLivespeechEntity"
+ },
+ {
+  "toolId": 650,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 651,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 652,
+  "typeIdentifier": "attributedString"
+ },
+ {
+  "toolId": 653,
+  "typeIdentifier": "com.apple.Photos.AssetEntity"
+ },
+ {
+  "toolId": 654,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 655,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 656,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 657,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadLaunchpadEntity"
+ },
+ {
+  "toolId": 658,
+  "typeIdentifier": "com.apple.systempreferences.AxSpringLoadingEntity"
+ },
+ {
+  "toolId": 659,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 660,
+  "typeIdentifier": "com.apple.systempreferences.MouseSettingDeepLink"
+ },
+ {
+  "toolId": 661,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 662,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 663,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 664,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 665,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 666,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 667,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 668,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 669,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 670,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 670,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 670,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 670,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 671,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 672,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 673,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 674,
+  "typeIdentifier": "com.apple.systempreferences.HourFormatEntity"
+ },
+ {
+  "toolId": 675,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 676,
+  "typeIdentifier": "com.apple.systempreferences.AxFeatureSwitchcontrolEntity"
+ },
+ {
+  "toolId": 677,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 678,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 679,
+  "typeIdentifier": "com.apple.shortcuts.WFArticleContentItem"
+ },
+ {
+  "toolId": 680,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 681,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 682,
+  "typeIdentifier": "com.apple.AppKit.IntelligenceCommandEntity"
+ },
+ {
+  "toolId": 683,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 684,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 685,
+  "typeIdentifier": "com.apple.systempreferences.AxReduceMotionEntity"
+ },
+ {
+  "toolId": 686,
+  "typeIdentifier": "com.apple.AppKit.RunIntelligenceCommandResultEntity"
+ },
+ {
+  "toolId": 687,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchAutoSpacingEntity"
+ },
+ {
+  "toolId": 688,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 689,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomStylePopupEntity"
+ },
+ {
+  "toolId": 690,
+  "typeIdentifier": "com.apple.systempreferences.AxKbAppearanceTypeEntity"
+ },
+ {
+  "toolId": 691,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 692,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 693,
+  "typeIdentifier": "com.apple.shortcuts.WFCalendarEventContentItem"
+ },
+ {
+  "toolId": 694,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 695,
+  "typeIdentifier": "com.apple.shortcuts.WFCalendarEventContentItem"
+ },
+ {
+  "toolId": 696,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 697,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 698,
+  "typeIdentifier": "com.apple.Notes.TableEntity"
+ },
+ {
+  "toolId": 699,
+  "typeIdentifier": "com.apple.iCal.EventEntity"
+ },
+ {
+  "toolId": 700,
+  "typeIdentifier": "com.apple.shortcuts.WFDisplayContentItem"
+ },
+ {
+  "toolId": 701,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 702,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 703,
+  "typeIdentifier": "com.apple.Home.HomeEntity"
+ },
+ {
+  "toolId": 704,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 705,
+  "typeIdentifier": "com.apple.journal.SkipJournalingSuggestionsEntity"
+ },
+ {
+  "toolId": 706,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 706,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 707,
+  "typeIdentifier": "int"
+ },
+ {
+  "toolId": 708,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 709,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 710,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 711,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.AlwaysShowSpeechEntity"
+ },
+ {
+  "toolId": 712,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 713,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 714,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 715,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadLaunchpadEntity"
+ },
+ {
+  "toolId": 716,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 717,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 718,
+  "typeIdentifier": "com.apple.systempreferences.AxAnimatedImagesEntity"
+ },
+ {
+  "toolId": 719,
+  "typeIdentifier": "com.apple.Safari.WindowEntity"
+ },
+ {
+  "toolId": 720,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 721,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 722,
+  "typeIdentifier": "com.apple.systempreferences.WidgetsAndOnenessEntity"
+ },
+ {
+  "toolId": 723,
+  "typeIdentifier": "com.apple.systempreferences.WindowsSettingsEntity"
+ },
+ {
+  "toolId": 724,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 725,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 726,
+  "typeIdentifier": "person"
+ },
+ {
+  "toolId": 727,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 728,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchMouseMoveStyleEntity"
+ },
+ {
+  "toolId": 729,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 729,
+  "typeIdentifier": "com.apple.shortcuts.WFAppearanceSettingContentItem"
+ },
+ {
+  "toolId": 729,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 730,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 731,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 732,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellCursorColorEntity"
+ },
+ {
+  "toolId": 733,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 734,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 735,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 736,
+  "typeIdentifier": "com.apple.systempreferences.WidgetsAndOnenessEntity"
+ },
+ {
+  "toolId": 737,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 738,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 739,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchMouseCursorEdgeEntity"
+ },
+ {
+  "toolId": 740,
+  "typeIdentifier": "com.apple.mail.MailMessageEntity"
+ },
+ {
+  "toolId": 741,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 742,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 743,
+  "typeIdentifier": "com.apple.Safari.BookmarkEntity"
+ },
+ {
+  "toolId": 744,
+  "typeIdentifier": "com.apple.Home.DeviceResult"
+ },
+ {
+  "toolId": 745,
+  "typeIdentifier": "com.apple.reminders.SectionEntity"
+ },
+ {
+  "toolId": 746,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellInPanelsEntity"
+ },
+ {
+  "toolId": 747,
+  "typeIdentifier": "com.apple.iCal.EventEntity"
+ },
+ {
+  "toolId": 748,
+  "typeIdentifier": "com.apple.systempreferences.AxVirtualKeyboardEntity"
+ },
+ {
+  "toolId": 749,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 750,
+  "typeIdentifier": "com.apple.systempreferences.AxReduceTransparencyEntity"
+ },
+ {
+  "toolId": 751,
+  "typeIdentifier": "com.apple.systempreferences.KeyboardSettingsDeepLink"
+ },
+ {
+  "toolId": 752,
+  "typeIdentifier": "com.apple.systempreferences.AutoHideMenuBarOptionEntity"
+ },
+ {
+  "toolId": 753,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 754,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 755,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 756,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadZoomInOutEntity"
+ },
+ {
+  "toolId": 757,
+  "typeIdentifier": "com.apple.shortcuts.WFWorkflowReference"
+ },
+ {
+  "toolId": 758,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 759,
+  "typeIdentifier": "com.apple.systempreferences.AxKbAutoSpacingEntity"
+ },
+ {
+  "toolId": 760,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 761,
+  "typeIdentifier": "com.apple.systempreferences.LoginItemEntity"
+ },
+ {
+  "toolId": 762,
+  "typeIdentifier": "com.apple.shortcuts.WFPodcastShowContentItem"
+ },
+ {
+  "toolId": 763,
+  "typeIdentifier": "com.apple.Notes.IntentNotesFolder"
+ },
+ {
+  "toolId": 764,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 765,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 766,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 767,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 768,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchHideAfterDelayEntity"
+ },
+ {
+  "toolId": 769,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 770,
+  "typeIdentifier": "com.apple.systempreferences.SidebarIconSizeEntity"
+ },
+ {
+  "toolId": 771,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 772,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 772,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 772,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 772,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 772,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 773,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.SiriSuggestionsAndPrivacyEntity"
+ },
+ {
+  "toolId": 774,
+  "typeIdentifier": "attributedString"
+ },
+ {
+  "toolId": 775,
+  "typeIdentifier": "com.apple.news.RestrictStoriesInTodaySettingEntity"
+ },
+ {
+  "toolId": 776,
+  "typeIdentifier": "com.apple.mail.MailMessageEntity"
+ },
+ {
+  "toolId": 777,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchResumeAutoScanningEntity"
+ },
+ {
+  "toolId": 778,
+  "typeIdentifier": "com.apple.shortcuts.WFEvernoteContentItem"
+ },
+ {
+  "toolId": 779,
+  "typeIdentifier": "com.apple.systempreferences.CurrentlyConnectedVPN"
+ },
+ {
+  "toolId": 780,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 781,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 782,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 783,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadSecondaryClickEntity"
+ },
+ {
+  "toolId": 784,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 785,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 786,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 787,
+  "typeIdentifier": "com.apple.systempreferences.AxMonoAudioEntity"
+ },
+ {
+  "toolId": 788,
+  "typeIdentifier": "com.apple.systempreferences.AxAltMouseEnableSoundsEntity"
+ },
+ {
+  "toolId": 789,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 790,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 791,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 792,
+  "typeIdentifier": "com.apple.iBooksX.DefaultCollectionEntity"
+ },
+ {
+  "toolId": 793,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 793,
+  "typeIdentifier": "com.apple.shortcuts.WFFileSizeContentItem"
+ },
+ {
+  "toolId": 793,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 793,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 793,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 794,
+  "typeIdentifier": "com.apple.systempreferences.AxFeatureSwitchcontrolEntity"
+ },
+ {
+  "toolId": 795,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 796,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 797,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 798,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 799,
+  "typeIdentifier": "com.apple.systempreferences.SoundSettingsInterfaceEffectsEntity"
+ },
+ {
+  "toolId": 800,
+  "typeIdentifier": "com.apple.AddressBook.ContactEntity"
+ },
+ {
+  "toolId": 801,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 802,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 803,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 804,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 805,
+  "typeIdentifier": "com.apple.Safari.TabGroupEntity"
+ },
+ {
+  "toolId": 806,
+  "typeIdentifier": "com.apple.systempreferences.ScreenSaverDelayEntity"
+ },
+ {
+  "toolId": 807,
+  "typeIdentifier": "com.apple.systempreferences.AxMenubarDwellActionsEntity"
+ },
+ {
+  "toolId": 808,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchScanRestartEntity"
+ },
+ {
+  "toolId": 809,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadTapToClickEntity"
+ },
+ {
+  "toolId": 810,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadTrackingSpeedEntity"
+ },
+ {
+  "toolId": 811,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 812,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 813,
+  "typeIdentifier": "com.apple.systempreferences.AxReduceMotionEntity"
+ },
+ {
+  "toolId": 814,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 815,
+  "typeIdentifier": "com.apple.iBooksX.BookAppEntity"
+ },
+ {
+  "toolId": 816,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 817,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 818,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 819,
+  "typeIdentifier": "com.apple.systempreferences.AxHoverTextActivationLockModeEntity"
+ },
+ {
+  "toolId": 820,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 821,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 822,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 823,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 824,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 825,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 826,
+  "typeIdentifier": "com.apple.VoiceMemos.ResetAnalyticsIdentifierEntity"
+ },
+ {
+  "toolId": 827,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 828,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchMouseMoveStyleEntity"
+ },
+ {
+  "toolId": 829,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 830,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 831,
+  "typeIdentifier": "com.apple.systempreferences.AxInvertColorEntity"
+ },
+ {
+  "toolId": 832,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 833,
+  "typeIdentifier": "com.apple.shortcuts.WFReminderContentItem"
+ },
+ {
+  "toolId": 834,
+  "typeIdentifier": "com.apple.systempreferences.DockSettingsEntity"
+ },
+ {
+  "toolId": 835,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 836,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 837,
+  "typeIdentifier": "com.apple.reminders.ListEntity"
+ },
+ {
+  "toolId": 838,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 839,
+  "typeIdentifier": "com.apple.reminders.ListEntity"
+ },
+ {
+  "toolId": 840,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 841,
+  "typeIdentifier": "placemark"
+ },
+ {
+  "toolId": 842,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 843,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 844,
+  "typeIdentifier": "com.apple.Home.CameraClipEntity"
+ },
+ {
+  "toolId": 845,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 846,
+  "typeIdentifier": "com.apple.wallpaper.agent.WallpaperEntity"
+ },
+ {
+  "toolId": 847,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 848,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 849,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadQuietClickEntity"
+ },
+ {
+  "toolId": 850,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenPointerElementEntity"
+ },
+ {
+  "toolId": 851,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 851,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 851,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 851,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 852,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 853,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 854,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 854,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 855,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 856,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 857,
+  "typeIdentifier": "com.apple.systempreferences.AxMouseScrollEntity"
+ },
+ {
+  "toolId": 858,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.VoiceFeedbackToggleEntity"
+ },
+ {
+  "toolId": 859,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 860,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 861,
+  "typeIdentifier": "com.apple.systempreferences.AxHotCornerBottomRightEntity"
+ },
+ {
+  "toolId": 862,
+  "typeIdentifier": "com.apple.shortcuts.WFEvernoteContentItem"
+ },
+ {
+  "toolId": 863,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 864,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 865,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 866,
+  "typeIdentifier": "attributedString"
+ },
+ {
+  "toolId": 867,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadShowDesktopEntity"
+ },
+ {
+  "toolId": 868,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 869,
+  "typeIdentifier": "com.apple.shortcuts.WFWindowContentItem"
+ },
+ {
+  "toolId": 870,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 871,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 872,
+  "typeIdentifier": "com.apple.systempreferences.AxBackgroundSoundsEntity"
+ },
+ {
+  "toolId": 873,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 874,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 875,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 876,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 877,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 878,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 879,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 880,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 881,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 882,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenTypingEchoEntity"
+ },
+ {
+  "toolId": 883,
+  "typeIdentifier": "com.apple.systempreferences.ShowWallpaperOnAllSpacesEntity"
+ },
+ {
+  "toolId": 884,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.SiriLanguageEntity"
+ },
+ {
+  "toolId": 885,
+  "typeIdentifier": "com.apple.systempreferences.AxFkaHighContrastCheckboxEntity"
+ },
+ {
+  "toolId": 886,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomFlashEntity"
+ },
+ {
+  "toolId": 887,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 888,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 889,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 890,
+  "typeIdentifier": "com.apple.Preview.PageEntity"
+ },
+ {
+  "toolId": 891,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 892,
+  "typeIdentifier": "com.apple.systempreferences.TrueToneEntity"
+ },
+ {
+  "toolId": 893,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 894,
+  "typeIdentifier": "com.apple.systempreferences.AxHoverTextActivationLockModeEntity"
+ },
+ {
+  "toolId": 895,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 896,
+  "typeIdentifier": "com.apple.shortcuts.WFRideStatusContentItem"
+ },
+ {
+  "toolId": 897,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 898,
+  "typeIdentifier": "com.apple.systempreferences.AxHoverTextEnableEntity"
+ },
+ {
+  "toolId": 899,
+  "typeIdentifier": "com.apple.iCal.TransferableEventEntity"
+ },
+ {
+  "toolId": 900,
+  "typeIdentifier": "com.apple.systempreferences.AxReduceCursorModulationEntity"
+ },
+ {
+  "toolId": 901,
+  "typeIdentifier": "com.apple.systempreferences.AxHotCornerTopRightEntity"
+ },
+ {
+  "toolId": 902,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 903,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 904,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 905,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 906,
+  "typeIdentifier": "attributedString"
+ },
+ {
+  "toolId": 907,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 908,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 909,
+  "typeIdentifier": "com.apple.systempreferences.AxKbHideEntity"
+ },
+ {
+  "toolId": 910,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 911,
+  "typeIdentifier": "com.apple.systempreferences.ShowAsWallpaperEntity"
+ },
+ {
+  "toolId": 912,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 913,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadLookUpAndDataDetectorsEntity"
+ },
+ {
+  "toolId": 914,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 915,
+  "typeIdentifier": "com.apple.ShortcutsActions.Orientation"
+ },
+ {
+  "toolId": 916,
+  "typeIdentifier": "com.apple.systempreferences.AccountEntity"
+ },
+ {
+  "toolId": 917,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 918,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 918,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 918,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 918,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 919,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 920,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 921,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 921,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 921,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 921,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 922,
+  "typeIdentifier": "com.apple.shortcuts.WFTrelloCardContentItem"
+ },
+ {
+  "toolId": 923,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenSelectionHighlightSentenceStyleEntity"
+ },
+ {
+  "toolId": 924,
+  "typeIdentifier": "com.apple.systempreferences.AxFkaAutoHideCheckboxEntity"
+ },
+ {
+  "toolId": 925,
+  "typeIdentifier": "com.apple.systempreferences.TimeZoneEntity"
+ },
+ {
+  "toolId": 926,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 927,
+  "typeIdentifier": "com.apple.systempreferences.AxKbUseClickSoundsEntity"
+ },
+ {
+  "toolId": 928,
+  "typeIdentifier": "com.apple.systempreferences.SoundSettingsFeedbackSoundEntity"
+ },
+ {
+  "toolId": 929,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 930,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 931,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 932,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 933,
+  "typeIdentifier": "com.apple.clock.AlarmEntity"
+ },
+ {
+  "toolId": 934,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 935,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 936,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 937,
+  "typeIdentifier": "com.apple.systempreferences.AxKbAppearanceTypeEntity"
+ },
+ {
+  "toolId": 938,
+  "typeIdentifier": "placemark"
+ },
+ {
+  "toolId": 939,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 940,
+  "typeIdentifier": "com.apple.systempreferences.AxStickyKeysDisplayLocationEntity"
+ },
+ {
+  "toolId": 941,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 942,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 943,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 944,
+  "typeIdentifier": "com.apple.MobileSMS.MessageEntity"
+ },
+ {
+  "toolId": 945,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 946,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.AlwaysShowSpeechEntity"
+ },
+ {
+  "toolId": 947,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellInPanelsEntity"
+ },
+ {
+  "toolId": 948,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 949,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 950,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 951,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadTrackingSpeedEntity"
+ },
+ {
+  "toolId": 952,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 953,
+  "typeIdentifier": "com.apple.shortcuts.WFWorkflowReference"
+ },
+ {
+  "toolId": 954,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 955,
+  "typeIdentifier": "com.apple.systempreferences.AxAltMouseEnableVisualsEntity"
+ },
+ {
+  "toolId": 956,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 957,
+  "typeIdentifier": "com.apple.shortcuts.WFShazamMediaContentItem"
+ },
+ {
+  "toolId": 958,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 959,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadSecondaryClickEntity"
+ },
+ {
+  "toolId": 960,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchCursorSizeEntity"
+ },
+ {
+  "toolId": 961,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.SiriVoiceEntity"
+ },
+ {
+  "toolId": 962,
+  "typeIdentifier": "com.apple.systempreferences.LoginItemEntity"
+ },
+ {
+  "toolId": 963,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 964,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 965,
+  "typeIdentifier": "com.apple.systempreferences.AppleAccountMainDynamicDeepLinks"
+ },
+ {
+  "toolId": 966,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 967,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 968,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 969,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 970,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomRestoreEntity"
+ },
+ {
+  "toolId": 971,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 972,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 973,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 974,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 975,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 976,
+  "typeIdentifier": "com.apple.systempreferences.AxRttEnableEntity"
+ },
+ {
+  "toolId": 977,
+  "typeIdentifier": "com.apple.systempreferences.DeviceOSInfoEntity"
+ },
+ {
+  "toolId": 978,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 979,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomFocusMovementEntity"
+ },
+ {
+  "toolId": 980,
+  "typeIdentifier": "com.apple.systempreferences.AccountEntity"
+ },
+ {
+  "toolId": 981,
+  "typeIdentifier": "com.apple.systempreferences.AxHotCornerTopLeftEntity"
+ },
+ {
+  "toolId": 982,
+  "typeIdentifier": "com.apple.systempreferences.ShowMenuBarBackgroundEntity"
+ },
+ {
+  "toolId": 983,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenDetectLanguagesEntity"
+ },
+ {
+  "toolId": 984,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 985,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 986,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomTempDetachEntity"
+ },
+ {
+  "toolId": 987,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 988,
+  "typeIdentifier": "com.apple.systempreferences.AutoDateTimeEntity"
+ },
+ {
+  "toolId": 989,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 990,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 991,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 992,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 993,
+  "typeIdentifier": "com.apple.Safari.TabEntity"
+ },
+ {
+  "toolId": 994,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 995,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 996,
+  "typeIdentifier": "com.apple.systempreferences.AutomaticReconnectEntity"
+ },
+ {
+  "toolId": 997,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 998,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 999,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1000,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1001,
+  "typeIdentifier": "com.apple.stocks.SymbolWidgetEntity"
+ },
+ {
+  "toolId": 1002,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1003,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1004,
+  "typeIdentifier": "com.apple.Preview.DocumentEntity"
+ },
+ {
+  "toolId": 1005,
+  "typeIdentifier": "com.apple.systempreferences.SetupFamilyDeepLink"
+ },
+ {
+  "toolId": 1006,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1007,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1008,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1009,
+  "typeIdentifier": "com.apple.systempreferences.RecentDocumentsOptionEntity"
+ },
+ {
+  "toolId": 1010,
+  "typeIdentifier": "com.apple.systempreferences.PaperSizeEntity"
+ },
+ {
+  "toolId": 1011,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 1012,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1013,
+  "typeIdentifier": "com.apple.WorkflowKit.BackgroundShortcutRunner.TextMatch"
+ },
+ {
+  "toolId": 1014,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1015,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1016,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 1017,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1018,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1019,
+  "typeIdentifier": "person"
+ },
+ {
+  "toolId": 1020,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 1021,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1022,
+  "typeIdentifier": "com.apple.mail.MailMessage"
+ },
+ {
+  "toolId": 1023,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1024,
+  "typeIdentifier": "com.apple.Preview.DocumentEntity"
+ },
+ {
+  "toolId": 1025,
+  "typeIdentifier": "com.apple.journal.AlwaysUseMomentDateEntity"
+ },
+ {
+  "toolId": 1026,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1027,
+  "typeIdentifier": "com.apple.systempreferences.AxReduceCursorModulationEntity"
+ },
+ {
+  "toolId": 1028,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1029,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1030,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1031,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1032,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1033,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1034,
+  "typeIdentifier": "com.apple.Home.DeviceInfoResult"
+ },
+ {
+  "toolId": 1035,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1036,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1037,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1038,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomSmoothEntity"
+ },
+ {
+  "toolId": 1039,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenTypingEchoWordsEntity"
+ },
+ {
+  "toolId": 1040,
+  "typeIdentifier": "com.apple.iCal.EventEntity"
+ },
+ {
+  "toolId": 1041,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1042,
+  "typeIdentifier": "com.apple.systempreferences.AxKbKeyAcceptedMouseEntity"
+ },
+ {
+  "toolId": 1043,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1044,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1045,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1046,
+  "typeIdentifier": "com.apple.podcasts.ShowEntity"
+ },
+ {
+  "toolId": 1047,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1048,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1049,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 1049,
+  "typeIdentifier": "com.apple.shortcuts.WFArticleContentItem"
+ },
+ {
+  "toolId": 1050,
+  "typeIdentifier": "com.apple.systempreferences.AxIgnoreTrackpadEntity"
+ },
+ {
+  "toolId": 1051,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 1052,
+  "typeIdentifier": "com.apple.systempreferences.ShareKeyboardEntity"
+ },
+ {
+  "toolId": 1053,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 1054,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1055,
+  "typeIdentifier": "com.apple.systempreferences.DateTimeEntity"
+ },
+ {
+  "toolId": 1056,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1057,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1058,
+  "typeIdentifier": "com.apple.AddressBook.ContactAvatarFetchResultEntity"
+ },
+ {
+  "toolId": 1059,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1060,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1061,
+  "typeIdentifier": "com.apple.systempreferences.AxFkaEnableCheckboxEntity"
+ },
+ {
+  "toolId": 1062,
+  "typeIdentifier": "com.apple.systempreferences.DownloadUpdatesPreferenceEntity"
+ },
+ {
+  "toolId": 1063,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1064,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1065,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellInMenuExtraEntity"
+ },
+ {
+  "toolId": 1066,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1067,
+  "typeIdentifier": "com.apple.systempreferences.FirewallAllowDownloadedSignedEntity"
+ },
+ {
+  "toolId": 1068,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1069,
+  "typeIdentifier": "com.apple.systempreferences.AxFindCursorEntity"
+ },
+ {
+  "toolId": 1070,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1071,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1072,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1073,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1074,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1075,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1076,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1077,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1078,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 1079,
+  "typeIdentifier": "placemark"
+ },
+ {
+  "toolId": 1079,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 1079,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1079,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1079,
+  "typeIdentifier": "genericMeasurement"
+ },
+ {
+  "toolId": 1079,
+  "typeIdentifier": "com.apple.shortcuts.WFWeatherAirQualityPollutantContentItem"
+ },
+ {
+  "toolId": 1080,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1081,
+  "typeIdentifier": "com.apple.systempreferences.ShowScrollBarsEntity"
+ },
+ {
+  "toolId": 1082,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1083,
+  "typeIdentifier": "com.apple.systempreferences.AutoBrightnessEntity"
+ },
+ {
+  "toolId": 1084,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1085,
+  "typeIdentifier": "com.apple.systempreferences.FamilySubscriptionsDeepLink"
+ },
+ {
+  "toolId": 1086,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1087,
+  "typeIdentifier": "com.apple.AppKit.WritingToolsResult"
+ },
+ {
+  "toolId": 1088,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenTypingEchoModifierKeysEntity"
+ },
+ {
+  "toolId": 1089,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1090,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomFreezePanningEntity"
+ },
+ {
+  "toolId": 1091,
+  "typeIdentifier": "com.apple.AppKit.WritingToolsResult"
+ },
+ {
+  "toolId": 1092,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1093,
+  "typeIdentifier": "com.apple.VoiceMemos.IntentAudioQuality"
+ },
+ {
+  "toolId": 1094,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1095,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1096,
+  "typeIdentifier": "com.apple.systempreferences.ApplicationNotificationsSettings"
+ },
+ {
+  "toolId": 1097,
+  "typeIdentifier": "com.apple.Preview.DocumentEntity"
+ },
+ {
+  "toolId": 1098,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1099,
+  "typeIdentifier": "com.apple.systempreferences.AxFkaEnableCheckboxEntity"
+ },
+ {
+  "toolId": 1100,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1101,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1102,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1103,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadQuietClickEntity"
+ },
+ {
+  "toolId": 1104,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1105,
+  "typeIdentifier": "person"
+ },
+ {
+  "toolId": 1106,
+  "typeIdentifier": "com.apple.shortcuts.WFShazamMediaContentItem"
+ },
+ {
+  "toolId": 1107,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1108,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomInvertEntity"
+ },
+ {
+  "toolId": 1109,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1110,
+  "typeIdentifier": "com.apple.journal.AlwaysUseMomentDateEntity"
+ },
+ {
+  "toolId": 1111,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1112,
+  "typeIdentifier": "com.apple.systempreferences.AxFindCursorEntity"
+ },
+ {
+  "toolId": 1113,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1114,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1115,
+  "typeIdentifier": "com.apple.reminders.SectionEntity"
+ },
+ {
+  "toolId": 1116,
+  "typeIdentifier": "attributedString"
+ },
+ {
+  "toolId": 1117,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1118,
+  "typeIdentifier": "com.apple.systempreferences.ShowBatteryPercentageEntity"
+ },
+ {
+  "toolId": 1119,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomTempDetachEntity"
+ },
+ {
+  "toolId": 1120,
+  "typeIdentifier": "com.apple.systempreferences.AxVoiceControlOverlayEntity"
+ },
+ {
+  "toolId": 1121,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1122,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1123,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1124,
+  "typeIdentifier": "com.apple.systempreferences.BatteryHealthPaneDynamicDeepLinks"
+ },
+ {
+  "toolId": 1125,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1125,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1125,
+  "typeIdentifier": "com.apple.shortcuts.WFPhoneNumberContentItem"
+ },
+ {
+  "toolId": 1125,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 1126,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomEnableGestureEntity"
+ },
+ {
+  "toolId": 1127,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1128,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1129,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1130,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1131,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1132,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1133,
+  "typeIdentifier": "com.apple.shortcuts.WFMKMapItemContentItem"
+ },
+ {
+  "toolId": 1134,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1135,
+  "typeIdentifier": "com.apple.systempreferences.AxSlowKeysEntity"
+ },
+ {
+  "toolId": 1136,
+  "typeIdentifier": "com.apple.systempreferences.AxFacetimeTranscriptionsEntity"
+ },
+ {
+  "toolId": 1137,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenPointerElementVerbosityEntity"
+ },
+ {
+  "toolId": 1138,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1139,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1140,
+  "typeIdentifier": "com.apple.systempreferences.AxRttSendImmediatelyEntity"
+ },
+ {
+  "toolId": 1141,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1142,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1143,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1144,
+  "typeIdentifier": "com.apple.systempreferences.AxDimFlashingEntity"
+ },
+ {
+  "toolId": 1145,
+  "typeIdentifier": "com.apple.systempreferences.AxTrackpadScrollEntity"
+ },
+ {
+  "toolId": 1146,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1147,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 1148,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1149,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1150,
+  "typeIdentifier": "com.apple.Notes.TableEntity"
+ },
+ {
+  "toolId": 1151,
+  "typeIdentifier": "com.apple.Notes.ChecklistItemEntity"
+ },
+ {
+  "toolId": 1152,
+  "typeIdentifier": "com.apple.systempreferences.AxHotCornerBottomLeftEntity"
+ },
+ {
+  "toolId": 1153,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1154,
+  "typeIdentifier": "com.apple.systempreferences.AxFeatureLivespeechEntity"
+ },
+ {
+  "toolId": 1155,
+  "typeIdentifier": "com.apple.Notes.AttachmentEntity"
+ },
+ {
+  "toolId": 1156,
+  "typeIdentifier": "com.apple.systempreferences.AxSystemTranscriptionEnabledEntity"
+ },
+ {
+  "toolId": 1157,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1158,
+  "typeIdentifier": "com.apple.shortcuts.WFParkedCarContentItem"
+ },
+ {
+  "toolId": 1159,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1160,
+  "typeIdentifier": "com.apple.systempreferences.AxHotCornerBottomLeftEntity"
+ },
+ {
+  "toolId": 1161,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomFollowFocusActivationEntity"
+ },
+ {
+  "toolId": 1162,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 1163,
+  "typeIdentifier": "com.apple.reminders.SectionEntity"
+ },
+ {
+  "toolId": 1164,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1165,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1166,
+  "typeIdentifier": "com.apple.systempreferences.PaperSizeEntity"
+ },
+ {
+  "toolId": 1167,
+  "typeIdentifier": "com.apple.news.RestrictStoriesInTodaySettingEntity"
+ },
+ {
+  "toolId": 1168,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1169,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1170,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1171,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1172,
+  "typeIdentifier": "com.apple.systempreferences.AxKbAutoCapitalizationEntity"
+ },
+ {
+  "toolId": 1173,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1174,
+  "typeIdentifier": "com.apple.news.NewsSettingsAutomaticDownloadDynamicDeepLinks"
+ },
+ {
+  "toolId": 1175,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1176,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 1177,
+  "typeIdentifier": "com.apple.systempreferences.AxVoiceControlPlaySoundEnabledEntity"
+ },
+ {
+  "toolId": 1178,
+  "typeIdentifier": "com.apple.systempreferences.AxStickyKeysBeepEntity"
+ },
+ {
+  "toolId": 1179,
+  "typeIdentifier": "com.apple.Home.SceneEntity"
+ },
+ {
+  "toolId": 1180,
+  "typeIdentifier": "com.apple.systempreferences.NotificationCenterEntity"
+ },
+ {
+  "toolId": 1181,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1182,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1183,
+  "typeIdentifier": "com.apple.journal.AddCurrentLocationEntity"
+ },
+ {
+  "toolId": 1184,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1185,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1186,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1187,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1188,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1189,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1190,
+  "typeIdentifier": "com.apple.shortcuts.WFWeatherDataContentItem"
+ },
+ {
+  "toolId": 1191,
+  "typeIdentifier": "com.apple.systempreferences.AxDimFlashingEntity"
+ },
+ {
+  "toolId": 1192,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1193,
+  "typeIdentifier": "com.apple.systempreferences.DesktopSettingsEntity"
+ },
+ {
+  "toolId": 1194,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1195,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1196,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1197,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1198,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1199,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1200,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1201,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1202,
+  "typeIdentifier": "com.apple.systempreferences.AxRttSendImmediatelyEntity"
+ },
+ {
+  "toolId": 1203,
+  "typeIdentifier": "com.apple.systempreferences.AxFeatureVoiceoverEntity"
+ },
+ {
+  "toolId": 1204,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1205,
+  "typeIdentifier": "com.apple.systempreferences.SmartZoomEntity"
+ },
+ {
+  "toolId": 1206,
+  "typeIdentifier": "com.apple.systempreferences.AutoHideMenuBarOptionEntity"
+ },
+ {
+  "toolId": 1207,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1208,
+  "typeIdentifier": "com.apple.AppKit.WindowTabEntity"
+ },
+ {
+  "toolId": 1209,
+  "typeIdentifier": "com.apple.VoiceMemos.ClearDeletedEntity"
+ },
+ {
+  "toolId": 1210,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1211,
+  "typeIdentifier": "com.apple.systempreferences.MissionControlSettingsEntity"
+ },
+ {
+  "toolId": 1212,
+  "typeIdentifier": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GenerativeResponseEntity"
+ },
+ {
+  "toolId": 1213,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1214,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1215,
+  "typeIdentifier": "placemark"
+ },
+ {
+  "toolId": 1216,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1217,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1218,
+  "typeIdentifier": "com.apple.reminders.GroupEntity"
+ },
+ {
+  "toolId": 1219,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomTempToggleEntity"
+ },
+ {
+  "toolId": 1220,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1221,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1222,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenSelectionShowControllerEntity"
+ },
+ {
+  "toolId": 1223,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1223,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1224,
+  "typeIdentifier": "com.apple.systempreferences.InstallMacUpdatesPreferenceEntity"
+ },
+ {
+  "toolId": 1225,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1226,
+  "typeIdentifier": "com.apple.systempreferences.ShowAsScreenSaverEntity"
+ },
+ {
+  "toolId": 1227,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1228,
+  "typeIdentifier": "app"
+ },
+ {
+  "toolId": 1229,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1230,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1231,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1232,
+  "typeIdentifier": "com.apple.systempreferences.MagicEdgeEntity"
+ },
+ {
+  "toolId": 1233,
+  "typeIdentifier": "com.apple.reminders.ListEntity"
+ },
+ {
+  "toolId": 1234,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1235,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1236,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1237,
+  "typeIdentifier": "com.apple.systempreferences.AxRttEnableEntity"
+ },
+ {
+  "toolId": 1238,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1239,
+  "typeIdentifier": "com.apple.systempreferences.AxFkaAutoHideCheckboxEntity"
+ },
+ {
+  "toolId": 1240,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1241,
+  "typeIdentifier": "com.apple.shortcuts.WFReminderContentItem"
+ },
+ {
+  "toolId": 1242,
+  "typeIdentifier": "com.apple.systempreferences.AxTouchBarZoomEnableEntity"
+ },
+ {
+  "toolId": 1243,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1244,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1245,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 1246,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1247,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1248,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1249,
+  "typeIdentifier": "com.apple.systempreferences.ShowAsWallpaperEntity"
+ },
+ {
+  "toolId": 1250,
+  "typeIdentifier": "com.apple.reminders.ReminderEntity"
+ },
+ {
+  "toolId": 1251,
+  "typeIdentifier": "com.apple.omniSearch.SearchToolExtension.MemoryCreationQUResult"
+ },
+ {
+  "toolId": 1252,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomEnableGestureEntity"
+ },
+ {
+  "toolId": 1253,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1254,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 1255,
+  "typeIdentifier": "com.apple.systempreferences.AxHoverTypingEnableEntity"
+ },
+ {
+  "toolId": 1256,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1257,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellActionEntity"
+ },
+ {
+  "toolId": 1258,
+  "typeIdentifier": "com.apple.mail.DraftMessageEntity"
+ },
+ {
+  "toolId": 1259,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1260,
+  "typeIdentifier": "com.apple.reminders.GroupEntity"
+ },
+ {
+  "toolId": 1261,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1262,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1263,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 1264,
+  "typeIdentifier": "com.apple.Home.DeviceResult"
+ },
+ {
+  "toolId": 1265,
+  "typeIdentifier": "com.apple.systempreferences.AxSpringLoadingEntity"
+ },
+ {
+  "toolId": 1266,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1267,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenTypingEchoCharsEntity"
+ },
+ {
+  "toolId": 1268,
+  "typeIdentifier": "com.apple.systempreferences.AxTypeToSiriEnabledEntity"
+ },
+ {
+  "toolId": 1269,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 1270,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1271,
+  "typeIdentifier": "com.apple.systempreferences.AxHeadMouseEntity"
+ },
+ {
+  "toolId": 1272,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellAutoRevertEntity"
+ },
+ {
+  "toolId": 1273,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1274,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 1275,
+  "typeIdentifier": "com.apple.systempreferences.AxKbRightClickEntity"
+ },
+ {
+  "toolId": 1276,
+  "typeIdentifier": "com.apple.reminders.ReminderEntity"
+ },
+ {
+  "toolId": 1277,
+  "typeIdentifier": "com.apple.shortcuts.WFPhoneNumberContentItem"
+ },
+ {
+  "toolId": 1278,
+  "typeIdentifier": "com.apple.Safari.TabEntity"
+ },
+ {
+  "toolId": 1279,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1280,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomSmoothEntity"
+ },
+ {
+  "toolId": 1281,
+  "typeIdentifier": "com.apple.systempreferences.AxHoverTextEnableEntity"
+ },
+ {
+  "toolId": 1282,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1283,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellProgressIndicatorEntity"
+ },
+ {
+  "toolId": 1284,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadAppExposeEntity"
+ },
+ {
+  "toolId": 1285,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1286,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1287,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenPronunciationsEntity"
+ },
+ {
+  "toolId": 1288,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1289,
+  "typeIdentifier": "com.apple.Preview.PageEntity"
+ },
+ {
+  "toolId": 1290,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1291,
+  "typeIdentifier": "com.apple.Preview.DocumentEntity"
+ },
+ {
+  "toolId": 1292,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomIndividualDisplaysEntity"
+ },
+ {
+  "toolId": 1293,
+  "typeIdentifier": "com.apple.iCal.TransferableEventEntity"
+ },
+ {
+  "toolId": 1294,
+  "typeIdentifier": "com.apple.shortcuts.WFTrelloListContentItem"
+ },
+ {
+  "toolId": 1295,
+  "typeIdentifier": "com.apple.ShortcutsActions.MultitaskingMode"
+ },
+ {
+  "toolId": 1296,
+  "typeIdentifier": "com.apple.Safari.TabGroupEntity"
+ },
+ {
+  "toolId": 1297,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1298,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1299,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1300,
+  "typeIdentifier": "com.apple.Home.SceneResult"
+ },
+ {
+  "toolId": 1301,
+  "typeIdentifier": "com.apple.systempreferences.AxDisplayFilterEnabledEntity"
+ },
+ {
+  "toolId": 1302,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1303,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadSwipeBetweenPagesEntity"
+ },
+ {
+  "toolId": 1304,
+  "typeIdentifier": "com.apple.systempreferences.AxFlashScreenEntity"
+ },
+ {
+  "toolId": 1305,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomMonitorSelectionTrackpadEntity"
+ },
+ {
+  "toolId": 1306,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1307,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1308,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1309,
+  "typeIdentifier": "com.apple.systempreferences.AxMonoAudioEntity"
+ },
+ {
+  "toolId": 1310,
+  "typeIdentifier": "app"
+ },
+ {
+  "toolId": 1311,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 1312,
+  "typeIdentifier": "com.apple.Safari.WindowEntity"
+ },
+ {
+  "toolId": 1313,
+  "typeIdentifier": "com.apple.stocks.WatchlistEntity"
+ },
+ {
+  "toolId": 1314,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1315,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1316,
+  "typeIdentifier": "com.apple.systempreferences.AxMouseKeysIgnoreTrackpadEntity"
+ },
+ {
+  "toolId": 1317,
+  "typeIdentifier": "person"
+ },
+ {
+  "toolId": 1318,
+  "typeIdentifier": "com.apple.systempreferences.AxShowWindowTitlebarIconsEntity"
+ },
+ {
+  "toolId": 1319,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1320,
+  "typeIdentifier": "com.apple.ShortcutsActions.PhysicalActivity"
+ },
+ {
+  "toolId": 1321,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1322,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenTypingEchoCharsEntity"
+ },
+ {
+  "toolId": 1323,
+  "typeIdentifier": "attributedString"
+ },
+ {
+  "toolId": 1324,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1325,
+  "typeIdentifier": "com.apple.systempreferences.TrueToneEntity"
+ },
+ {
+  "toolId": 1326,
+  "typeIdentifier": "com.apple.Photos.AssetEntity"
+ },
+ {
+  "toolId": 1327,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1328,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchAutoCapitalizationEntity"
+ },
+ {
+  "toolId": 1329,
+  "typeIdentifier": "com.apple.systempreferences.AxIncreaseContrastEntity"
+ },
+ {
+  "toolId": 1330,
+  "typeIdentifier": "com.apple.systempreferences.AxFeatureZoomEntity"
+ },
+ {
+  "toolId": 1331,
+  "typeIdentifier": "com.apple.systempreferences.ClockOptionsEntity"
+ },
+ {
+  "toolId": 1332,
+  "typeIdentifier": "com.apple.systempreferences.AxBackgroundSoundsLockScreenEntity"
+ },
+ {
+  "toolId": 1333,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomMoveEntity"
+ },
+ {
+  "toolId": 1334,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1335,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1336,
+  "typeIdentifier": "com.apple.news.AutoDownloadAudioStoriesEntity"
+ },
+ {
+  "toolId": 1337,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1338,
+  "typeIdentifier": "com.apple.donotdisturb.DoNotDisturbAppIntents.FocusEntity"
+ },
+ {
+  "toolId": 1339,
+  "typeIdentifier": "com.apple.news.AutoDownloadMagazineIssuesEntity"
+ },
+ {
+  "toolId": 1340,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1341,
+  "typeIdentifier": "com.apple.reminders.RemotePreferencesEntity"
+ },
+ {
+  "toolId": 1342,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1343,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1344,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1345,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1346,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 1347,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1348,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1349,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1350,
+  "typeIdentifier": "com.apple.systempreferences.AxVoiceControlOverlayEntity"
+ },
+ {
+  "toolId": 1351,
+  "typeIdentifier": "com.apple.mail.MailMessageEntity"
+ },
+ {
+  "toolId": 1352,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomTempToggleEntity"
+ },
+ {
+  "toolId": 1353,
+  "typeIdentifier": "com.apple.systempreferences.AxMouseScrollBehaviorEntity"
+ },
+ {
+  "toolId": 1354,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1355,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomTrackpadEntity"
+ },
+ {
+  "toolId": 1356,
+  "typeIdentifier": "com.apple.systempreferences.AxBackgroundSoundsEntity"
+ },
+ {
+  "toolId": 1357,
+  "typeIdentifier": "com.apple.findmy.ItemEntity"
+ },
+ {
+  "toolId": 1358,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.KeyboardShortcutEntity"
+ },
+ {
+  "toolId": 1359,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1360,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1361,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1362,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1363,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1364,
+  "typeIdentifier": "com.apple.shortcuts.WFReminderContentItem"
+ },
+ {
+  "toolId": 1364,
+  "typeIdentifier": "com.apple.shortcuts.WFMessageContentItem"
+ },
+ {
+  "toolId": 1364,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1364,
+  "typeIdentifier": "."
+ },
+ {
+  "toolId": 1364,
+  "typeIdentifier": "com.apple.shortcuts.WFEmailContentItem"
+ },
+ {
+  "toolId": 1364,
+  "typeIdentifier": "com.apple.shortcuts.WFCalendarEventContentItem"
+ },
+ {
+  "toolId": 1364,
+  "typeIdentifier": "person"
+ },
+ {
+  "toolId": 1364,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 1365,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1366,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.SiriSuggestionsShowInAppEntity"
+ },
+ {
+  "toolId": 1367,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1368,
+  "typeIdentifier": "com.apple.Home.ZoneEntity"
+ },
+ {
+  "toolId": 1369,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1370,
+  "typeIdentifier": "com.apple.iCal.EventEntity"
+ },
+ {
+  "toolId": 1371,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1372,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1373,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1374,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1375,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1376,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1377,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1378,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1379,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1380,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 1381,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1382,
+  "typeIdentifier": "com.apple.systempreferences.AxVoiceControlShowHintsEnabledEntity"
+ },
+ {
+  "toolId": 1383,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenTypingEchoModifierKeysEntity"
+ },
+ {
+  "toolId": 1384,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomMonitorSelectionTrackpadEntity"
+ },
+ {
+  "toolId": 1385,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1386,
+  "typeIdentifier": "com.apple.Safari.TabEntity"
+ },
+ {
+  "toolId": 1387,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 1388,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1389,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1390,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchControlAppearanceTypeEntity"
+ },
+ {
+  "toolId": 1391,
+  "typeIdentifier": "com.apple.Photos.AssetEntity"
+ },
+ {
+  "toolId": 1392,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1393,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1394,
+  "typeIdentifier": "com.apple.news.AutoDownloadMagazineIssuesEntity"
+ },
+ {
+  "toolId": 1395,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1396,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomEnableHotkeysEntity"
+ },
+ {
+  "toolId": 1397,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1398,
+  "typeIdentifier": "com.apple.systempreferences.AxFeatureVoicecontrolEntity"
+ },
+ {
+  "toolId": 1399,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1400,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1401,
+  "typeIdentifier": "com.apple.systempreferences.ShareKeyboardEntity"
+ },
+ {
+  "toolId": 1402,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1403,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1404,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1405,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1406,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 1407,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1408,
+  "typeIdentifier": "com.apple.systempreferences.AxAdaptiveVoiceShortcutsEntity"
+ },
+ {
+  "toolId": 1409,
+  "typeIdentifier": "com.apple.shortcuts.WFContentItem"
+ },
+ {
+  "toolId": 1410,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1411,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchNavFeedbackEntity"
+ },
+ {
+  "toolId": 1412,
+  "typeIdentifier": "com.apple.systempreferences.StorageSettingsDeeplinks"
+ },
+ {
+  "toolId": 1413,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1414,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellCursorColorEntity"
+ },
+ {
+  "toolId": 1415,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1416,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1417,
+  "typeIdentifier": "com.apple.systempreferences.AxVideoDescriptionEntity"
+ },
+ {
+  "toolId": 1418,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1419,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1420,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1420,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1420,
+  "typeIdentifier": "com.apple.shortcuts.WFTimeIntervalContentItem"
+ },
+ {
+  "toolId": 1420,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 1420,
+  "typeIdentifier": "com.apple.shortcuts.WFFileSizeContentItem"
+ },
+ {
+  "toolId": 1420,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 1420,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1420,
+  "typeIdentifier": "com.apple.shortcuts.WFEKParticipantContentItem"
+ },
+ {
+  "toolId": 1420,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 1421,
+  "typeIdentifier": "com.apple.news.RecipeEntity"
+ },
+ {
+  "toolId": 1422,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadForceClickEntity"
+ },
+ {
+  "toolId": 1423,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 1424,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1425,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1426,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 1427,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1428,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1429,
+  "typeIdentifier": "com.apple.findmy.PersonEntity"
+ },
+ {
+  "toolId": 1430,
+  "typeIdentifier": "com.apple.systempreferences.AccountEntity"
+ },
+ {
+  "toolId": 1431,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadTapToClickEntity"
+ },
+ {
+  "toolId": 1432,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1433,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1434,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1435,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1436,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1437,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadShowDesktopEntity"
+ },
+ {
+  "toolId": 1438,
+  "typeIdentifier": "measurement_length"
+ },
+ {
+  "toolId": 1439,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomInvertEntity"
+ },
+ {
+  "toolId": 1440,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1441,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1442,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1443,
+  "typeIdentifier": "com.apple.systempreferences.AxMouseKeysEntity"
+ },
+ {
+  "toolId": 1444,
+  "typeIdentifier": "com.apple.systempreferences.AutomaticReconnectEntity"
+ },
+ {
+  "toolId": 1445,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1446,
+  "typeIdentifier": "com.apple.systempreferences.WindowsSettingsEntity"
+ },
+ {
+  "toolId": 1447,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenPointerElementModeEntity"
+ },
+ {
+  "toolId": 1448,
+  "typeIdentifier": "com.apple.systempreferences.AxMenubarDwellActionsEntity"
+ },
+ {
+  "toolId": 1449,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1450,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1451,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1452,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1453,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1454,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 1455,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1456,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchNavFeedbackEntity"
+ },
+ {
+  "toolId": 1457,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1458,
+  "typeIdentifier": "com.apple.systempreferences.AxFkaIncreaseSizeCheckboxEntity"
+ },
+ {
+  "toolId": 1459,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 1460,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1461,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1462,
+  "typeIdentifier": "com.apple.shortcuts.WFCalendarEventContentItem"
+ },
+ {
+  "toolId": 1463,
+  "typeIdentifier": "com.apple.systempreferences.AxAnimatedImagesEntity"
+ },
+ {
+  "toolId": 1464,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1465,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchHideAfterDelayEntity"
+ },
+ {
+  "toolId": 1466,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1467,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1468,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1469,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1470,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1471,
+  "typeIdentifier": "com.apple.systempreferences.AxVideoDescriptionEntity"
+ },
+ {
+  "toolId": 1472,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1473,
+  "typeIdentifier": "com.apple.VoiceMemos.ClearDeletedEntity"
+ },
+ {
+  "toolId": 1474,
+  "typeIdentifier": "com.apple.VoiceMemos.RCRecordingEntity"
+ },
+ {
+  "toolId": 1475,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1476,
+  "typeIdentifier": "com.apple.systempreferences.AccentColorEntity"
+ },
+ {
+  "toolId": 1477,
+  "typeIdentifier": "com.apple.news.AutoDownloadEntity"
+ },
+ {
+  "toolId": 1478,
+  "typeIdentifier": "com.apple.systempreferences.HighlightColorEntity"
+ },
+ {
+  "toolId": 1479,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1480,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1481,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1482,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1483,
+  "typeIdentifier": "com.apple.stocks.NewsRecipeEntity"
+ },
+ {
+  "toolId": 1484,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1485,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1486,
+  "typeIdentifier": "com.apple.news.AutoDownloadPuzzlesEntity"
+ },
+ {
+  "toolId": 1487,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenSelectionHighlightSentenceColorEntity"
+ },
+ {
+  "toolId": 1488,
+  "typeIdentifier": "com.apple.systempreferences.AxCaptioningPreferSdhEntity"
+ },
+ {
+  "toolId": 1489,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1490,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1491,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1492,
+  "typeIdentifier": "com.apple.Safari.QuickWebsiteSearchProviderEntity"
+ },
+ {
+  "toolId": 1493,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1494,
+  "typeIdentifier": "com.apple.weather.LocationSearchEntity"
+ },
+ {
+  "toolId": 1495,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1496,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1497,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchMouseCursorEdgeEntity"
+ },
+ {
+  "toolId": 1498,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 1499,
+  "typeIdentifier": "com.apple.VoiceMemos.LocationBasedNamingEntity"
+ },
+ {
+  "toolId": 1500,
+  "typeIdentifier": "com.apple.systempreferences.AxKbKeyAcceptedMouseEntity"
+ },
+ {
+  "toolId": 1501,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1502,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1503,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1504,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomDisableUniversalControlEntity"
+ },
+ {
+  "toolId": 1505,
+  "typeIdentifier": "com.apple.systempreferences.AxAltMouseButtonsEntity"
+ },
+ {
+  "toolId": 1506,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenAlertsEntity"
+ },
+ {
+  "toolId": 1507,
+  "typeIdentifier": "com.apple.systempreferences.AxHotCornerTopRightEntity"
+ },
+ {
+  "toolId": 1508,
+  "typeIdentifier": "com.apple.systempreferences.AxInvertColorEntity"
+ },
+ {
+  "toolId": 1509,
+  "typeIdentifier": "com.apple.news.AutoDownloadStoriesInFeedsEntity"
+ },
+ {
+  "toolId": 1510,
+  "typeIdentifier": "com.apple.mail.MailMessageEntity"
+ },
+ {
+  "toolId": 1511,
+  "typeIdentifier": "com.apple.systempreferences.MissionControlEntity"
+ },
+ {
+  "toolId": 1512,
+  "typeIdentifier": "com.apple.shortcuts.WFTripInfoContentItem"
+ },
+ {
+  "toolId": 1513,
+  "typeIdentifier": "com.apple.systempreferences.AxSpatialAudioFollowsHeadEntity"
+ },
+ {
+  "toolId": 1514,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1515,
+  "typeIdentifier": "com.apple.reminders.ReminderEntity"
+ },
+ {
+  "toolId": 1516,
+  "typeIdentifier": "com.apple.AddressBook.ContactFetchResultEntity"
+ },
+ {
+  "toolId": 1517,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1518,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1519,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1520,
+  "typeIdentifier": "com.apple.systempreferences.BatteryOptionsPaneDynamicDeepLinks"
+ },
+ {
+  "toolId": 1521,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1522,
+  "typeIdentifier": "com.apple.iCal.InboxItemEntity"
+ },
+ {
+  "toolId": 1523,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1524,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1525,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomFlashEntity"
+ },
+ {
+  "toolId": 1526,
+  "typeIdentifier": "com.apple.omniSearch.SearchToolExtension.MemoryCreationQUResult"
+ },
+ {
+  "toolId": 1527,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadRotateEntity"
+ },
+ {
+  "toolId": 1528,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1529,
+  "typeIdentifier": "com.apple.findmy.WidgetPersonEntity"
+ },
+ {
+  "toolId": 1530,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1531,
+  "typeIdentifier": "com.apple.stocks.SymbolEntity"
+ },
+ {
+  "toolId": 1532,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1533,
+  "typeIdentifier": "com.apple.Notes.FolderEntity"
+ },
+ {
+  "toolId": 1534,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1535,
+  "typeIdentifier": "com.apple.shortcuts.WFPosterContentItem"
+ },
+ {
+  "toolId": 1536,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1537,
+  "typeIdentifier": "com.apple.Notes.TagEntity"
+ },
+ {
+  "toolId": 1538,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1539,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1540,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1541,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1542,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellAutoRevertEntity"
+ },
+ {
+  "toolId": 1543,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1544,
+  "typeIdentifier": "com.apple.clock.AlarmEntity"
+ },
+ {
+  "toolId": 1545,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1546,
+  "typeIdentifier": "com.apple.systempreferences.AxFkaIncreaseSizeCheckboxEntity"
+ },
+ {
+  "toolId": 1547,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadSwipeBetweenAppsEntity"
+ },
+ {
+  "toolId": 1548,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1549,
+  "typeIdentifier": "com.apple.systempreferences.DeviceStorageEntity"
+ },
+ {
+  "toolId": 1550,
+  "typeIdentifier": "com.apple.news.AutoDownloadRecipesEntity"
+ },
+ {
+  "toolId": 1551,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1552,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1553,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1554,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1555,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 1555,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1556,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1557,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1558,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1559,
+  "typeIdentifier": "com.apple.systempreferences.AllowWallPaperTintingEntity"
+ },
+ {
+  "toolId": 1560,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1561,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1562,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 1563,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomKeepStationaryEntity"
+ },
+ {
+  "toolId": 1564,
+  "typeIdentifier": "com.apple.Photos.AssetEntity"
+ },
+ {
+  "toolId": 1565,
+  "typeIdentifier": "com.apple.systempreferences.FirewallAllowSignedEntity"
+ },
+ {
+  "toolId": 1566,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1567,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchAutoSpacingEntity"
+ },
+ {
+  "toolId": 1568,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1569,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1570,
+  "typeIdentifier": "com.apple.systempreferences.ShowBatteryPercentageEntity"
+ },
+ {
+  "toolId": 1571,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1572,
+  "typeIdentifier": "com.apple.systempreferences.AxHoverTypingEntryLocationEntity"
+ },
+ {
+  "toolId": 1573,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1574,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadMissionControlEntity"
+ },
+ {
+  "toolId": 1575,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1576,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1577,
+  "typeIdentifier": "com.apple.mail.DraftMessageEntity"
+ },
+ {
+  "toolId": 1578,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1579,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1580,
+  "typeIdentifier": "placemark"
+ },
+ {
+  "toolId": 1580,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1580,
+  "typeIdentifier": "currencyAmount"
+ },
+ {
+  "toolId": 1580,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 1580,
+  "typeIdentifier": "person"
+ },
+ {
+  "toolId": 1581,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1582,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1583,
+  "typeIdentifier": "com.apple.news.NewsSettingsDynamicDeepLinks"
+ },
+ {
+  "toolId": 1584,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1585,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1586,
+  "typeIdentifier": "measurement_length"
+ },
+ {
+  "toolId": 1587,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1588,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1589,
+  "typeIdentifier": "com.apple.MobileSMS.MessageEntity"
+ },
+ {
+  "toolId": 1590,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomResizeShortcutsEntity"
+ },
+ {
+  "toolId": 1591,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1592,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1593,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1594,
+  "typeIdentifier": "com.apple.systempreferences.AxStickyKeysShortcutEntity"
+ },
+ {
+  "toolId": 1595,
+  "typeIdentifier": "com.apple.systempreferences.AxHoverTypingEntryLocationEntity"
+ },
+ {
+  "toolId": 1596,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1597,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1598,
+  "typeIdentifier": "com.apple.systempreferences.ShowScrollBarsEntity"
+ },
+ {
+  "toolId": 1599,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenTypingEchoEntity"
+ },
+ {
+  "toolId": 1600,
+  "typeIdentifier": "com.apple.VoiceMemos.RCRecordingEntity"
+ },
+ {
+  "toolId": 1601,
+  "typeIdentifier": "com.apple.systempreferences.AxFlashScreenEntity"
+ },
+ {
+  "toolId": 1602,
+  "typeIdentifier": "measurement_duration"
+ },
+ {
+  "toolId": 1603,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 1603,
+  "typeIdentifier": "com.apple.shortcuts.WFEmailAddressContentItem"
+ },
+ {
+  "toolId": 1603,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1604,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenSelectionHighlightContentEntity"
+ },
+ {
+  "toolId": 1605,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1606,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1607,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1607,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1608,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1609,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1610,
+  "typeIdentifier": "person"
+ },
+ {
+  "toolId": 1611,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchControlAppearanceTypeEntity"
+ },
+ {
+  "toolId": 1612,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1613,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1614,
+  "typeIdentifier": "com.apple.shortcuts.WFFileSizeContentItem"
+ },
+ {
+  "toolId": 1614,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 1614,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1615,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.AlwaysPrintSiriResponseEntity"
+ },
+ {
+  "toolId": 1616,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1617,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1618,
+  "typeIdentifier": "com.apple.systempreferences.AirDropEntity"
+ },
+ {
+  "toolId": 1619,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1620,
+  "typeIdentifier": "person"
+ },
+ {
+  "toolId": 1621,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1622,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1623,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1624,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1625,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1626,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadMissionControlEntity"
+ },
+ {
+  "toolId": 1627,
+  "typeIdentifier": "com.apple.systempreferences.AirDropEntity"
+ },
+ {
+  "toolId": 1628,
+  "typeIdentifier": "com.apple.shortcuts.WFiTunesProductContentItem"
+ },
+ {
+  "toolId": 1629,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchHoverTextToolbarEntity"
+ },
+ {
+  "toolId": 1630,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1631,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchAutoscanEntity"
+ },
+ {
+  "toolId": 1632,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadLookUpAndDataDetectorsEntity"
+ },
+ {
+  "toolId": 1633,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1634,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1635,
+  "typeIdentifier": "com.apple.systempreferences.FullScreenSwipeEntity"
+ },
+ {
+  "toolId": 1636,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1637,
+  "typeIdentifier": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GenerativeResponseEntity"
+ },
+ {
+  "toolId": 1638,
+  "typeIdentifier": "com.apple.systempreferences.AxVoiceControlOverlayFadingEnabledEntity"
+ },
+ {
+  "toolId": 1639,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1640,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1641,
+  "typeIdentifier": "com.apple.systempreferences.AxIncreaseContrastEntity"
+ },
+ {
+  "toolId": 1642,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1643,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1644,
+  "typeIdentifier": "com.apple.news.IngredientEntity"
+ },
+ {
+  "toolId": 1645,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1646,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1647,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1648,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1649,
+  "typeIdentifier": "com.apple.reminders.SmartListEntity"
+ },
+ {
+  "toolId": 1650,
+  "typeIdentifier": "com.apple.freeform.CRLBoardEntity"
+ },
+ {
+  "toolId": 1651,
+  "typeIdentifier": "com.apple.Preview.DocumentEntity"
+ },
+ {
+  "toolId": 1652,
+  "typeIdentifier": "com.apple.weather.PreferredUnitsEntity"
+ },
+ {
+  "toolId": 1653,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1654,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomMonitorSelectionEntity"
+ },
+ {
+  "toolId": 1655,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchAutoCapitalizationEntity"
+ },
+ {
+  "toolId": 1656,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1657,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1658,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1659,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1660,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomStylePopupEntity"
+ },
+ {
+  "toolId": 1661,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1662,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1663,
+  "typeIdentifier": "com.apple.reminders.ReminderEntity"
+ },
+ {
+  "toolId": 1664,
+  "typeIdentifier": "com.apple.shortcuts.WFReminderContentItem"
+ },
+ {
+  "toolId": 1665,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellActionEntity"
+ },
+ {
+  "toolId": 1666,
+  "typeIdentifier": "com.apple.journal.JournalEntity"
+ },
+ {
+  "toolId": 1667,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadRotateEntity"
+ },
+ {
+  "toolId": 1668,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1669,
+  "typeIdentifier": "com.apple.systempreferences.ComputerNameEntity"
+ },
+ {
+  "toolId": 1670,
+  "typeIdentifier": "com.apple.systempreferences.AxSpokenHotkeyEntity"
+ },
+ {
+  "toolId": 1671,
+  "typeIdentifier": "com.apple.shortcuts.WFArticleContentItem"
+ },
+ {
+  "toolId": 1672,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1673,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1674,
+  "typeIdentifier": "com.apple.shortcuts.RootNavigationDestination"
+ },
+ {
+  "toolId": 1675,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1676,
+  "typeIdentifier": "com.apple.siri.AssistantSettingsControls.AlwaysPrintSiriResponseEntity"
+ },
+ {
+  "toolId": 1677,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1678,
+  "typeIdentifier": "com.apple.systempreferences.HighlightColorEntity"
+ },
+ {
+  "toolId": 1679,
+  "typeIdentifier": "com.apple.shortcuts.ShortcutsActionEntity"
+ },
+ {
+  "toolId": 1680,
+  "typeIdentifier": "placemark"
+ },
+ {
+  "toolId": 1681,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1682,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1683,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1684,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadSwipeBetweenPagesEntity"
+ },
+ {
+  "toolId": 1685,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellZoomEntity"
+ },
+ {
+  "toolId": 1686,
+  "typeIdentifier": "com.apple.ShortcutsActions.CellularPlanEntity"
+ },
+ {
+  "toolId": 1687,
+  "typeIdentifier": "com.apple.systempreferences.AxFeatureVoicecontrolEntity"
+ },
+ {
+  "toolId": 1688,
+  "typeIdentifier": "com.apple.systempreferences.WidgetSettingsEntity"
+ },
+ {
+  "toolId": 1689,
+  "typeIdentifier": "com.apple.iCal.TransferableSourceEntity"
+ },
+ {
+  "toolId": 1690,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1691,
+  "typeIdentifier": "com.apple.shortcuts.WFCalendarEventContentItem"
+ },
+ {
+  "toolId": 1692,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1693,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1694,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1695,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1696,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1697,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1698,
+  "typeIdentifier": "com.apple.AddressBook.ContactEntity"
+ },
+ {
+  "toolId": 1699,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1700,
+  "typeIdentifier": "com.apple.systempreferences.ScrollDirectionEntity"
+ },
+ {
+  "toolId": 1701,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1702,
+  "typeIdentifier": "com.apple.omniSearch.SearchToolExtension.SearchEntity"
+ },
+ {
+  "toolId": 1703,
+  "typeIdentifier": "com.apple.reminders.SmartListEntity"
+ },
+ {
+  "toolId": 1704,
+  "typeIdentifier": "com.apple.stocks.SymbolQuoteEntity"
+ },
+ {
+  "toolId": 1705,
+  "typeIdentifier": "com.apple.Home.DeviceResult"
+ },
+ {
+  "toolId": 1706,
+  "typeIdentifier": "com.apple.systempreferences.AxStickyKeysEntity"
+ },
+ {
+  "toolId": 1707,
+  "typeIdentifier": "com.apple.systempreferences.AxShowToolbarButtonShapesEntity"
+ },
+ {
+  "toolId": 1708,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1709,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1710,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1711,
+  "typeIdentifier": "com.apple.systempreferences.AxDwellInMenuExtraEntity"
+ },
+ {
+  "toolId": 1712,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1713,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1714,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1715,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1716,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1717,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1718,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1719,
+  "typeIdentifier": "com.apple.systempreferences.AxSystemTranscriptionEnabledEntity"
+ },
+ {
+  "toolId": 1720,
+  "typeIdentifier": "com.apple.systempreferences.AxMotionCuesEnabledEntity"
+ },
+ {
+  "toolId": 1721,
+  "typeIdentifier": "com.apple.systempreferences.AxFeatureZoomEntity"
+ },
+ {
+  "toolId": 1722,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1723,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1724,
+  "typeIdentifier": "com.apple.systempreferences.FamilySettingsDeepLink"
+ },
+ {
+  "toolId": 1725,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1726,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1727,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadNotificiationCenterEntity"
+ },
+ {
+  "toolId": 1728,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1729,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1730,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1731,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1732,
+  "typeIdentifier": "com.apple.systempreferences.AxHotCornerMoveHomePanelEntity"
+ },
+ {
+  "toolId": 1733,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1734,
+  "typeIdentifier": "com.apple.shortcuts.WFWeatherDataContentItem"
+ },
+ {
+  "toolId": 1735,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1735,
+  "typeIdentifier": "url"
+ },
+ {
+  "toolId": 1736,
+  "typeIdentifier": "com.apple.systempreferences.TrackpadForceClickEntity"
+ },
+ {
+  "toolId": 1737,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1738,
+  "typeIdentifier": "com.apple.systempreferences.AxZoomIndividualDisplaysEntity"
+ },
+ {
+  "toolId": 1739,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1740,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1741,
+  "typeIdentifier": "com.apple.Photos.AlbumEntity"
+ },
+ {
+  "toolId": 1742,
+  "typeIdentifier": "com.apple.systempreferences.AxDisplayFilterTypeEntity"
+ },
+ {
+  "toolId": 1743,
+  "typeIdentifier": "com.apple.iCal.CalendarEntity"
+ },
+ {
+  "toolId": 1744,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1745,
+  "typeIdentifier": "placemark"
+ },
+ {
+  "toolId": 1746,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1747,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1748,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1749,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1750,
+  "typeIdentifier": "number"
+ },
+ {
+  "toolId": 1750,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1750,
+  "typeIdentifier": "placemark"
+ },
+ {
+  "toolId": 1750,
+  "typeIdentifier": "bool"
+ },
+ {
+  "toolId": 1750,
+  "typeIdentifier": "com.apple.shortcuts.WFTimeIntervalContentItem"
+ },
+ {
+  "toolId": 1750,
+  "typeIdentifier": "com.apple.shortcuts.WFFileSizeContentItem"
+ },
+ {
+  "toolId": 1750,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1750,
+  "typeIdentifier": "date"
+ },
+ {
+  "toolId": 1751,
+  "typeIdentifier": "com.apple.systempreferences.AxSwitchCursorSizeEntity"
+ },
+ {
+  "toolId": 1752,
+  "typeIdentifier": "com.apple.Preview.DocumentEntity"
+ },
+ {
+  "toolId": 1753,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1754,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1755,
+  "typeIdentifier": "com.apple.reminders.ReminderEntity"
+ },
+ {
+  "toolId": 1756,
+  "typeIdentifier": "com.apple.iBooksX.BookSettingsEntity"
+ },
+ {
+  "toolId": 1757,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1758,
+  "typeIdentifier": "com.apple.systempreferences.AxVirtualKeyboardEntity"
+ },
+ {
+  "toolId": 1759,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1760,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1761,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1762,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1763,
+  "typeIdentifier": "string"
+ },
+ {
+  "toolId": 1764,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1765,
+  "typeIdentifier": "com.apple.systempreferences.WidgetSettingsEntity"
+ },
+ {
+  "toolId": 1766,
+  "typeIdentifier": "com.apple.intelligenceplatform.IntelligencePlatform.IntelligencePlatformDataActionsAppIntentsExtension.AppUsageResultEntity"
+ },
+ {
+  "toolId": 1767,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1768,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1769,
+  "typeIdentifier": "com.apple.weather.SyncedDataEntity"
+ },
+ {
+  "toolId": 1770,
+  "typeIdentifier": "com.apple.systempreferences.AxInvertColorModeEntity"
+ },
+ {
+  "toolId": 1771,
+  "typeIdentifier": "com.apple.systempreferences.DownloadUpdatesPreferenceEntity"
+ },
+ {
+  "toolId": 1772,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1773,
+  "typeIdentifier": "com.apple.finder.FINodeEntity"
+ },
+ {
+  "toolId": 1774,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1775,
+  "typeIdentifier": "com.apple.Photos.AlbumEntity"
+ },
+ {
+  "toolId": 1776,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1777,
+  "typeIdentifier": "file"
+ },
+ {
+  "toolId": 1778,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1779,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1780,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1781,
+  "typeIdentifier": "com.apple.systempreferences.AxHoverTextModifierEntity"
+ },
+ {
+  "toolId": 1782,
+  "typeIdentifier": "com.apple.mail.MailThreadEntity"
+ },
+ {
+  "toolId": 1783,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1784,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1785,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1786,
+  "typeIdentifier": "com.apple.Notes.NoteEntity"
+ },
+ {
+  "toolId": 1787,
+  "typeIdentifier": "com.apple.systempreferences.BatterySettingsPaneDynamicDeepLinks"
+ },
+ {
+  "toolId": 1788,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1789,
+  "typeIdentifier": "none"
+ },
+ {
+  "toolId": 1790,
+  "typeIdentifier": "com.apple.weather.SyncedDataEntity"
+ },
+ {
+  "toolId": 1791,
+  "typeIdentifier": "none"
+ }
+]

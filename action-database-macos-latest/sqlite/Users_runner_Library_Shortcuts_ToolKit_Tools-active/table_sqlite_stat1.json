@@ -1,0 +1,307 @@
+[
+ {
+  "tbl": "ToolOutputTypes",
+  "idx": "ToolOutputTypes_on_typeIdentifier",
+  "stat": "1912 5"
+ },
+ {
+  "tbl": "ToolOutputTypes",
+  "idx": "ToolOutputTypes_on_toolId",
+  "stat": "1912 1"
+ },
+ {
+  "tbl": "ToolOutputTypes",
+  "idx": "sqlite_autoindex_ToolOutputTypes_1",
+  "stat": "1912 1 1"
+ },
+ {
+  "tbl": "Parameters",
+  "idx": "sqlite_autoindex_Parameters_1",
+  "stat": "5589 4 1"
+ },
+ {
+  "tbl": "ContainerMetadata",
+  "idx": "ContainerMetadata_rowId_deviceId",
+  "stat": "129 1 1"
+ },
+ {
+  "tbl": "ContainerMetadata",
+  "idx": "ContainerMetadata_on_containerType",
+  "stat": "129 33"
+ },
+ {
+  "tbl": "ContainerMetadata",
+  "idx": "ContainerMetadata_on_deviceId",
+  "stat": "129 129"
+ },
+ {
+  "tbl": "ContainerMetadata",
+  "idx": "ContainerMetadata_on_id",
+  "stat": "129 1"
+ },
+ {
+  "tbl": "ContainerMetadata",
+  "idx": "sqlite_autoindex_ContainerMetadata_1",
+  "stat": "129 1 1 1"
+ },
+ {
+  "tbl": "ToolParameterTypes",
+  "idx": "ToolParameterTypes_on_typeId",
+  "stat": "5797 3"
+ },
+ {
+  "tbl": "ToolParameterTypes",
+  "idx": "ToolParameterTypes_on_key",
+  "stat": "5797 5"
+ },
+ {
+  "tbl": "ToolParameterTypes",
+  "idx": "ToolParameterTypes_on_toolId",
+  "stat": "5797 4"
+ },
+ {
+  "tbl": "ToolParameterTypes",
+  "idx": "sqlite_autoindex_ToolParameterTypes_1",
+  "stat": "5797 4 1 1"
+ },
+ {
+  "tbl": "ContainerMetadataSynonyms",
+  "idx": "ContainerMetadataSynonyms_locale_containerId",
+  "stat": "3 3 3"
+ },
+ {
+  "tbl": "ContainerMetadataSynonyms",
+  "idx": "sqlite_autoindex_ContainerMetadataSynonyms_1",
+  "stat": "3 3 3 1"
+ },
+ {
+  "tbl": "ToolLocalizations",
+  "idx": "ToolLocalizations_on_localizationUsage",
+  "stat": "3582 1791"
+ },
+ {
+  "tbl": "ToolLocalizations",
+  "idx": "ToolLocalizations_on_locale",
+  "stat": "3582 3582"
+ },
+ {
+  "tbl": "ToolLocalizations",
+  "idx": "ToolLocalizations_on_toolId",
+  "stat": "3582 2"
+ },
+ {
+  "tbl": "ToolLocalizations",
+  "idx": "sqlite_autoindex_ToolLocalizations_1",
+  "stat": "3582 2 2 1"
+ },
+ {
+  "tbl": "EntityProperties",
+  "idx": "EntityProperties_on_typeId",
+  "stat": "1795 4"
+ },
+ {
+  "tbl": "EntityProperties",
+  "idx": "sqlite_autoindex_EntityProperties_1",
+  "stat": "1795 2 1"
+ },
+ {
+  "tbl": "Tools",
+  "idx": "Tools_on_attributionContainerId",
+  "stat": "1791 16"
+ },
+ {
+  "tbl": "Tools",
+  "idx": "Tools_on_sourceContainerId",
+  "stat": "1791 29"
+ },
+ {
+  "tbl": "Tools",
+  "idx": "Tools_on_sourceActionProvider",
+  "stat": "1791 448"
+ },
+ {
+  "tbl": "Tools",
+  "idx": "sqlite_autoindex_Tools_1",
+  "stat": "1791 1 1"
+ },
+ {
+  "tbl": "Metadata",
+  "idx": "sqlite_autoindex_Metadata_1",
+  "stat": "5 1"
+ },
+ {
+  "tbl": "ParameterLocalizations",
+  "idx": "ParameterLocalizations_on_locale",
+  "stat": "5589 5589"
+ },
+ {
+  "tbl": "ParameterLocalizations",
+  "idx": "ParameterLocalizations_on_key",
+  "stat": "5589 5"
+ },
+ {
+  "tbl": "ParameterLocalizations",
+  "idx": "ParameterLocalizations_on_toolId",
+  "stat": "5589 4"
+ },
+ {
+  "tbl": "ParameterLocalizations",
+  "idx": "sqlite_autoindex_ParameterLocalizations_1",
+  "stat": "5589 4 1 1"
+ },
+ {
+  "tbl": "SystemToolProtocols",
+  "idx": "SystemToolProtocols_on_identifier",
+  "stat": "2652 25"
+ },
+ {
+  "tbl": "SystemToolProtocols",
+  "idx": "SystemToolProtocols_on_toolId",
+  "stat": "2652 3"
+ },
+ {
+  "tbl": "Categories",
+  "idx": "sqlite_autoindex_Categories_1",
+  "stat": "125 1 1 1"
+ },
+ {
+  "tbl": "EnumerationCases",
+  "idx": "EnumerationCases_on_locale",
+  "stat": "7551 7551"
+ },
+ {
+  "tbl": "EnumerationCases",
+  "idx": "sqlite_autoindex_EnumerationCases_1",
+  "stat": "7551 5 1 1"
+ },
+ {
+  "tbl": "SearchKeywords",
+  "idx": "sqlite_autoindex_SearchKeywords_1",
+  "stat": "2415 4 4 1"
+ },
+ {
+  "tbl": "TypeDisplayRepresentations",
+  "idx": "sqlite_autoindex_TypeDisplayRepresentations_1",
+  "stat": "2310 1 1"
+ },
+ {
+  "tbl": "EntityPropertyLocalizations",
+  "idx": "sqlite_autoindex_EntityPropertyLocalizations_1",
+  "stat": "1795 2 2 1"
+ },
+ {
+  "tbl": "SystemTypeProtocols",
+  "idx": "SystemTypeProtocols_on_identifier",
+  "stat": "815 19"
+ },
+ {
+  "tbl": "SystemTypeProtocols",
+  "idx": "SystemTypeProtocols_on_typeId",
+  "stat": "815 2"
+ },
+ {
+  "tbl": "SystemTypeProtocols",
+  "idx": "sqlite_autoindex_SystemTypeProtocols_1",
+  "stat": "815 2 1"
+ },
+ {
+  "tbl": "TypeCoercions",
+  "idx": "TypeCoercions_on_typeId",
+  "stat": "593 2"
+ },
+ {
+  "tbl": "UTTypeCoercions",
+  "idx": "UTTypeCoercions_on_coercionIdentifier",
+  "stat": "62 2"
+ },
+ {
+  "tbl": "UTTypeCoercions",
+  "idx": "UTTypeCoercions_on_typeId",
+  "stat": "62 3"
+ },
+ {
+  "tbl": "UTTypeCoercions",
+  "idx": "sqlite_autoindex_UTTypeCoercions_1",
+  "stat": "62 3 1"
+ },
+ {
+  "tbl": "PredicateTemplates",
+  "idx": "sqlite_autoindex_PredicateTemplates_1",
+  "stat": "341 1"
+ },
+ {
+  "tbl": "ContainerMetadataLocalizations",
+  "idx": "ContainerMetadataLocalizations_on_locale",
+  "stat": "129 129"
+ },
+ {
+  "tbl": "ContainerMetadataLocalizations",
+  "idx": "ContainerMetadataLocalizations_on_containerId",
+  "stat": "129 1"
+ },
+ {
+  "tbl": "ContainerMetadataLocalizations",
+  "idx": "sqlite_autoindex_ContainerMetadataLocalizations_1",
+  "stat": "129 1 1"
+ },
+ {
+  "tbl": "LaunchServicesState",
+  "idx": "sqlite_autoindex_LaunchServicesState_1",
+  "stat": "385 1"
+ },
+ {
+  "tbl": "Types",
+  "idx": "Types_on_kind",
+  "stat": "2698 540"
+ },
+ {
+  "tbl": "Types",
+  "idx": "Types_on_sourceContainerId",
+  "stat": "2698 48"
+ },
+ {
+  "tbl": "Types",
+  "idx": "Types_on_id",
+  "stat": "2698 1"
+ },
+ {
+  "tbl": "Types",
+  "idx": "sqlite_autoindex_Types_1",
+  "stat": "2698 1"
+ },
+ {
+  "tbl": "AdditionalToolAttributionContainers",
+  "idx": "AdditionalToolAttributionContainers_on_containerId",
+  "stat": "13 3"
+ },
+ {
+  "tbl": "AdditionalToolAttributionContainers",
+  "idx": "AdditionalToolAttributionContainers_on_toolId",
+  "stat": "13 1"
+ },
+ {
+  "tbl": "AdditionalToolAttributionContainers",
+  "idx": "sqlite_autoindex_AdditionalToolAttributionContainers_1",
+  "stat": "13 1 1"
+ },
+ {
+  "tbl": "LinkActionIdentifiers",
+  "idx": "LinkActionIdentifiers_on_toolId",
+  "stat": "751 1"
+ },
+ {
+  "tbl": "LinkActionIdentifiers",
+  "idx": "LinkActionIdentifiers_on_identifier",
+  "stat": "751 1"
+ },
+ {
+  "tbl": "LinkActionIdentifiers",
+  "idx": "sqlite_autoindex_LinkActionIdentifiers_1",
+  "stat": "751 1 1"
+ },
+ {
+  "tbl": "LinkState",
+  "idx": "sqlite_autoindex_LinkState_1",
+  "stat": "58 1"
+ }
+]

@@ -1,0 +1,20 @@
+[
+ {
+  "containerId": 36,
+  "locale": "en",
+  "synonym": "File Manager",
+  "order": 0
+ },
+ {
+  "containerId": 36,
+  "locale": "en",
+  "synonym": "File Browser",
+  "order": 1
+ },
+ {
+  "containerId": 36,
+  "locale": "en",
+  "synonym": "Explorer",
+  "order": 2
+ }
+]

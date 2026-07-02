@@ -1,0 +1,128 @@
+[
+ {
+  "Z_ENT": 1,
+  "Z_NAME": "AccessResourcePermission",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 2,
+  "Z_NAME": "AutoShortcutsPreferences",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 3,
+  "Z_NAME": "CloudKitSyncToken",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 4,
+  "Z_NAME": "Collection",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 5,
+  "Z_NAME": "FileState",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 6,
+  "Z_NAME": "Library",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 7,
+  "Z_NAME": "PersistedSerializedParameters",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 8,
+  "Z_NAME": "Shortcut",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 9,
+  "Z_NAME": "ShortcutActions",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 10,
+  "Z_NAME": "ShortcutBookmark",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 11,
+  "Z_NAME": "ShortcutIcon",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 12,
+  "Z_NAME": "ShortcutQuarantine",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 13,
+  "Z_NAME": "ShortcutRunEvent",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 14,
+  "Z_NAME": "SmartPromptPermission",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 15,
+  "Z_NAME": "TrackedFilesystemNode",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 16,
+  "Z_NAME": "Trigger",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 17,
+  "Z_NAME": "TriggerEvent",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 18,
+  "Z_NAME": "TrustedDomain",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 19,
+  "Z_NAME": "VCVoiceShortcutManagedObject",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 20,
+  "Z_NAME": "VCVoiceShortcutSuggestionListManagedObject",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ },
+ {
+  "Z_ENT": 21,
+  "Z_NAME": "VCVoiceShortcutSyncStateManagedObject",
+  "Z_SUPER": 0,
+  "Z_MAX": 0
+ }
+]

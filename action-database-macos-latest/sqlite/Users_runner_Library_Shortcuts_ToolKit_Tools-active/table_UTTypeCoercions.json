@@ -1,0 +1,250 @@
+[
+ {
+  "typeId": "com.apple.Notes.NoteEntity",
+  "coercionIdentifier": "public.utf8-plain-text"
+ },
+ {
+  "typeId": "com.apple.Notes.NoteEntity",
+  "coercionIdentifier": "com.apple.webarchive"
+ },
+ {
+  "typeId": "com.apple.Notes.NoteEntity",
+  "coercionIdentifier": "public.rtf"
+ },
+ {
+  "typeId": "com.apple.Notes.NoteEntity",
+  "coercionIdentifier": "public.plain-text"
+ },
+ {
+  "typeId": "com.apple.Notes.NoteEntity",
+  "coercionIdentifier": "com.apple.flat-rtfd"
+ },
+ {
+  "typeId": "com.apple.Notes.NoteEntity",
+  "coercionIdentifier": "public.html"
+ },
+ {
+  "typeId": "com.apple.reminders.ListEntity",
+  "coercionIdentifier": "UTCollaborationOptionsType"
+ },
+ {
+  "typeId": "com.apple.reminders.ListEntity",
+  "coercionIdentifier": "com.apple.cloudkit.sharingsupport.post"
+ },
+ {
+  "typeId": "com.apple.reminders.ListEntity",
+  "coercionIdentifier": "com.apple.cloudkit.sharingsupport.pre"
+ },
+ {
+  "typeId": "com.apple.reminders.ListEntity",
+  "coercionIdentifier": "com.apple.cloudkit.sharingsupport.container"
+ },
+ {
+  "typeId": "com.apple.Safari.TabEntity",
+  "coercionIdentifier": "com.adobe.pdf"
+ },
+ {
+  "typeId": "com.apple.Notes.AttachmentEntity",
+  "coercionIdentifier": "public.item"
+ },
+ {
+  "typeId": "com.apple.Notes.AttachmentEntity",
+  "coercionIdentifier": "com.adobe.pdf"
+ },
+ {
+  "typeId": "com.apple.podcasts.EpisodeEntity",
+  "coercionIdentifier": "public.utf8-plain-text"
+ },
+ {
+  "typeId": "com.apple.iBooksX.AudiobookAppEntity",
+  "coercionIdentifier": "public.text"
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "coercionIdentifier": "com.compuserve.gif"
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "coercionIdentifier": "public.movie"
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "coercionIdentifier": "public.heic"
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "coercionIdentifier": "public.image"
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "coercionIdentifier": "public.heif"
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "coercionIdentifier": "public.jpeg"
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "coercionIdentifier": "public.png"
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "coercionIdentifier": "public.mpeg-4"
+ },
+ {
+  "typeId": "com.apple.Photos.AssetEntity",
+  "coercionIdentifier": "com.apple.quicktime-movie"
+ },
+ {
+  "typeId": "com.apple.iCal.EventEntity",
+  "coercionIdentifier": "public.calendar-event"
+ },
+ {
+  "typeId": "com.apple.iCal.EventEntity",
+  "coercionIdentifier": "public.utf8-plain-text"
+ },
+ {
+  "typeId": "com.apple.freeform.CRLBoardEntity",
+  "coercionIdentifier": "com.apple.cloudkit.sharingsupport.container"
+ },
+ {
+  "typeId": "com.apple.freeform.CRLBoardEntity",
+  "coercionIdentifier": "com.apple.cloudkit.sharingsupport.post"
+ },
+ {
+  "typeId": "com.apple.freeform.CRLBoardEntity",
+  "coercionIdentifier": "UTCollaborationOptionsType"
+ },
+ {
+  "typeId": "com.apple.freeform.CRLBoardEntity",
+  "coercionIdentifier": "com.apple.cloudkit.sharingsupport.pre"
+ },
+ {
+  "typeId": "com.apple.iBooksX.BookAppEntity",
+  "coercionIdentifier": "public.text"
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchSpotlightEntity",
+  "coercionIdentifier": "com.apple.siri.pommes"
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchSpotlightEntity",
+  "coercionIdentifier": "public.message"
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchSpotlightEntity",
+  "coercionIdentifier": "public.email-message"
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchSpotlightEntity",
+  "coercionIdentifier": "public.calendar-event"
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchSpotlightEntity",
+  "coercionIdentifier": "public.contact"
+ },
+ {
+  "typeId": "com.apple.podcasts.ShowEntity",
+  "coercionIdentifier": "public.utf8-plain-text"
+ },
+ {
+  "typeId": "com.apple.findmy.PersonEntity",
+  "coercionIdentifier": "public.json"
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchAnswerEntity",
+  "coercionIdentifier": "com.apple.siri.pommes"
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchAnswerEntity",
+  "coercionIdentifier": "public.utf8-plain-text"
+ },
+ {
+  "typeId": "com.apple.finder.FINodeEntity",
+  "coercionIdentifier": "public.item"
+ },
+ {
+  "typeId": "com.apple.finder.FINodeEntity",
+  "coercionIdentifier": "public.folder"
+ },
+ {
+  "typeId": "com.apple.findmy.ItemEntity",
+  "coercionIdentifier": "public.json"
+ },
+ {
+  "typeId": "com.apple.iCal.TransferableEventEntity",
+  "coercionIdentifier": "public.json"
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GeneratedText",
+  "coercionIdentifier": "public.html"
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GeneratedText",
+  "coercionIdentifier": "public.rtf"
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GeneratedText",
+  "coercionIdentifier": "com.apple.flat-rtfd"
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GeneratedText",
+  "coercionIdentifier": "public.utf8-plain-text"
+ },
+ {
+  "typeId": "com.apple.intelligenceplatform.IntelligencePlatform.IntelligencePlatformDataActionsAppIntentsExtension.AppUsageResultEntity",
+  "coercionIdentifier": "public.utf8-plain-text"
+ },
+ {
+  "typeId": "com.apple.iCal.TransferableSourceEntity",
+  "coercionIdentifier": "public.json"
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchApplicationRepresentableEntity",
+  "coercionIdentifier": "com.apple.application"
+ },
+ {
+  "typeId": "com.apple.Preview.DocumentEntity",
+  "coercionIdentifier": "public.image"
+ },
+ {
+  "typeId": "com.apple.Preview.DocumentEntity",
+  "coercionIdentifier": "com.adobe.pdf"
+ },
+ {
+  "typeId": "com.apple.omniSearch.SearchToolExtension.SearchGlobalEntity",
+  "coercionIdentifier": "com.apple.siri.pommes"
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GenerativeResponseEntity",
+  "coercionIdentifier": "com.adobe.pdf"
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GenerativeResponseEntity",
+  "coercionIdentifier": "public.text"
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GenerativeResponseEntity",
+  "coercionIdentifier": "public.rtf"
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GenerativeResponseEntity",
+  "coercionIdentifier": "org.webmproject.webp"
+ },
+ {
+  "typeId": "com.apple.GenerativePlaygroundApp.GeneratedImageEntity",
+  "coercionIdentifier": "public.heic"
+ },
+ {
+  "typeId": "com.apple.GenerativePlaygroundApp.GeneratedImageEntity",
+  "coercionIdentifier": "public.png"
+ },
+ {
+  "typeId": "com.apple.generativeassistanttools.GenerativeAssistantExtension.GeneratedImage",
+  "coercionIdentifier": "public.image"
+ },
+ {
+  "typeId": "com.apple.iCal.TransferableCalendarEntity",
+  "coercionIdentifier": "public.json"
+ }
+]

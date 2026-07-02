@@ -1,0 +1,647 @@
+[
+ {
+  "containerId": 1,
+  "locale": "en",
+  "name": "Shortcuts"
+ },
+ {
+  "containerId": 2,
+  "locale": "en",
+  "name": "Notes"
+ },
+ {
+  "containerId": 3,
+  "locale": "en",
+  "name": "System Settings"
+ },
+ {
+  "containerId": 4,
+  "locale": "en",
+  "name": "SearchToolExtension"
+ },
+ {
+  "containerId": 5,
+  "locale": "en",
+  "name": "Contacts"
+ },
+ {
+  "containerId": 6,
+  "locale": "en",
+  "name": "Reminders"
+ },
+ {
+  "containerId": 7,
+  "locale": "en",
+  "name": "ShortcutsActions"
+ },
+ {
+  "containerId": 8,
+  "locale": "en",
+  "name": "Safari"
+ },
+ {
+  "containerId": 9,
+  "locale": "en",
+  "name": "Spotlight"
+ },
+ {
+  "containerId": 10,
+  "locale": "en",
+  "name": "Photos"
+ },
+ {
+  "containerId": 11,
+  "locale": "en",
+  "name": "News"
+ },
+ {
+  "containerId": 12,
+  "locale": "en",
+  "name": "Desktop & Dock"
+ },
+ {
+  "containerId": 13,
+  "locale": "en",
+  "name": "Journal"
+ },
+ {
+  "containerId": 14,
+  "locale": "en",
+  "name": "Voice Memos"
+ },
+ {
+  "containerId": 15,
+  "locale": "en",
+  "name": "Weather"
+ },
+ {
+  "containerId": 16,
+  "locale": "en",
+  "name": "Home"
+ },
+ {
+  "containerId": 17,
+  "locale": "en",
+  "name": "Podcasts"
+ },
+ {
+  "containerId": 18,
+  "locale": "en",
+  "name": "Contacts"
+ },
+ {
+  "containerId": 19,
+  "locale": "en",
+  "name": "Books"
+ },
+ {
+  "containerId": 20,
+  "locale": "en",
+  "name": "Preview"
+ },
+ {
+  "containerId": 21,
+  "locale": "en",
+  "name": "Mail"
+ },
+ {
+  "containerId": 22,
+  "locale": "en",
+  "name": "Find My"
+ },
+ {
+  "containerId": 23,
+  "locale": "en",
+  "name": "AssistantSettingsControls"
+ },
+ {
+  "containerId": 24,
+  "locale": "en",
+  "name": "Calendar"
+ },
+ {
+  "containerId": 25,
+  "locale": "en",
+  "name": "Clock"
+ },
+ {
+  "containerId": 26,
+  "locale": "en",
+  "name": ""
+ },
+ {
+  "containerId": 27,
+  "locale": "en",
+  "name": "Freeform"
+ },
+ {
+  "containerId": 28,
+  "locale": "en",
+  "name": "Screenshot"
+ },
+ {
+  "containerId": 29,
+  "locale": "en",
+  "name": "IntelligencePlatformDataActionsAppIntentsExtension"
+ },
+ {
+  "containerId": 30,
+  "locale": "en",
+  "name": "DoNotDisturbAppIntents"
+ },
+ {
+  "containerId": 31,
+  "locale": "en",
+  "name": "TransparencySettingsIntents"
+ },
+ {
+  "containerId": 32,
+  "locale": "en",
+  "name": "Messages"
+ },
+ {
+  "containerId": 33,
+  "locale": "en",
+  "name": "Stocks"
+ },
+ {
+  "containerId": 34,
+  "locale": "en",
+  "name": "Tips"
+ },
+ {
+  "containerId": 35,
+  "locale": "en",
+  "name": "GenerativeAssistantExtension"
+ },
+ {
+  "containerId": 36,
+  "locale": "en",
+  "name": "Finder"
+ },
+ {
+  "containerId": 37,
+  "locale": "en",
+  "name": "Calculator"
+ },
+ {
+  "containerId": 38,
+  "locale": "en",
+  "name": "WallpaperAgent"
+ },
+ {
+  "containerId": 39,
+  "locale": "en",
+  "name": "com.apple.AppKit"
+ },
+ {
+  "containerId": 40,
+  "locale": "en",
+  "name": "Image Playground"
+ },
+ {
+  "containerId": 41,
+  "locale": "en",
+  "name": "Writing Tools App Intents"
+ },
+ {
+  "containerId": 42,
+  "locale": "en",
+  "name": "FaceTime"
+ },
+ {
+  "containerId": 43,
+  "locale": "en",
+  "name": "GameCenterSettingsExtension"
+ },
+ {
+  "containerId": 44,
+  "locale": "en",
+  "name": "com.apple.-Photos-AppIntents"
+ },
+ {
+  "containerId": 45,
+  "locale": "en",
+  "name": "Magnifier"
+ },
+ {
+  "containerId": 46,
+  "locale": "en",
+  "name": "Print Center"
+ },
+ {
+  "containerId": 47,
+  "locale": "en",
+  "name": ""
+ },
+ {
+  "containerId": 48,
+  "locale": "en",
+  "name": "MediaRemoteAppIntentsExtension"
+ },
+ {
+  "containerId": 49,
+  "locale": "en",
+  "name": "SharingIntents"
+ },
+ {
+  "containerId": 50,
+  "locale": "en",
+  "name": "DoNotDisturbIntents"
+ },
+ {
+  "containerId": 51,
+  "locale": "en",
+  "name": "homed"
+ },
+ {
+  "containerId": 52,
+  "locale": "en",
+  "name": ""
+ },
+ {
+  "containerId": 53,
+  "locale": "en",
+  "name": "App Store"
+ },
+ {
+  "containerId": 54,
+  "locale": "en",
+  "name": ""
+ },
+ {
+  "containerId": 55,
+  "locale": "en",
+  "name": ""
+ },
+ {
+  "containerId": 56,
+  "locale": "en",
+  "name": "intelligenceplatformd"
+ },
+ {
+  "containerId": 57,
+  "locale": "en",
+  "name": ""
+ },
+ {
+  "containerId": 59,
+  "locale": "en",
+  "name": "com.apple.Preferences"
+ },
+ {
+  "containerId": 60,
+  "locale": "en",
+  "name": "com.apple.Translate"
+ },
+ {
+  "containerId": 61,
+  "locale": "en",
+  "name": "UASettingsShortcuts"
+ },
+ {
+  "containerId": 62,
+  "locale": "en",
+  "name": "Music"
+ },
+ {
+  "containerId": 63,
+  "locale": "en",
+  "name": "Bear"
+ },
+ {
+  "containerId": 64,
+  "locale": "en",
+  "name": "Maps"
+ },
+ {
+  "containerId": 65,
+  "locale": "en",
+  "name": "Tweetbot"
+ },
+ {
+  "containerId": 66,
+  "locale": "en",
+  "name": "Day One"
+ },
+ {
+  "containerId": 67,
+  "locale": "en",
+  "name": "Evernote"
+ },
+ {
+  "containerId": 68,
+  "locale": "en",
+  "name": "IntentHandler"
+ },
+ {
+  "containerId": 69,
+  "locale": "en",
+  "name": "Todoist"
+ },
+ {
+  "containerId": 70,
+  "locale": "en",
+  "name": "Opener"
+ },
+ {
+  "containerId": 71,
+  "locale": "en",
+  "name": "Apps"
+ },
+ {
+  "containerId": 72,
+  "locale": "en",
+  "name": "Passwords"
+ },
+ {
+  "containerId": 73,
+  "locale": "en",
+  "name": "WordPress"
+ },
+ {
+  "containerId": 74,
+  "locale": "en",
+  "name": "Blink"
+ },
+ {
+  "containerId": 75,
+  "locale": "en",
+  "name": "Twitter"
+ },
+ {
+  "containerId": 76,
+  "locale": "en",
+  "name": "Dock"
+ },
+ {
+  "containerId": 77,
+  "locale": "en",
+  "name": "Tumblr"
+ },
+ {
+  "containerId": 78,
+  "locale": "en",
+  "name": "Due"
+ },
+ {
+  "containerId": 79,
+  "locale": "en",
+  "name": "com.apple.HomeAppIntentsExtension"
+ },
+ {
+  "containerId": 80,
+  "locale": "en",
+  "name": "Trello"
+ },
+ {
+  "containerId": 81,
+  "locale": "en",
+  "name": "Pocket"
+ },
+ {
+  "containerId": 82,
+  "locale": "en",
+  "name": "Quotebook"
+ },
+ {
+  "containerId": 83,
+  "locale": "en",
+  "name": "Pythonista"
+ },
+ {
+  "containerId": 84,
+  "locale": "en",
+  "name": "LINE"
+ },
+ {
+  "containerId": 85,
+  "locale": "en",
+  "name": "IntelligenceFlowAppIntentsExtension"
+ },
+ {
+  "containerId": 86,
+  "locale": "en",
+  "name": "com.apple.sports"
+ },
+ {
+  "containerId": 87,
+  "locale": "en",
+  "name": "com.apple.MobileStore"
+ },
+ {
+  "containerId": 88,
+  "locale": "en",
+  "name": "Disk Utility"
+ },
+ {
+  "containerId": 89,
+  "locale": "en",
+  "name": "Ulysses"
+ },
+ {
+  "containerId": 90,
+  "locale": "en",
+  "name": "WhatsApp Messenger"
+ },
+ {
+  "containerId": 91,
+  "locale": "en",
+  "name": "Fantastical 2"
+ },
+ {
+  "containerId": 92,
+  "locale": "en",
+  "name": "Ulysses"
+ },
+ {
+  "containerId": 93,
+  "locale": "en",
+  "name": "Things"
+ },
+ {
+  "containerId": 94,
+  "locale": "en",
+  "name": "com.apple.PassKit.PassKitIntentsExtension"
+ },
+ {
+  "containerId": 95,
+  "locale": "en",
+  "name": "WindowManager"
+ },
+ {
+  "containerId": 96,
+  "locale": "en",
+  "name": "Skype"
+ },
+ {
+  "containerId": 97,
+  "locale": "en",
+  "name": "OmniFocus"
+ },
+ {
+  "containerId": 98,
+  "locale": "en",
+  "name": "Tally"
+ },
+ {
+  "containerId": 99,
+  "locale": "en",
+  "name": "Mission Control"
+ },
+ {
+  "containerId": 100,
+  "locale": "en",
+  "name": "Drafts"
+ },
+ {
+  "containerId": 101,
+  "locale": "en",
+  "name": "com.apple.Health"
+ },
+ {
+  "containerId": 102,
+  "locale": "en",
+  "name": "MobileTimerIntents"
+ },
+ {
+  "containerId": 103,
+  "locale": "en",
+  "name": "ControlCenter"
+ },
+ {
+  "containerId": 104,
+  "locale": "en",
+  "name": "Instapaper"
+ },
+ {
+  "containerId": 105,
+  "locale": "en",
+  "name": "Associate"
+ },
+ {
+  "containerId": 106,
+  "locale": "en",
+  "name": "Captio"
+ },
+ {
+  "containerId": 107,
+  "locale": "en",
+  "name": "TextTool"
+ },
+ {
+  "containerId": 108,
+  "locale": "en",
+  "name": "Siri"
+ },
+ {
+  "containerId": 109,
+  "locale": "en",
+  "name": "Clear"
+ },
+ {
+  "containerId": 110,
+  "locale": "en",
+  "name": "Script Editor"
+ },
+ {
+  "containerId": 111,
+  "locale": "en",
+  "name": "GoodReader"
+ },
+ {
+  "containerId": 112,
+  "locale": "en",
+  "name": "Schemes"
+ },
+ {
+  "containerId": 113,
+  "locale": "en",
+  "name": "Editorial"
+ },
+ {
+  "containerId": 114,
+  "locale": "en",
+  "name": "Imgur"
+ },
+ {
+  "containerId": 115,
+  "locale": "en",
+  "name": "2Do"
+ },
+ {
+  "containerId": 116,
+  "locale": "en",
+  "name": "com.apple.camera"
+ },
+ {
+  "containerId": 117,
+  "locale": "en",
+  "name": "com.apple.mobilesafari"
+ },
+ {
+  "containerId": 118,
+  "locale": "en",
+  "name": "Overcast"
+ },
+ {
+  "containerId": 119,
+  "locale": "en",
+  "name": "BlindSquare"
+ },
+ {
+  "containerId": 120,
+  "locale": "en",
+  "name": "Terminal"
+ },
+ {
+  "containerId": 121,
+  "locale": "en",
+  "name": "iTranslate"
+ },
+ {
+  "containerId": 122,
+  "locale": "en",
+  "name": "DeskConnect"
+ },
+ {
+  "containerId": 123,
+  "locale": "en",
+  "name": "Telegram"
+ },
+ {
+  "containerId": 124,
+  "locale": "en",
+  "name": "com.apple.measure"
+ },
+ {
+  "containerId": 125,
+  "locale": "en",
+  "name": "Time Machine"
+ },
+ {
+  "containerId": 126,
+  "locale": "en",
+  "name": "Transmit"
+ },
+ {
+  "containerId": 127,
+  "locale": "en",
+  "name": "Facebook"
+ },
+ {
+  "containerId": 128,
+  "locale": "en",
+  "name": "Google Chrome"
+ },
+ {
+  "containerId": 129,
+  "locale": "en",
+  "name": "The Hit List"
+ },
+ {
+  "containerId": 130,
+  "locale": "en",
+  "name": "USDAppIntents"
+ }
+]

@@ -1,0 +1,3006 @@
+[
+ {
+  "identifier": "MarkupIntent",
+  "toolId": 1
+ },
+ {
+  "identifier": "ScreenSaverNameIntent",
+  "toolId": 2
+ },
+ {
+  "identifier": "PinNotesLinkAction",
+  "toolId": 4
+ },
+ {
+  "identifier": "OpenIDCardBusinessEntityIntent",
+  "toolId": 6
+ },
+ {
+  "identifier": "RecordSelectionIntent",
+  "toolId": 8
+ },
+ {
+  "identifier": "ViewContactCardIntent",
+  "toolId": 11
+ },
+ {
+  "identifier": "FetchConversationIdentifierIntent",
+  "toolId": 13
+ },
+ {
+  "identifier": "UpdateGroupAppIntent",
+  "toolId": 15
+ },
+ {
+  "identifier": "ShowControlCenterAction",
+  "toolId": 18
+ },
+ {
+  "identifier": "QuickWebsiteSearchIntent",
+  "toolId": 19
+ },
+ {
+  "identifier": "OpenBatteryOptionsPaneDynamicDeepLinks",
+  "toolId": 23
+ },
+ {
+  "identifier": "OpenTableLinkAction",
+  "toolId": 24
+ },
+ {
+  "identifier": "RefreshIntent",
+  "toolId": 25
+ },
+ {
+  "identifier": "SearchUIOpenKnowledgeIntent",
+  "toolId": 27
+ },
+ {
+  "identifier": "RenamePersonIntent",
+  "toolId": 28
+ },
+ {
+  "identifier": "OpenDesktopSettingsDeepLink",
+  "toolId": 32
+ },
+ {
+  "identifier": "OpenAccessibilityCaptionsStaticDeepLinks",
+  "toolId": 35
+ },
+ {
+  "identifier": "OpenAccessibilityDisplayStaticDeepLinks",
+  "toolId": 36
+ },
+ {
+  "identifier": "WritingToolsComposeIntent",
+  "toolId": 37
+ },
+ {
+  "identifier": "OpenConfiguredInternetAccountSettings",
+  "toolId": 39
+ },
+ {
+  "identifier": "QuickNoteIntent",
+  "toolId": 45
+ },
+ {
+  "identifier": "OpenBatterySettingsPaneDynamicDeepLinks",
+  "toolId": 46
+ },
+ {
+  "identifier": "CloseNoteLinkAction",
+  "toolId": 48
+ },
+ {
+  "identifier": "OpenFamilySettings",
+  "toolId": 49
+ },
+ {
+  "identifier": "PauseTimerIntent",
+  "toolId": 51
+ },
+ {
+  "identifier": "RemoveSavedLocationIntent",
+  "toolId": 53
+ },
+ {
+  "identifier": "GetInfoIntent",
+  "toolId": 54
+ },
+ {
+  "identifier": "CreateNoteFromMarkdownLinkAction",
+  "toolId": 58
+ },
+ {
+  "identifier": "FollowIntent",
+  "toolId": 60
+ },
+ {
+  "identifier": "ListOfNetworkServersIntent",
+  "toolId": 66
+ },
+ {
+  "identifier": "ShowErrorIntent",
+  "toolId": 68
+ },
+ {
+  "identifier": "OpenArticleIntent",
+  "toolId": 72
+ },
+ {
+  "identifier": "ChangeTrackpadTrackingSpeedIntent",
+  "toolId": 73
+ },
+ {
+  "identifier": "MoveRemindersToListAppIntent",
+  "toolId": 77
+ },
+ {
+  "identifier": "SetMultitaskingModeAction",
+  "toolId": 79
+ },
+ {
+  "identifier": "AirPlayRequiresPasswordIntent",
+  "toolId": 81
+ },
+ {
+  "identifier": "RCControlCenterToggleRecording",
+  "toolId": 86
+ },
+ {
+  "identifier": "AlwaysUseMomentDateIntent",
+  "toolId": 87
+ },
+ {
+  "identifier": "OpenNavigationDestinationAction",
+  "toolId": 88
+ },
+ {
+  "identifier": "OpenDateIntent",
+  "toolId": 93
+ },
+ {
+  "identifier": "CloseTabsAssistantIntent",
+  "toolId": 95
+ },
+ {
+  "identifier": "OpenAutomaticReconnectEntityDeepLink",
+  "toolId": 99
+ },
+ {
+  "identifier": "ShowSpecificStepIntent",
+  "toolId": 102
+ },
+ {
+  "identifier": "CreateFolderIntent",
+  "toolId": 104
+ },
+ {
+  "identifier": "DeleteRemindersAppIntent",
+  "toolId": 107
+ },
+ {
+  "identifier": "MoveRemindersToSectionAppIntent",
+  "toolId": 109
+ },
+ {
+  "identifier": "CreateNoteLinkAction",
+  "toolId": 110
+ },
+ {
+  "identifier": "SetAttachmentSizeLinkAction",
+  "toolId": 115
+ },
+ {
+  "identifier": "PlayPauseStationAppIntent",
+  "toolId": 118
+ },
+ {
+  "identifier": "SelectPersonIntent",
+  "toolId": 120
+ },
+ {
+  "identifier": "PlayAudiobookIntent",
+  "toolId": 123
+ },
+ {
+  "identifier": "DeletePageIntent",
+  "toolId": 130
+ },
+ {
+  "identifier": "ShortcutsFolderConfigurationIntent",
+  "toolId": 133
+ },
+ {
+  "identifier": "CopyEditsIntent",
+  "toolId": 135
+ },
+ {
+  "identifier": "ComposeMessageIntent",
+  "toolId": 136
+ },
+ {
+  "identifier": "ResizeIntent",
+  "toolId": 137
+ },
+ {
+  "identifier": "DeleteFolder",
+  "toolId": 141
+ },
+ {
+  "identifier": "CompleteReminderAppIntent",
+  "toolId": 143
+ },
+ {
+  "identifier": "OpenEventDetailsIntent",
+  "toolId": 148
+ },
+ {
+  "identifier": "SaveDraftIntent",
+  "toolId": 150
+ },
+ {
+  "identifier": "CreateEventIntent",
+  "toolId": 159
+ },
+ {
+  "identifier": "OpenSmartListAppIntent",
+  "toolId": 162
+ },
+ {
+  "identifier": "CreateFolderLinkAction",
+  "toolId": 163
+ },
+ {
+  "identifier": "ChangeRecordingPlaybackSetting",
+  "toolId": 164
+ },
+ {
+  "identifier": "SetParagraphStyleLinkAction",
+  "toolId": 172
+ },
+ {
+  "identifier": "OpenTabGroupForFocus",
+  "toolId": 173
+ },
+ {
+  "identifier": "CreateAlarmIntent",
+  "toolId": 174
+ },
+ {
+  "identifier": "OpenPrinterScannerDeepLinks",
+  "toolId": 175
+ },
+ {
+  "identifier": "ReaderModeIntent",
+  "toolId": 176
+ },
+ {
+  "identifier": "PhotosSetFilterAssistantIntent",
+  "toolId": 182
+ },
+ {
+  "identifier": "OpenMessageURLIntent",
+  "toolId": 183
+ },
+ {
+  "identifier": "StopStopwatchIntent",
+  "toolId": 191
+ },
+ {
+  "identifier": "RecordScreenIntent",
+  "toolId": 193
+ },
+ {
+  "identifier": "SetDockAutoHideEnabledIntent",
+  "toolId": 194
+ },
+ {
+  "identifier": "UnblockIntent",
+  "toolId": 196
+ },
+ {
+  "identifier": "AddFileAttachmentLinkAction",
+  "toolId": 198
+ },
+ {
+  "identifier": "ShowIngredientsAppIntent",
+  "toolId": 201
+ },
+ {
+  "identifier": "PlayPodcastTopHitAction",
+  "toolId": 202
+ },
+ {
+  "identifier": "TTROpenListAppIntent",
+  "toolId": 205
+ },
+ {
+  "identifier": "Intent",
+  "toolId": 207
+ },
+ {
+  "identifier": "UserSSOIntent",
+  "toolId": 208
+ },
+ {
+  "identifier": "CreateAlbumIntent",
+  "toolId": 210
+ },
+ {
+  "identifier": "PhotosToggleDepthAssistantIntent",
+  "toolId": 213
+ },
+ {
+  "identifier": "CRLChangeBoardCanvasGridIntent",
+  "toolId": 214
+ },
+ {
+  "identifier": "DetectDoorsIntent",
+  "toolId": 215
+ },
+ {
+  "identifier": "OpenControlCenterModule",
+  "toolId": 217
+ },
+ {
+  "identifier": "LockMessageIntent",
+  "toolId": 218
+ },
+ {
+  "identifier": "ChangeMouseTrackingSpeedIntent",
+  "toolId": 223
+ },
+ {
+  "identifier": "OpenDateTimeDeepLinks",
+  "toolId": 224
+ },
+ {
+  "identifier": "HomeAppIntentsExtensionTestAppIntent",
+  "toolId": 225
+ },
+ {
+  "identifier": "CRLInsertPhotosToBoardIntent",
+  "toolId": 227
+ },
+ {
+  "identifier": "ChangeSettingLinkAction",
+  "toolId": 228
+ },
+ {
+  "identifier": "OpenUnitsConfigurationIntent",
+  "toolId": 230
+ },
+ {
+  "identifier": "OpenIDCardPersonalEntityIntent",
+  "toolId": 231
+ },
+ {
+  "identifier": "CompleteRemindersAppIntent",
+  "toolId": 233
+ },
+ {
+  "identifier": "DeleteListsAppIntent",
+  "toolId": 234
+ },
+ {
+  "identifier": "OpenDraftURLIntent",
+  "toolId": 238
+ },
+ {
+  "identifier": "RevealPageIntent",
+  "toolId": 240
+ },
+ {
+  "identifier": "SystemSearchIntent",
+  "toolId": 241
+ },
+ {
+  "identifier": "OpenApplicationNotificationsSettings",
+  "toolId": 242
+ },
+ {
+  "identifier": "SetTemperatureUnitIntent",
+  "toolId": 243
+ },
+ {
+  "identifier": "OpenBookmark",
+  "toolId": 246
+ },
+ {
+  "identifier": "DeleteTagsLinkAction",
+  "toolId": 247
+ },
+ {
+  "identifier": "EnableDepthIntent",
+  "toolId": 254
+ },
+ {
+  "identifier": "UserHomeFolderIntent",
+  "toolId": 258
+ },
+ {
+  "identifier": "PointAndSpeakIntent",
+  "toolId": 259
+ },
+ {
+  "identifier": "CustomRecordConfiguration",
+  "toolId": 260
+ },
+ {
+  "identifier": "ShowInstructionsAppIntent",
+  "toolId": 261
+ },
+ {
+  "identifier": "PhotosSetDepthAssistantIntent",
+  "toolId": 264
+ },
+ {
+  "identifier": "SearchSpotlightIntent",
+  "toolId": 265
+ },
+ {
+  "identifier": "OpenKeyboardShortcutEntity",
+  "toolId": 270
+ },
+ {
+  "identifier": "DeleteMessageIntent",
+  "toolId": 271
+ },
+ {
+  "identifier": "GetPagesIntent",
+  "toolId": 273
+ },
+ {
+  "identifier": "OpenAppLocationAppIntent",
+  "toolId": 278
+ },
+ {
+  "identifier": "PlayArticleIntent",
+  "toolId": 282
+ },
+ {
+  "identifier": "PrewarmGenerativeAssistantExtensionIntent",
+  "toolId": 284
+ },
+ {
+  "identifier": "CRLiOSOpenBoardIntent",
+  "toolId": 286
+ },
+ {
+  "identifier": "ChangeFolderSettingLinkAction",
+  "toolId": 287
+ },
+ {
+  "identifier": "OpenVehicleReservationEntityIntent",
+  "toolId": 288
+ },
+ {
+  "identifier": "OpenShareKeyboardEntityDeepLink",
+  "toolId": 290
+ },
+ {
+  "identifier": "CRLAddItemToBoardIntent",
+  "toolId": 293
+ },
+ {
+  "identifier": "ToggleHighPowerModeBatteryNoBatteryIntent",
+  "toolId": 295
+ },
+ {
+  "identifier": "ForwardMessageIntent",
+  "toolId": 296
+ },
+ {
+  "identifier": "OpenMagicEdgeEntityDeepLink",
+  "toolId": 300
+ },
+ {
+  "identifier": "OpenAccessibilityVocalShortcutsStaticDeepLinks",
+  "toolId": 301
+ },
+ {
+  "identifier": "LoadURLInTab",
+  "toolId": 302
+ },
+ {
+  "identifier": "SetExposureIntent",
+  "toolId": 304
+ },
+ {
+  "identifier": "ShowNextStepAppIntent",
+  "toolId": 306
+ },
+ {
+  "identifier": "OpenTwentyFourHourTimeSetting",
+  "toolId": 307
+ },
+ {
+  "identifier": "ShowPasswordHintsIntent",
+  "toolId": 309
+ },
+ {
+  "identifier": "SaveArticleIntent",
+  "toolId": 314
+ },
+ {
+  "identifier": "PersonalKnowledgeTool",
+  "toolId": 315
+ },
+ {
+  "identifier": "OpenURL",
+  "toolId": 318
+ },
+ {
+  "identifier": "UserIsAdminIntent",
+  "toolId": 319
+ },
+ {
+  "identifier": "FindSportsEvents",
+  "toolId": 320
+ },
+ {
+  "identifier": "InsertAllMentionLinkAction",
+  "toolId": 321
+ },
+ {
+  "identifier": "RCImportRecording",
+  "toolId": 324
+ },
+ {
+  "identifier": "SetFocusState",
+  "toolId": 325
+ },
+ {
+  "identifier": "SetShortcutAttributesAction",
+  "toolId": 329
+ },
+ {
+  "identifier": "PlayPauseWidgetIntent",
+  "toolId": 330
+ },
+ {
+  "identifier": "OpenSiriLanguageEntity",
+  "toolId": 335
+ },
+ {
+  "identifier": "OpenMediaEntityIntent",
+  "toolId": 336
+ },
+ {
+  "identifier": "BookReaderNavigatePageInBookIntent",
+  "toolId": 337
+ },
+ {
+  "identifier": "SearchInContactsIntent",
+  "toolId": 339
+ },
+ {
+  "identifier": "SetVoiceDataModeAction",
+  "toolId": 344
+ },
+ {
+  "identifier": "CreateFolder",
+  "toolId": 346
+ },
+ {
+  "identifier": "UnsubscribeMessageIntent",
+  "toolId": 347
+ },
+ {
+  "identifier": "TTRReminderSetCompletedIntent",
+  "toolId": 350
+ },
+ {
+  "identifier": "OpenAccessibilityShortcutStaticDeepLinks",
+  "toolId": 351
+ },
+ {
+  "identifier": "DeleteFoldersLinkAction",
+  "toolId": 353
+ },
+ {
+  "identifier": "AppendMarkdownToNoteLinkAction",
+  "toolId": 357
+ },
+ {
+  "identifier": "DeltaAttributeValueIntent",
+  "toolId": 358
+ },
+ {
+  "identifier": "OpenAccessibilityZoomStaticDeepLinks",
+  "toolId": 361
+ },
+ {
+  "identifier": "SetPrecipitationUnitIntent",
+  "toolId": 362
+ },
+ {
+  "identifier": "InsertNoteLinkLinkAction",
+  "toolId": 363
+ },
+ {
+  "identifier": "PlayMusicTopHitAction",
+  "toolId": 364
+ },
+ {
+  "identifier": "DeleteRecording",
+  "toolId": 370
+ },
+ {
+  "identifier": "OpenTrackpadDeepLinks",
+  "toolId": 371
+ },
+ {
+  "identifier": "AddCurrentLocationIntent",
+  "toolId": 372
+ },
+ {
+  "identifier": "SetChecklistItemCheckedLinkActionv2",
+  "toolId": 373
+ },
+ {
+  "identifier": "GroupMembershipIntent",
+  "toolId": 376
+ },
+ {
+  "identifier": "AutomateAttributeValueIntent",
+  "toolId": 377
+ },
+ {
+  "identifier": "OpenBookmarkAssistantIntent",
+  "toolId": 378
+ },
+ {
+  "identifier": "PhotosCropAssistantIntent",
+  "toolId": 382
+ },
+ {
+  "identifier": "DetectPeopleIntent",
+  "toolId": 384
+ },
+ {
+  "identifier": "OpenTabIntent",
+  "toolId": 386
+ },
+ {
+  "identifier": "SearchPodcastsAppIntent",
+  "toolId": 392
+ },
+ {
+  "identifier": "MoveTabsToTabGroup",
+  "toolId": 397
+ },
+ {
+  "identifier": "SendReplyIntent",
+  "toolId": 398
+ },
+ {
+  "identifier": "AddLinkAttachmentLinkAction",
+  "toolId": 401
+ },
+ {
+  "identifier": "SetDataRoamingAction",
+  "toolId": 408
+ },
+ {
+  "identifier": "CollectionOpenIntent",
+  "toolId": 409
+ },
+ {
+  "identifier": "GetDefaultListAppIntent",
+  "toolId": 410
+ },
+ {
+  "identifier": "PlayArticleIntent",
+  "toolId": 418
+ },
+ {
+  "identifier": "OnScreenContentIntent",
+  "toolId": 419
+ },
+ {
+  "identifier": "RotateIntent",
+  "toolId": 420
+ },
+ {
+  "identifier": "OpenMouseDeepLink",
+  "toolId": 424
+ },
+ {
+  "identifier": "ExportIntent",
+  "toolId": 426
+ },
+ {
+  "identifier": "OpenFolder",
+  "toolId": 430
+ },
+ {
+  "identifier": "TrashItemsIntent",
+  "toolId": 433
+ },
+ {
+  "identifier": "ShowNotesAppSearchResultsLinkAction",
+  "toolId": 437
+ },
+ {
+  "identifier": "OpenAirDropHandoffDeepLinks",
+  "toolId": 438
+ },
+ {
+  "identifier": "UpdateMessageIntent",
+  "toolId": 439
+ },
+ {
+  "identifier": "GenerateRichContentIntent",
+  "toolId": 445
+ },
+ {
+  "identifier": "AddShortcutToHomeScreenAction",
+  "toolId": 449
+ },
+ {
+  "identifier": "DeviceSSOIntent",
+  "toolId": 451
+ },
+ {
+  "identifier": "GetLocationIntent",
+  "toolId": 452
+ },
+ {
+  "identifier": "AddAssetsToAlbumIntent",
+  "toolId": 453
+ },
+ {
+  "identifier": "ListOfAccountsIntent",
+  "toolId": 454
+ },
+ {
+  "identifier": "ShowLargeClockIntent",
+  "toolId": 456
+ },
+ {
+  "identifier": "AddWorldClockIntent",
+  "toolId": 459
+ },
+ {
+  "identifier": "OpenReminderAppIntent",
+  "toolId": 466
+ },
+ {
+  "identifier": "OpenSpecificBookIntent",
+  "toolId": 468
+ },
+ {
+  "identifier": "BookmarkURLIntent",
+  "toolId": 469
+ },
+ {
+  "identifier": "OpenSavedIntent",
+  "toolId": 470
+ },
+ {
+  "identifier": "SetSaturationIntent",
+  "toolId": 474
+ },
+ {
+  "identifier": "StartFaceTimeCallTopHitAction",
+  "toolId": 475
+ },
+ {
+  "identifier": "MissionControlAction",
+  "toolId": 478
+ },
+ {
+  "identifier": "UpdateSmartListIsHiddenAppIntent",
+  "toolId": 482
+ },
+ {
+  "identifier": "OpenSoundSettingsFeedbackSoundEntity",
+  "toolId": 485
+ },
+ {
+  "identifier": "OpenAccessibilitySpokenContentStaticDeepLinks",
+  "toolId": 486
+ },
+ {
+  "identifier": "StartRecordingLinkAction",
+  "toolId": 487
+ },
+ {
+  "identifier": "OpenUsersGroupsDeepLinks",
+  "toolId": 491
+ },
+ {
+  "identifier": "MoveNotesToFolderLinkAction",
+  "toolId": 494
+ },
+ {
+  "identifier": "CancelPrintJob",
+  "toolId": 495
+ },
+ {
+  "identifier": "OpenSpotlightSettingsDeepLinks",
+  "toolId": 496
+ },
+ {
+  "identifier": "UpdateContactIntent",
+  "toolId": 497
+ },
+ {
+  "identifier": "GetSelectedItemsIntent",
+  "toolId": 501
+ },
+ {
+  "identifier": "OpenAutoBrightnessEntityDeepLink",
+  "toolId": 502
+ },
+ {
+  "identifier": "AppendToNoteLinkAction",
+  "toolId": 504
+ },
+ {
+  "identifier": "LaunchCalculatorOpenIntent",
+  "toolId": 505
+ },
+ {
+  "identifier": "OpenWatchlistIntent",
+  "toolId": 506
+ },
+ {
+  "identifier": "CreateShortcutiCloudLinkAction",
+  "toolId": 509
+ },
+ {
+  "identifier": "SkipShuffledContentAction",
+  "toolId": 513
+ },
+ {
+  "identifier": "OpenAccessibilityVoiceControlStaticDeepLinks",
+  "toolId": 518
+ },
+ {
+  "identifier": "GuestParentalControlStatusIntent",
+  "toolId": 519
+ },
+ {
+  "identifier": "ChangeFontSizeIntent",
+  "toolId": 522
+ },
+ {
+  "identifier": "RemoveTapbackIntent",
+  "toolId": 523
+ },
+ {
+  "identifier": "AutoEnhanceIntent",
+  "toolId": 525
+ },
+ {
+  "identifier": "ShowDetailsAppIntent",
+  "toolId": 528
+ },
+ {
+  "identifier": "OpenFamilySetup",
+  "toolId": 530
+ },
+ {
+  "identifier": "SearchRecordings",
+  "toolId": 531
+ },
+ {
+  "identifier": "OpenStaticFeed",
+  "toolId": 537
+ },
+ {
+  "identifier": "HandoffIntent",
+  "toolId": 538
+ },
+ {
+  "identifier": "CRLChangeSelectionFontSizeIntent",
+  "toolId": 539
+ },
+ {
+  "identifier": "PhotosUpdateAssetAssistantIntent",
+  "toolId": 540
+ },
+ {
+  "identifier": "ShowDesktopAction",
+  "toolId": 541
+ },
+ {
+  "identifier": "SetWallpaperIntent",
+  "toolId": 544
+ },
+ {
+  "identifier": "RemoveWorldClockIntent",
+  "toolId": 546
+ },
+ {
+  "identifier": "OpenSoundSettingsDeepLinks",
+  "toolId": 547
+ },
+ {
+  "identifier": "GoToLocationIntent",
+  "toolId": 548
+ },
+ {
+  "identifier": "AddOrRemoveNoteLockLinkAction",
+  "toolId": 549
+ },
+ {
+  "identifier": "StageManagerToggleIntent",
+  "toolId": 550
+ },
+ {
+  "identifier": "CloseWindowsIntent",
+  "toolId": 556
+ },
+ {
+  "identifier": "CRLChangeBoardObjectConnectorsIntent",
+  "toolId": 557
+ },
+ {
+  "identifier": "ToggleIntent",
+  "toolId": 558
+ },
+ {
+  "identifier": "OpenCalendarViewIntent",
+  "toolId": 559
+ },
+ {
+  "identifier": "StraightenIntent",
+  "toolId": 561
+ },
+ {
+  "identifier": "RunIntelligenceCommand",
+  "toolId": 563
+ },
+ {
+  "identifier": "OpenSiriSuggestionsShowInAppEntity",
+  "toolId": 568
+ },
+ {
+  "identifier": "ShowPreviousStepAppIntent",
+  "toolId": 571
+ },
+ {
+  "identifier": "OpenRecipeIntent",
+  "toolId": 578
+ },
+ {
+  "identifier": "DeleteConversationIntent",
+  "toolId": 582
+ },
+ {
+  "identifier": "CRLOpenBoardIntent",
+  "toolId": 583
+ },
+ {
+  "identifier": "MoveShortcutToFolderAction",
+  "toolId": 588
+ },
+ {
+  "identifier": "ClearSpotlightIntent",
+  "toolId": 590
+ },
+ {
+  "identifier": "ToggleHighPowerModeOnBatteryIntent",
+  "toolId": 592
+ },
+ {
+  "identifier": "StreaksWidgetConfigurationIntent",
+  "toolId": 594
+ },
+ {
+  "identifier": "AutomateSceneIntent",
+  "toolId": 596
+ },
+ {
+  "identifier": "DecreaseTextSizeIntent",
+  "toolId": 601
+ },
+ {
+  "identifier": "OpenStaticFeed",
+  "toolId": 602
+ },
+ {
+  "identifier": "ToggleLowPowerModeIntent",
+  "toolId": 603
+ },
+ {
+  "identifier": "OpenAlarmIntent",
+  "toolId": 607
+ },
+ {
+  "identifier": "OpenAppLocationLinkAction",
+  "toolId": 609
+ },
+ {
+  "identifier": "FavoritePeopleIntent",
+  "toolId": 613
+ },
+ {
+  "identifier": "SkipJournalingSuggestionsIntent",
+  "toolId": 614
+ },
+ {
+  "identifier": "ShowDeviceResultIntent",
+  "toolId": 617
+ },
+ {
+  "identifier": "SaveRecipeAppIntent",
+  "toolId": 623
+ },
+ {
+  "identifier": "CompressItemsIntent",
+  "toolId": 625
+ },
+ {
+  "identifier": "UtilityRateInfoWidgetConfiguration",
+  "toolId": 630
+ },
+ {
+  "identifier": "PhotosReliveWidgetFeaturedConfiguration",
+  "toolId": 631
+ },
+ {
+  "identifier": "CRLAddTextToBoardIntent",
+  "toolId": 632
+ },
+ {
+  "identifier": "OpenItemIntent",
+  "toolId": 633
+ },
+ {
+  "identifier": "OpenAccessibilityPointerControlStaticDeepLinks",
+  "toolId": 636
+ },
+ {
+  "identifier": "BookmarkTabIntent",
+  "toolId": 640
+ },
+ {
+  "identifier": "AirPlayIntent",
+  "toolId": 642
+ },
+ {
+  "identifier": "StartCookingAppIntent",
+  "toolId": 644
+ },
+ {
+  "identifier": "HistoricalUsageWidgetConfiguration",
+  "toolId": 647
+ },
+ {
+  "identifier": "CRLCreateBoardIntent",
+  "toolId": 651
+ },
+ {
+  "identifier": "FormatListIntent",
+  "toolId": 652
+ },
+ {
+  "identifier": "PhotosDuplicateAssetsAssistantIntent",
+  "toolId": 653
+ },
+ {
+  "identifier": "OpenVoiceFeedbackToggleEntity",
+  "toolId": 656
+ },
+ {
+  "identifier": "OpenTrueToneEntityDeepLink",
+  "toolId": 659
+ },
+ {
+  "identifier": "OpenVPNDeepLink",
+  "toolId": 661
+ },
+ {
+  "identifier": "GetRecentRecipesAppIntent",
+  "toolId": 664
+ },
+ {
+  "identifier": "OpenAlbumIntent",
+  "toolId": 665
+ },
+ {
+  "identifier": "PlaybackVoiceMemoIntent",
+  "toolId": 666
+ },
+ {
+  "identifier": "LockScreenIntent",
+  "toolId": 668
+ },
+ {
+  "identifier": "OpenAccessibilityMotionStaticDeepLinks",
+  "toolId": 669
+ },
+ {
+  "identifier": "OpenTopLevelFolderLinkAction",
+  "toolId": 671
+ },
+ {
+  "identifier": "OpenAboutSettingsStaticDeepLinks",
+  "toolId": 672
+ },
+ {
+  "identifier": "SearchToolControl",
+  "toolId": 675
+ },
+ {
+  "identifier": "OpenEpisodeAppIntent",
+  "toolId": 677
+ },
+ {
+  "identifier": "ConversationListFocusFilterAction",
+  "toolId": 678
+ },
+ {
+  "identifier": "OpenHistoryIntent",
+  "toolId": 680
+ },
+ {
+  "identifier": "OpenAccountLinkAction",
+  "toolId": 681
+ },
+ {
+  "identifier": "FetchIntelligenceCommands",
+  "toolId": 682
+ },
+ {
+  "identifier": "OpenAssetIntent",
+  "toolId": 683
+ },
+ {
+  "identifier": "RunIntelligenceCommandForKey",
+  "toolId": 686
+ },
+ {
+  "identifier": "OpenNotificationsConfigurationIntent",
+  "toolId": 691
+ },
+ {
+  "identifier": "OpenSavedIntent",
+  "toolId": 692
+ },
+ {
+  "identifier": "DetectFurnitureIntent",
+  "toolId": 697
+ },
+ {
+  "identifier": "CreateTableLinkAction",
+  "toolId": 698
+ },
+ {
+  "identifier": "EditEventIntent_v0",
+  "toolId": 699
+ },
+ {
+  "identifier": "TileControlAction",
+  "toolId": 701
+ },
+ {
+  "identifier": "OpenWallpaperDeepLinks",
+  "toolId": 702
+ },
+ {
+  "identifier": "IdentifierIntent",
+  "toolId": 707
+ },
+ {
+  "identifier": "CloseView",
+  "toolId": 708
+ },
+ {
+  "identifier": "SetTrueToneEnabledIntent",
+  "toolId": 709
+ },
+ {
+  "identifier": "ToggleSpotlightIntent",
+  "toolId": 710
+ },
+ {
+  "identifier": "OpenTransparencyPublicVerificationCodeDeepLink",
+  "toolId": 712
+ },
+ {
+  "identifier": "OpenAccessibilityHearingDevicesStaticDeepLinks",
+  "toolId": 714
+ },
+ {
+  "identifier": "DeleteRemindersListGroupsAppIntent",
+  "toolId": 716
+ },
+ {
+  "identifier": "DeleteAssetsIntent",
+  "toolId": 717
+ },
+ {
+  "identifier": "OpenEventEditorIntent",
+  "toolId": 724
+ },
+ {
+  "identifier": "FavoriteMemoriesIntent",
+  "toolId": 725
+ },
+ {
+  "identifier": "BlockSenderIntent",
+  "toolId": 726
+ },
+ {
+  "identifier": "DeleteAlarmIntent",
+  "toolId": 727
+ },
+ {
+  "identifier": "OpenChecklistItemLinkAction",
+  "toolId": 733
+ },
+ {
+  "identifier": "PhotosAddAssetsToAlbumAssistantIntent",
+  "toolId": 734
+ },
+ {
+  "identifier": "OpenTabGroup",
+  "toolId": 735
+ },
+ {
+  "identifier": "FindOnPage",
+  "toolId": 738
+ },
+ {
+  "identifier": "OpenAccessibilityLiveSpeechStaticDeepLinks",
+  "toolId": 741
+ },
+ {
+  "identifier": "GetAttributeValueIntent",
+  "toolId": 744
+ },
+ {
+  "identifier": "CreateSectionAppIntent",
+  "toolId": 745
+ },
+ {
+  "identifier": "CreateEventIntent_v0",
+  "toolId": 747
+ },
+ {
+  "identifier": "StartStopwatchIntent",
+  "toolId": 749
+ },
+ {
+  "identifier": "MailFocusConfigurationAction",
+  "toolId": 753
+ },
+ {
+  "identifier": "DeleteDraftIntent",
+  "toolId": 754
+ },
+ {
+  "identifier": "CreateWorkflowAction",
+  "toolId": 757
+ },
+ {
+  "identifier": "OpenAccessibilityLiveCaptionsStaticDeepLinks",
+  "toolId": 760
+ },
+ {
+  "identifier": "BackgroundLoginItemsIntent",
+  "toolId": 761
+ },
+ {
+  "identifier": "BlockIntent",
+  "toolId": 766
+ },
+ {
+  "identifier": "CRLInsertTextToBoardIntent",
+  "toolId": 767
+ },
+ {
+  "identifier": "ToggleAudioPlaybackIntent",
+  "toolId": 769
+ },
+ {
+  "identifier": "ProofreadIntent",
+  "toolId": 774
+ },
+ {
+  "identifier": "ArchiveMessageIntent",
+  "toolId": 776
+ },
+ {
+  "identifier": "ApplyFilterIntent",
+  "toolId": 780
+ },
+ {
+  "identifier": "OpenURLInHomeIntent",
+  "toolId": 781
+ },
+ {
+  "identifier": "OpenSiriSuggestionsAndPrivacyForAppEntity",
+  "toolId": 784
+ },
+ {
+  "identifier": "AddSymbolToWatchlistIntent",
+  "toolId": 785
+ },
+ {
+  "identifier": "OpenDesktopSettingsDeepLink",
+  "toolId": 786
+ },
+ {
+  "identifier": "RevealItemsIntent",
+  "toolId": 789
+ },
+ {
+  "identifier": "OpenSoundSettingsStartupSoundEntity",
+  "toolId": 790
+ },
+ {
+  "identifier": "OpenFeedIntent",
+  "toolId": 791
+ },
+ {
+  "identifier": "BookReaderChangeThemeIntent",
+  "toolId": 795
+ },
+ {
+  "identifier": "CancelDraftIntent",
+  "toolId": 798
+ },
+ {
+  "identifier": "CreateContactIntent",
+  "toolId": 800
+ },
+ {
+  "identifier": "CRLInsertURLToBoardIntent",
+  "toolId": 811
+ },
+ {
+  "identifier": "MuteConversationIntent",
+  "toolId": 812
+ },
+ {
+  "identifier": "OpenDesktopSettingsEntity",
+  "toolId": 814
+ },
+ {
+  "identifier": "PlayAudioIntent",
+  "toolId": 817
+ },
+ {
+  "identifier": "OpenTabBarItemIntent",
+  "toolId": 820
+ },
+ {
+  "identifier": "SearchInBrowserIntent",
+  "toolId": 821
+ },
+ {
+  "identifier": "OpenSearchSpotlightEntityIntent",
+  "toolId": 822
+ },
+ {
+  "identifier": "StocksOverviewIntent",
+  "toolId": 824
+ },
+ {
+  "identifier": "EmailOrganizerIntent",
+  "toolId": 827
+ },
+ {
+  "identifier": "GetLinkedNotesLinkAction",
+  "toolId": 829
+ },
+ {
+  "identifier": "OpenClassKitAppIntentsDeepLinks",
+  "toolId": 832
+ },
+ {
+  "identifier": "SetNightShiftEnabledIntent",
+  "toolId": 835
+ },
+ {
+  "identifier": "UpdateListAppIntent",
+  "toolId": 837
+ },
+ {
+  "identifier": "OpenDockSettingsEntity",
+  "toolId": 838
+ },
+ {
+  "identifier": "GenerateImageIntent",
+  "toolId": 840
+ },
+ {
+  "identifier": "OpenFolderLinkAction",
+  "toolId": 845
+ },
+ {
+  "identifier": "ErrorIntent",
+  "toolId": 847
+ },
+ {
+  "identifier": "OpenTableOfContentsIntent",
+  "toolId": 852
+ },
+ {
+  "identifier": "OpenGenericEventEntityIntent",
+  "toolId": 853
+ },
+ {
+  "identifier": "ScreenSaverIntent",
+  "toolId": 856
+ },
+ {
+  "identifier": "StartFaceTimeVideoCallTopHitAction",
+  "toolId": 859
+ },
+ {
+  "identifier": "OpenBiometricsAndPasswordSettingsEntityDeepLinks",
+  "toolId": 863
+ },
+ {
+  "identifier": "OpenConversationIntent",
+  "toolId": 865
+ },
+ {
+  "identifier": "AdjustToneIntent",
+  "toolId": 866
+ },
+ {
+  "identifier": "IncreaseTextSizeIntent",
+  "toolId": 870
+ },
+ {
+  "identifier": "OpenChannelAppIntent",
+  "toolId": 871
+ },
+ {
+  "identifier": "CRLInsertFilesToBoardIntent",
+  "toolId": 873
+ },
+ {
+  "identifier": "AudiobookSleepTimerIntent",
+  "toolId": 874
+ },
+ {
+  "identifier": "AppExposeAction",
+  "toolId": 877
+ },
+ {
+  "identifier": "RespondToInboxItemIntent",
+  "toolId": 878
+ },
+ {
+  "identifier": "OpenFamilyMemberSettings",
+  "toolId": 879
+ },
+ {
+  "identifier": "OpenLoginItemsDeepLinks",
+  "toolId": 888
+ },
+ {
+  "identifier": "StopRecording",
+  "toolId": 889
+ },
+ {
+  "identifier": "BookmarkIntent",
+  "toolId": 890
+ },
+ {
+  "identifier": "HomeXLModuleConfigurationIntent",
+  "toolId": 891
+ },
+ {
+  "identifier": "TTRSearchRemindersAppIntent",
+  "toolId": 893
+ },
+ {
+  "identifier": "MagnifierIntent",
+  "toolId": 897
+ },
+ {
+  "identifier": "FetchTransferableEventByURLIntent",
+  "toolId": 899
+ },
+ {
+  "identifier": "DeleteTablesLinkAction",
+  "toolId": 902
+ },
+ {
+  "identifier": "ApplyFormattingLinkAction",
+  "toolId": 904
+ },
+ {
+  "identifier": "FormatTableIntent",
+  "toolId": 906
+ },
+ {
+  "identifier": "OpenWindowsSettingsEntity",
+  "toolId": 907
+ },
+ {
+  "identifier": "SetDefaultCellularPlanAction",
+  "toolId": 910
+ },
+ {
+  "identifier": "SetSilentModeAction",
+  "toolId": 914
+ },
+ {
+  "identifier": "GetOrientationAction",
+  "toolId": 915
+ },
+ {
+  "identifier": "AutoLoginIntent",
+  "toolId": 916
+ },
+ {
+  "identifier": "PhotosUpdateAlbumAssistantIntent",
+  "toolId": 917
+ },
+ {
+  "identifier": "OpenAccessibilitySwitchControlStaticDeepLinks",
+  "toolId": 919
+ },
+ {
+  "identifier": "CornersTileAction",
+  "toolId": 920
+ },
+ {
+  "identifier": "OpenAlwaysPrintSiriResponseEntity",
+  "toolId": 926
+ },
+ {
+  "identifier": "StockIntent",
+  "toolId": 932
+ },
+ {
+  "identifier": "ToggleAlarmIntent",
+  "toolId": 933
+ },
+ {
+  "identifier": "OpenNetworkSettingsDeepLinks",
+  "toolId": 934
+ },
+ {
+  "identifier": "UndoSendMessageIntent",
+  "toolId": 935
+ },
+ {
+  "identifier": "UpdateBookSettingsIntent",
+  "toolId": 936
+ },
+ {
+  "identifier": "OpenAccessibilityHoverTextStaticDeepLinks",
+  "toolId": 942
+ },
+ {
+  "identifier": "ForecastWidgetConfiguration",
+  "toolId": 943
+ },
+ {
+  "identifier": "SearchIntent",
+  "toolId": 945
+ },
+ {
+  "identifier": "DeleteBookmarks",
+  "toolId": 949
+ },
+ {
+  "identifier": "MoveAssetsToSharedLibraryIntent",
+  "toolId": 952
+ },
+ {
+  "identifier": "RenameShortcutAction",
+  "toolId": 953
+ },
+ {
+  "identifier": "ToggleControlConfigurationIntent",
+  "toolId": 956
+ },
+ {
+  "identifier": "ResetCellularDataStatisticsAction",
+  "toolId": 958
+ },
+ {
+  "identifier": "UserLoginItemsIntent",
+  "toolId": 962
+ },
+ {
+  "identifier": "OpenFocusSettingsDynamicDeepLinks",
+  "toolId": 963
+ },
+ {
+  "identifier": "OpenMessageIntent",
+  "toolId": 964
+ },
+ {
+  "identifier": "UserGroupIntent",
+  "toolId": 968
+ },
+ {
+  "identifier": "BlockIntent",
+  "toolId": 971
+ },
+ {
+  "identifier": "SelectLibraryListAppIntent",
+  "toolId": 972
+ },
+ {
+  "identifier": "CRLUtilitiesIntent",
+  "toolId": 975
+ },
+ {
+  "identifier": "GuestIntent",
+  "toolId": 980
+ },
+ {
+  "identifier": "SearchEntriesIntent",
+  "toolId": 984
+ },
+ {
+  "identifier": "RevealAlbumsIntent",
+  "toolId": 985
+ },
+ {
+  "identifier": "RenameItemIntent",
+  "toolId": 987
+ },
+ {
+  "identifier": "OpenWidgetSettingsEntity",
+  "toolId": 989
+ },
+ {
+  "identifier": "DeleteWatchlistsIntent",
+  "toolId": 991
+ },
+ {
+  "identifier": "CreateTabAssistantIntent",
+  "toolId": 993
+ },
+ {
+  "identifier": "OpenView",
+  "toolId": 994
+ },
+ {
+  "identifier": "OpenSavedRecipesIntent",
+  "toolId": 997
+ },
+ {
+  "identifier": "OpenSUSDeepLinks",
+  "toolId": 1002
+ },
+ {
+  "identifier": "SaveIntent",
+  "toolId": 1004
+ },
+ {
+  "identifier": "FilterLibraryIntent",
+  "toolId": 1006
+ },
+ {
+  "identifier": "GetTimeForCityIntent",
+  "toolId": 1007
+ },
+ {
+  "identifier": "CRLFavoriteBoardIntent_v2",
+  "toolId": 1008
+ },
+ {
+  "identifier": "CloseAppLocationLinkAction",
+  "toolId": 1014
+ },
+ {
+  "identifier": "DeleteEventIntent_v0",
+  "toolId": 1015
+ },
+ {
+  "identifier": "OpenAppearanceSettingsDeepLink",
+  "toolId": 1017
+ },
+ {
+  "identifier": "PLPhotosReliveWidgetConfigurationIntent",
+  "toolId": 1018
+ },
+ {
+  "identifier": "AirPlayReceiverIntent",
+  "toolId": 1020
+ },
+ {
+  "identifier": "OpenStartupDiskStaticDeepLinks",
+  "toolId": 1023
+ },
+ {
+  "identifier": "RemoveBackgroundIntent",
+  "toolId": 1024
+ },
+ {
+  "identifier": "PhotosPasteEditsAssistantIntent",
+  "toolId": 1026
+ },
+ {
+  "identifier": "UnsaveArticleIntent",
+  "toolId": 1029
+ },
+ {
+  "identifier": "DeleteAlbumsIntent",
+  "toolId": 1030
+ },
+ {
+  "identifier": "CloseIntent",
+  "toolId": 1031
+ },
+ {
+  "identifier": "OpenGameCenterSettingsDeepLinks",
+  "toolId": 1032
+ },
+ {
+  "identifier": "OpenTicketedShowEntityIntent",
+  "toolId": 1033
+ },
+ {
+  "identifier": "GetDeviceInfoIntent",
+  "toolId": 1034
+ },
+ {
+  "identifier": "PauseCurrentAudiobookIntent",
+  "toolId": 1035
+ },
+ {
+  "identifier": "EditEventIntent",
+  "toolId": 1040
+ },
+ {
+  "identifier": "PhotosStraightenAssistantIntent",
+  "toolId": 1041
+ },
+ {
+  "identifier": "CancelTimerIntent",
+  "toolId": 1044
+ },
+ {
+  "identifier": "OpenTheCurrentDateTimeSetting",
+  "toolId": 1045
+ },
+ {
+  "identifier": "FollowShowAppIntent",
+  "toolId": 1046
+ },
+ {
+  "identifier": "DetectTextIntent",
+  "toolId": 1047
+ },
+ {
+  "identifier": "OpenAccessibilityPersonalVoiceStaticDeepLinks",
+  "toolId": 1048
+ },
+ {
+  "identifier": "GoToEnclosingFolderIntent",
+  "toolId": 1051
+ },
+ {
+  "identifier": "GuestStatusIntent",
+  "toolId": 1053
+ },
+ {
+  "identifier": "OpenStorageSettingsDeeplinks",
+  "toolId": 1054
+ },
+ {
+  "identifier": "OpenAccessibilityVoiceOverStaticDeepLinks",
+  "toolId": 1056
+ },
+ {
+  "identifier": "CloseTab",
+  "toolId": 1057
+ },
+ {
+  "identifier": "FetchContactAvatarIntent",
+  "toolId": 1058
+ },
+ {
+  "identifier": "SetMailMessageIsRead",
+  "toolId": 1059
+ },
+ {
+  "identifier": "SearchMailIntent",
+  "toolId": 1060
+ },
+ {
+  "identifier": "SetPressureUnitIntent",
+  "toolId": 1063
+ },
+ {
+  "identifier": "OpenCurrentTimeZoneSetting",
+  "toolId": 1066
+ },
+ {
+  "identifier": "DecreaseTextSizeIntent",
+  "toolId": 1070
+ },
+ {
+  "identifier": "OpenWeatherAirQualityIntent",
+  "toolId": 1071
+ },
+ {
+  "identifier": "ReplaceSelectionLinkAction",
+  "toolId": 1072
+ },
+ {
+  "identifier": "MarkConversationAsUnreadIntent",
+  "toolId": 1075
+ },
+ {
+  "identifier": "OpenHistoryIntent",
+  "toolId": 1077
+ },
+ {
+  "identifier": "RemoveTagsFromNotesLinkAction",
+  "toolId": 1078
+ },
+ {
+  "identifier": "ShowQuickNoteIntent",
+  "toolId": 1082
+ },
+ {
+  "identifier": "OpenInternetAccountsSettings",
+  "toolId": 1086
+ },
+ {
+  "identifier": "WritingToolsRewriteIntent",
+  "toolId": 1087
+ },
+ {
+  "identifier": "WritingToolsProofreadIntent",
+  "toolId": 1091
+ },
+ {
+  "identifier": "ResetUnitsIntent",
+  "toolId": 1092
+ },
+ {
+  "identifier": "OpenLockScreenDeepLinks",
+  "toolId": 1094
+ },
+ {
+  "identifier": "OpenSavedRecipesIntent",
+  "toolId": 1101
+ },
+ {
+  "identifier": "OpenResetAnalyticsIdentifierEntity",
+  "toolId": 1102
+ },
+ {
+  "identifier": "OpenMemoryCreationViewIntent",
+  "toolId": 1107
+ },
+ {
+  "identifier": "AddSavedLocationIntent",
+  "toolId": 1109
+ },
+ {
+  "identifier": "SetApertureIntent",
+  "toolId": 1113
+ },
+ {
+  "identifier": "UpdateSectionAppIntent",
+  "toolId": 1115
+ },
+ {
+  "identifier": "RewriteTextIntent",
+  "toolId": 1116
+ },
+ {
+  "identifier": "CRLResizeSelectionFontIntent_v2",
+  "toolId": 1121
+ },
+ {
+  "identifier": "FetchMutedConversationListIntent",
+  "toolId": 1123
+ },
+ {
+  "identifier": "DescribeThisIntent",
+  "toolId": 1128
+ },
+ {
+  "identifier": "UnsaveArticleIntent",
+  "toolId": 1129
+ },
+ {
+  "identifier": "DisplaySleepIntent",
+  "toolId": 1130
+ },
+ {
+  "identifier": "RevealAssetsIntent",
+  "toolId": 1134
+ },
+ {
+  "identifier": "InsertIntelligenceText",
+  "toolId": 1138
+ },
+ {
+  "identifier": "TranscribeAudioAction",
+  "toolId": 1141
+ },
+ {
+  "identifier": "OpenNotificationCenterEntity",
+  "toolId": 1146
+ },
+ {
+  "identifier": "CopyItemsIntent",
+  "toolId": 1147
+ },
+ {
+  "identifier": "CreateChecklistItemLinkAction",
+  "toolId": 1151
+ },
+ {
+  "identifier": "OpenTagLinkAction",
+  "toolId": 1153
+ },
+ {
+  "identifier": "OpenTransparencyStatusDeepLink",
+  "toolId": 1157
+ },
+ {
+  "identifier": "SelectWidgetShowAppIntent",
+  "toolId": 1159
+ },
+ {
+  "identifier": "CRLDeleteBoardIntent",
+  "toolId": 1165
+ },
+ {
+  "identifier": "OpenAccessibilityRootStaticDeepLinks",
+  "toolId": 1171
+ },
+ {
+  "identifier": "OpenAutomaticallySetTimeZoneSetting",
+  "toolId": 1175
+ },
+ {
+  "identifier": "UnsaveRecipeAppIntent",
+  "toolId": 1176
+ },
+ {
+  "identifier": "ToggleRecording",
+  "toolId": 1181
+ },
+ {
+  "identifier": "OpenAccessibilityRTTStaticDeepLinks",
+  "toolId": 1185
+ },
+ {
+  "identifier": "OpenAutomaticallySetDateTimeSetting",
+  "toolId": 1186
+ },
+ {
+  "identifier": "ShowSceneResultIntent",
+  "toolId": 1187
+ },
+ {
+  "identifier": "OpenEntryEntityIntent",
+  "toolId": 1188
+ },
+ {
+  "identifier": "CRLChangeSelectionFontStyleIntent",
+  "toolId": 1192
+ },
+ {
+  "identifier": "DeleteEventIntent",
+  "toolId": 1194
+ },
+ {
+  "identifier": "SearchShortcutsAction",
+  "toolId": 1195
+ },
+ {
+  "identifier": "RunShortcutConfigurationIntent",
+  "toolId": 1196
+ },
+ {
+  "identifier": "OpenFamilySubscriptions",
+  "toolId": 1199
+ },
+ {
+  "identifier": "LapStopwatchIntent",
+  "toolId": 1200
+ },
+ {
+  "identifier": "DeleteTabGroups",
+  "toolId": 1201
+ },
+ {
+  "identifier": "PHWorkaroundFor146914251Intent",
+  "toolId": 1207
+ },
+ {
+  "identifier": "OpenNoteLinkAction",
+  "toolId": 1210
+ },
+ {
+  "identifier": "GenerateKnowledgeResponseIntent",
+  "toolId": 1212
+ },
+ {
+  "identifier": "PhotosDeleteAssetsAssistantIntent",
+  "toolId": 1214
+ },
+ {
+  "identifier": "OpenSymbolIntent",
+  "toolId": 1216
+ },
+ {
+  "identifier": "CreateGroupAppIntent",
+  "toolId": 1218
+ },
+ {
+  "identifier": "SelectRecording",
+  "toolId": 1220
+ },
+ {
+  "identifier": "SetBatteryChargeLimitAction",
+  "toolId": 1225
+ },
+ {
+  "identifier": "OpenWeatherSpecificConditionIntent",
+  "toolId": 1227
+ },
+ {
+  "identifier": "CaptureSelectionIntent",
+  "toolId": 1229
+ },
+ {
+  "identifier": "OpenConversationListIntent",
+  "toolId": 1230
+ },
+ {
+  "identifier": "TTRCreateListAppIntent",
+  "toolId": 1233
+ },
+ {
+  "identifier": "SendDraftIntent",
+  "toolId": 1234
+ },
+ {
+  "identifier": "OpenDestinationIntent",
+  "toolId": 1235
+ },
+ {
+  "identifier": "OpenAccessibilityKeyboardStaticDeepLinks",
+  "toolId": 1236
+ },
+ {
+  "identifier": "CreateEntryAudioIntent",
+  "toolId": 1240
+ },
+ {
+  "identifier": "PhotosSetRotationAssistantIntent",
+  "toolId": 1243
+ },
+ {
+  "identifier": "UnselectIngredientAppIntent",
+  "toolId": 1245
+ },
+ {
+  "identifier": "OpenBluetoothSettingsDeepLinks",
+  "toolId": 1246
+ },
+ {
+  "identifier": "MoveRemindersAppIntent",
+  "toolId": 1250
+ },
+ {
+  "identifier": "SearchToolMCGrounding",
+  "toolId": 1251
+ },
+ {
+  "identifier": "OpenNewDeviceOutreachStaticDeepLinks",
+  "toolId": 1253
+ },
+ {
+  "identifier": "UpdateDraftIntent",
+  "toolId": 1258
+ },
+ {
+  "identifier": "TwoUpTileAction",
+  "toolId": 1259
+ },
+ {
+  "identifier": "OpenAlwaysShowSpeechEntity",
+  "toolId": 1262
+ },
+ {
+  "identifier": "ToggleAttributeIntent",
+  "toolId": 1264
+ },
+ {
+  "identifier": "PhotosSearchAssistantIntent",
+  "toolId": 1266
+ },
+ {
+  "identifier": "OpenAccessibilitySiriStaticDeepLinks",
+  "toolId": 1273
+ },
+ {
+  "identifier": "CRLInsertShapeToBoardIntent",
+  "toolId": 1274
+ },
+ {
+  "identifier": "TTRCreateReminderAppIntent",
+  "toolId": 1276
+ },
+ {
+  "identifier": "CreateNewTab",
+  "toolId": 1278
+ },
+ {
+  "identifier": "PhotosSetExposureAssistantIntent",
+  "toolId": 1285
+ },
+ {
+  "identifier": "PhotosCleanupPhotoAssistantIntent",
+  "toolId": 1286
+ },
+ {
+  "identifier": "RotatePageIntent",
+  "toolId": 1289
+ },
+ {
+  "identifier": "CRLResizeSelectionFontIntent",
+  "toolId": 1290
+ },
+ {
+  "identifier": "OpenIntent",
+  "toolId": 1291
+ },
+ {
+  "identifier": "FetchTransferableEventsInRangeIntent",
+  "toolId": 1293
+ },
+ {
+  "identifier": "GetMultitaskingModeAction",
+  "toolId": 1295
+ },
+ {
+  "identifier": "CreateNewTabGroup",
+  "toolId": 1296
+ },
+ {
+  "identifier": "OpenFlightReservationEntityIntent",
+  "toolId": 1297
+ },
+ {
+  "identifier": "ActivateSceneIntent",
+  "toolId": 1300
+ },
+ {
+  "identifier": "OpenInternationalSettingsDeepLink",
+  "toolId": 1302
+ },
+ {
+  "identifier": "StopWorkflowAction",
+  "toolId": 1306
+ },
+ {
+  "identifier": "CRLUpdateBoardIntent",
+  "toolId": 1311
+ },
+ {
+  "identifier": "CreateNewWindow",
+  "toolId": 1312
+ },
+ {
+  "identifier": "NewWatchlistIntent",
+  "toolId": 1313
+ },
+ {
+  "identifier": "DeepLinkIntent",
+  "toolId": 1314
+ },
+ {
+  "identifier": "GetPhysicalActivity",
+  "toolId": 1320
+ },
+ {
+  "identifier": "OpenShowAppIntent",
+  "toolId": 1321
+ },
+ {
+  "identifier": "SummarizeTextIntent",
+  "toolId": 1323
+ },
+ {
+  "identifier": "SearchSpotlightIntentInternal",
+  "toolId": 1324
+ },
+ {
+  "identifier": "CreateAssetsIntent",
+  "toolId": 1326
+ },
+ {
+  "identifier": "BookReaderNavigatePagesIntent",
+  "toolId": 1335
+ },
+ {
+  "identifier": "PlaySpecificAudiobookIntent",
+  "toolId": 1337
+ },
+ {
+  "identifier": "RequirePasswordDelayIntent",
+  "toolId": 1340
+ },
+ {
+  "identifier": "PhotosRemoveAssetsFromAlbumAssistantIntent",
+  "toolId": 1345
+ },
+ {
+  "identifier": "StopCookingAppIntent",
+  "toolId": 1346
+ },
+ {
+  "identifier": "OpenEnergySaverPaneDynamicDeepLinks",
+  "toolId": 1347
+ },
+ {
+  "identifier": "RemoveFollowUpIntent",
+  "toolId": 1351
+ },
+ {
+  "identifier": "DeleteSymbolFromWatchlistIntent",
+  "toolId": 1354
+ },
+ {
+  "identifier": "OpenSoundSettingsInterfaceEffectsEntity",
+  "toolId": 1359
+ },
+ {
+  "identifier": "OpenFeedIntent",
+  "toolId": 1360
+ },
+ {
+  "identifier": "DeleteChecklistItemsLinkAction",
+  "toolId": 1361
+ },
+ {
+  "identifier": "RunShortcutIntent",
+  "toolId": 1362
+ },
+ {
+  "identifier": "ResumeTimerIntent",
+  "toolId": 1363
+ },
+ {
+  "identifier": "CustomCaptureConfiguration",
+  "toolId": 1367
+ },
+ {
+  "identifier": "DeleteReadLaterIntent",
+  "toolId": 1369
+ },
+ {
+  "identifier": "OpenNotificationSummarizationEntity",
+  "toolId": 1374
+ },
+ {
+  "identifier": "MoveAssetsToPersonalLibraryIntent",
+  "toolId": 1376
+ },
+ {
+  "identifier": "SetDistanceUnitIntent",
+  "toolId": 1377
+ },
+ {
+  "identifier": "LoginWindowShowsButtonsIntent",
+  "toolId": 1380
+ },
+ {
+  "identifier": "DeleteMessageIntent",
+  "toolId": 1385
+ },
+ {
+  "identifier": "GuestSharedAccessStatusIntent",
+  "toolId": 1387
+ },
+ {
+  "identifier": "EnhanceIntent",
+  "toolId": 1389
+ },
+ {
+  "identifier": "DuplicateAssetsIntent",
+  "toolId": 1391
+ },
+ {
+  "identifier": "OpenJournalSettingsDeeplinks",
+  "toolId": 1392
+ },
+ {
+  "identifier": "OpenGroupAppIntent",
+  "toolId": 1399
+ },
+ {
+  "identifier": "OpenSiriVoiceEntity",
+  "toolId": 1400
+ },
+ {
+  "identifier": "CaptureScreenIntent",
+  "toolId": 1405
+ },
+ {
+  "identifier": "GetSavedRecipesAppIntent",
+  "toolId": 1406
+ },
+ {
+  "identifier": "CleanupIntent",
+  "toolId": 1407
+ },
+ {
+  "identifier": "OpenNewsSettingsDynamicDeepLinks",
+  "toolId": 1410
+ },
+ {
+  "identifier": "PlayMostRecentAudiobookIntent",
+  "toolId": 1415
+ },
+ {
+  "identifier": "OpenHotelReservationEntityIntent",
+  "toolId": 1416
+ },
+ {
+  "identifier": "SetCalendarFocusConfiguration",
+  "toolId": 1418
+ },
+ {
+  "identifier": "OpenKeyboardSettingsDeepLink",
+  "toolId": 1419
+ },
+ {
+  "identifier": "SelectIngredientAppIntent",
+  "toolId": 1421
+ },
+ {
+  "identifier": "CRLRenameBoardIntent",
+  "toolId": 1423
+ },
+ {
+  "identifier": "OpenPersonIntent",
+  "toolId": 1424
+ },
+ {
+  "identifier": "AddTagsToNotesLinkAction",
+  "toolId": 1426
+ },
+ {
+  "identifier": "OpenMoonIntent",
+  "toolId": 1427
+ },
+ {
+  "identifier": "CurrentUserIntent",
+  "toolId": 1430
+ },
+ {
+  "identifier": "ShowWindowIntent",
+  "toolId": 1433
+ },
+ {
+  "identifier": "StartDetectionTypeIntent",
+  "toolId": 1434
+ },
+ {
+  "identifier": "PhotosFilterLibraryAssistantIntent",
+  "toolId": 1435
+ },
+ {
+  "identifier": "TimeMachineAction",
+  "toolId": 1440
+ },
+ {
+  "identifier": "OpenAskSiriEntity",
+  "toolId": 1441
+ },
+ {
+  "identifier": "OpenAccessibilityAudioDescriptionsStaticDeepLinks",
+  "toolId": 1449
+ },
+ {
+  "identifier": "SearchTabs",
+  "toolId": 1451
+ },
+ {
+  "identifier": "MoveItemsIntent",
+  "toolId": 1454
+ },
+ {
+  "identifier": "OpenAppleAccountMainDeepLink",
+  "toolId": 1455
+ },
+ {
+  "identifier": "ThreeUpTileAction",
+  "toolId": 1457
+ },
+ {
+  "identifier": "OpenTicketedTransportationEntityIntent",
+  "toolId": 1460
+ },
+ {
+  "identifier": "OpenMostRecentBookIntent",
+  "toolId": 1461
+ },
+ {
+  "identifier": "CRLiOSCreateBoardIntent",
+  "toolId": 1466
+ },
+ {
+  "identifier": "OpenAppIntent",
+  "toolId": 1467
+ },
+ {
+  "identifier": "MoveTabsToWindowIntent",
+  "toolId": 1468
+ },
+ {
+  "identifier": "RenameAlbumIntent",
+  "toolId": 1472
+ },
+ {
+  "identifier": "RCCombineRecordings",
+  "toolId": 1474
+ },
+ {
+  "identifier": "SetWallpaperPhotoIntent",
+  "toolId": 1475
+ },
+ {
+  "identifier": "SearchBooksAppIntent",
+  "toolId": 1480
+ },
+ {
+  "identifier": "DeleteContactIntent",
+  "toolId": 1481
+ },
+ {
+  "identifier": "OpenBluetoothPowerDeepLink",
+  "toolId": 1482
+ },
+ {
+  "identifier": "OpenRecipeIntent",
+  "toolId": 1483
+ },
+ {
+  "identifier": "DeleteNotesLinkAction",
+  "toolId": 1484
+ },
+ {
+  "identifier": "SecureToggleIntent",
+  "toolId": 1490
+ },
+ {
+  "identifier": "OpenClockOptionsEntity",
+  "toolId": 1493
+ },
+ {
+  "identifier": "CloseBookIntent",
+  "toolId": 1495
+ },
+ {
+  "identifier": "CreateNewBookmark",
+  "toolId": 1496
+ },
+ {
+  "identifier": "SetPersonalContentSettingIntent",
+  "toolId": 1498
+ },
+ {
+  "identifier": "SharingIntents",
+  "toolId": 1501
+ },
+ {
+  "identifier": "SetReadLaterIntent",
+  "toolId": 1510
+ },
+ {
+  "identifier": "MoveRemindersToParentReminderAppIntent",
+  "toolId": 1515
+ },
+ {
+  "identifier": "FetchContactIntent",
+  "toolId": 1516
+ },
+ {
+  "identifier": "SendMail",
+  "toolId": 1517
+ },
+ {
+  "identifier": "EditAssetIntent",
+  "toolId": 1518
+ },
+ {
+  "identifier": "OpenFile",
+  "toolId": 1523
+ },
+ {
+  "identifier": "OpenSiriAndDictationHistoryEntity",
+  "toolId": 1524
+ },
+ {
+  "identifier": "SearchToolMCQU",
+  "toolId": 1526
+ },
+ {
+  "identifier": "FetchDowntimeConversationListIntent",
+  "toolId": 1528
+ },
+ {
+  "identifier": "ChangeTagSelectionIntent",
+  "toolId": 1532
+ },
+ {
+  "identifier": "RenameFolderLinkAction",
+  "toolId": 1533
+ },
+ {
+  "identifier": "LaunchPrintCenterAppIntent",
+  "toolId": 1534
+ },
+ {
+  "identifier": "SetAudioMixIntent",
+  "toolId": 1536
+ },
+ {
+  "identifier": "CreateTagLinkAction",
+  "toolId": 1537
+ },
+ {
+  "identifier": "OpenMissionControlSettingsEntity",
+  "toolId": 1538
+ },
+ {
+  "identifier": "IncreaseTextSizeIntent",
+  "toolId": 1543
+ },
+ {
+  "identifier": "URLAppIntent",
+  "toolId": 1545
+ },
+ {
+  "identifier": "StartCallTopHitAction",
+  "toolId": 1548
+ },
+ {
+  "identifier": "SaveToPhotosIntent",
+  "toolId": 1552
+ },
+ {
+  "identifier": "JoinEventIntent",
+  "toolId": 1553
+ },
+ {
+  "identifier": "EmailAttendeesIntent",
+  "toolId": 1556
+ },
+ {
+  "identifier": "SetPlaybackRateIntent",
+  "toolId": 1557
+ },
+ {
+  "identifier": "GoToFolderIntent",
+  "toolId": 1558
+ },
+ {
+  "identifier": "GetShortcutAttributesAction",
+  "toolId": 1562
+ },
+ {
+  "identifier": "PhotosCreateAssetsAssistantIntent",
+  "toolId": 1564
+ },
+ {
+  "identifier": "ResetStopwatchIntent",
+  "toolId": 1566
+ },
+ {
+  "identifier": "OpenRestaurantReservationEntityIntent",
+  "toolId": 1568
+ },
+ {
+  "identifier": "OpenCalendarEditorIntent",
+  "toolId": 1571
+ },
+ {
+  "identifier": "OpenTab",
+  "toolId": 1575
+ },
+ {
+  "identifier": "OpenBatteryHealthPaneDynamicDeepLinks",
+  "toolId": 1576
+ },
+ {
+  "identifier": "ReplyMessageIntent",
+  "toolId": 1577
+ },
+ {
+  "identifier": "RunShortcutFromCollectionIntent",
+  "toolId": 1579
+ },
+ {
+  "identifier": "GetStartupDiskIntent",
+  "toolId": 1582
+ },
+ {
+  "identifier": "FollowIntent",
+  "toolId": 1584
+ },
+ {
+  "identifier": "OpenAccessibilityAudioStaticDeepLinks",
+  "toolId": 1585
+ },
+ {
+  "identifier": "ConnectToSpeakerIntent",
+  "toolId": 1587
+ },
+ {
+  "identifier": "SendMessageReactionIntent",
+  "toolId": 1589
+ },
+ {
+  "identifier": "ListEventsIntent",
+  "toolId": 1592
+ },
+ {
+  "identifier": "OpenDraftIntent",
+  "toolId": 1593
+ },
+ {
+  "identifier": "InsertPageIntent",
+  "toolId": 1596
+ },
+ {
+  "identifier": "GetCurrentTimerDetailsIntent",
+  "toolId": 1602
+ },
+ {
+  "identifier": "FavoriteAssetsIntent",
+  "toolId": 1605
+ },
+ {
+  "identifier": "StartFaceTimeAudioCallTopHitAction",
+  "toolId": 1608
+ },
+ {
+  "identifier": "ChangeShortcutIconAction",
+  "toolId": 1609
+ },
+ {
+  "identifier": "CustomCaptureIntent",
+  "toolId": 1613
+ },
+ {
+  "identifier": "PhotosCopyEditsAssistantIntent",
+  "toolId": 1616
+ },
+ {
+  "identifier": "RemoveAssetsFromAlbumIntent",
+  "toolId": 1617
+ },
+ {
+  "identifier": "ItemSelectorIntent",
+  "toolId": 1621
+ },
+ {
+  "identifier": "UnblockIntent",
+  "toolId": 1623
+ },
+ {
+  "identifier": "PasteEditsIntent",
+  "toolId": 1624
+ },
+ {
+  "identifier": "TransparencySettingsIntents",
+  "toolId": 1625
+ },
+ {
+  "identifier": "HomeSingleTileConfigurationIntent",
+  "toolId": 1630
+ },
+ {
+  "identifier": "ToggleCellularPlanAction",
+  "toolId": 1633
+ },
+ {
+  "identifier": "HighlightEventIntent",
+  "toolId": 1636
+ },
+ {
+  "identifier": "GenerateRichContentFromMediaIntent",
+  "toolId": 1637
+ },
+ {
+  "identifier": "OpenDefaultCollectionIntent",
+  "toolId": 1642
+ },
+ {
+  "identifier": "OpenTab",
+  "toolId": 1643
+ },
+ {
+  "identifier": "GetIngredientsAppIntent",
+  "toolId": 1644
+ },
+ {
+  "identifier": "CheckForUpdatesIntent",
+  "toolId": 1646
+ },
+ {
+  "identifier": "OpenBookIntent",
+  "toolId": 1648
+ },
+ {
+  "identifier": "UpdateSmartListAppIntent",
+  "toolId": 1649
+ },
+ {
+  "identifier": "CRLAddStickyNoteToBoardIntent",
+  "toolId": 1650
+ },
+ {
+  "identifier": "RevealDocumentIntent",
+  "toolId": 1651
+ },
+ {
+  "identifier": "LoginWindowModeIntent",
+  "toolId": 1653
+ },
+ {
+  "identifier": "DeleteSectionsAppIntent",
+  "toolId": 1656
+ },
+ {
+  "identifier": "OpenSharingDeepLinks",
+  "toolId": 1657
+ },
+ {
+  "identifier": "DeleteCalendarsIntent",
+  "toolId": 1658
+ },
+ {
+  "identifier": "SaveArticleIntent",
+  "toolId": 1659
+ },
+ {
+  "identifier": "WindowTabActivateIntent",
+  "toolId": 1661
+ },
+ {
+  "identifier": "UpdateReminderAppIntent",
+  "toolId": 1663
+ },
+ {
+  "identifier": "CreateEntryIntent",
+  "toolId": 1666
+ },
+ {
+  "identifier": "SearchUIContinuationIntent",
+  "toolId": 1668
+ },
+ {
+  "identifier": "CreateFolderAction",
+  "toolId": 1674
+ },
+ {
+  "identifier": "DeleteAttachmentsLinkAction",
+  "toolId": 1675
+ },
+ {
+  "identifier": "OpenSiriSuggestionsAndPrivacyEntity",
+  "toolId": 1677
+ },
+ {
+  "identifier": "SearchActionDrawerAction",
+  "toolId": 1679
+ },
+ {
+  "identifier": "OpenAttachmentLinkAction",
+  "toolId": 1681
+ },
+ {
+  "identifier": "OpenDeviceManagementStaticDeepLinks",
+  "toolId": 1683
+ },
+ {
+  "identifier": "ShowNavigationIntent",
+  "toolId": 1690
+ },
+ {
+  "identifier": "PhotosDeleteAlbumsAssistantIntent",
+  "toolId": 1692
+ },
+ {
+  "identifier": "PrintDocuments",
+  "toolId": 1693
+ },
+ {
+  "identifier": "OpenWorkflowAction",
+  "toolId": 1694
+ },
+ {
+  "identifier": "SetWarmthIntent",
+  "toolId": 1695
+ },
+ {
+  "identifier": "OpenArticleIntent",
+  "toolId": 1697
+ },
+ {
+  "identifier": "SearchTool",
+  "toolId": 1702
+ },
+ {
+  "identifier": "GetSymbolQuoteIntent",
+  "toolId": 1704
+ },
+ {
+  "identifier": "SetAttributeValueIntent",
+  "toolId": 1705
+ },
+ {
+  "identifier": "HidePeopleIntent",
+  "toolId": 1709
+ },
+ {
+  "identifier": "DeleteWorkflowAction",
+  "toolId": 1712
+ },
+ {
+  "identifier": "SetDarkModeEnabledIntent",
+  "toolId": 1713
+ },
+ {
+  "identifier": "CropIntent",
+  "toolId": 1715
+ },
+ {
+  "identifier": "ChangeFilterModeIntent",
+  "toolId": 1716
+ },
+ {
+  "identifier": "CRLChangeSelectionColorIntent",
+  "toolId": 1722
+ },
+ {
+  "identifier": "RecordVoiceMemoIntent",
+  "toolId": 1723
+ },
+ {
+  "identifier": "RotateIntent",
+  "toolId": 1725
+ },
+ {
+  "identifier": "OpenClassroomDynamicDeepLinks",
+  "toolId": 1728
+ },
+ {
+  "identifier": "PhotosSetWarmthAssistantIntent",
+  "toolId": 1729
+ },
+ {
+  "identifier": "PhotosUpdateRecognizedPersonAssistantIntent",
+  "toolId": 1731
+ },
+ {
+  "identifier": "OpenShortcutsStaticDeepLinks",
+  "toolId": 1737
+ },
+ {
+  "identifier": "OpenTimeMachineSettingsStaticDeepLinks",
+  "toolId": 1739
+ },
+ {
+  "identifier": "OpenBusinessNewsIntent",
+  "toolId": 1740
+ },
+ {
+  "identifier": "PhotosCreateAlbumAssistantIntent",
+  "toolId": 1741
+ },
+ {
+  "identifier": "CreateCalendarIntent",
+  "toolId": 1743
+ },
+ {
+  "identifier": "OpenTransferResetDeepLinks",
+  "toolId": 1747
+ },
+ {
+  "identifier": "PhotosToggleSuggestedEditsAssistantIntent",
+  "toolId": 1748
+ },
+ {
+  "identifier": "CreateCustomSmartListAppIntent",
+  "toolId": 1749
+ },
+ {
+  "identifier": "FlipIntent",
+  "toolId": 1752
+ },
+ {
+  "identifier": "AddOrRemoveTagsAppIntent",
+  "toolId": 1755
+ },
+ {
+  "identifier": "SetWindUnitIntent",
+  "toolId": 1757
+ },
+ {
+  "identifier": "SearchBooksIntent",
+  "toolId": 1759
+ },
+ {
+  "identifier": "HideAssetsIntent",
+  "toolId": 1760
+ },
+ {
+  "identifier": "OpenPrivacySecurityDeepLinks",
+  "toolId": 1761
+ },
+ {
+  "identifier": "TTROpenSmartListAppIntent",
+  "toolId": 1764
+ },
+ {
+  "identifier": "CalculateAppUsageIntent",
+  "toolId": 1766
+ },
+ {
+  "identifier": "PhotosSetSaturationAssistantIntent",
+  "toolId": 1768
+ },
+ {
+  "identifier": "SyncDataIntent",
+  "toolId": 1769
+ },
+ {
+  "identifier": "DuplicateItemsIntent",
+  "toolId": 1773
+ },
+ {
+  "identifier": "OpenSunriseSunsetIntent",
+  "toolId": 1774
+ },
+ {
+  "identifier": "CustomRecordIntent",
+  "toolId": 1776
+ },
+ {
+  "identifier": "ConvertToUSDZ",
+  "toolId": 1777
+ },
+ {
+  "identifier": "MuteThreadIntent",
+  "toolId": 1782
+ },
+ {
+  "identifier": "ApplyStyleIntent",
+  "toolId": 1783
+ },
+ {
+  "identifier": "OpenDisplaysSettingsDeepLinks",
+  "toolId": 1784
+ },
+ {
+  "identifier": "RecommendedItemIntent",
+  "toolId": 1785
+ },
+ {
+  "identifier": "InsertMentionLinkAction",
+  "toolId": 1786
+ },
+ {
+  "identifier": "FriendSelectorIntent",
+  "toolId": 1788
+ },
+ {
+  "identifier": "OpenApplication",
+  "toolId": 1791
+ }
+]

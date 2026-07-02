@@ -1,0 +1,22 @@
+[
+ {
+  "key": "LaunchServicesSnapshotDatabaseVersionKey",
+  "value": "{\"sequenceNumber\":3000,\"uuid\":\"AE7F50CE-ADCB-4423-ADF4-4D8655124A73\"}"
+ },
+ {
+  "key": "LaunchServicesDatabaseVersionKey",
+  "value": "{\"sequenceNumber\":3000,\"uuid\":\"AE7F50CE-ADCB-4423-ADF4-4D8655124A73\"}"
+ },
+ {
+  "key": "VersionKey",
+  "value": "{\"uuid\":\"BFCDE1AC-F23A-42C9-9586-70A28AB7A6AF\"}"
+ },
+ {
+  "key": "OSVersion",
+  "value": "25E246"
+ },
+ {
+  "key": "IndexerSource",
+  "value": "BackgroundShortcutRunner"
+ }
+]

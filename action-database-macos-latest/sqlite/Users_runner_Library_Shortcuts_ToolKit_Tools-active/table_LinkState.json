@@ -1,0 +1,350 @@
+[
+ {
+  "containerId": "com.apple.GenerativePlaygroundApp",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.Spotlight",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.controlcenter",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.mail",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.shortcuts",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.MediaRemoteAppIntentsExtension",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.LinkPresentation.-LinkPresentation-AppIntents",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.iCal",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.WritingTools.WritingToolsAppIntentsExtension",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.Notes",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.stocks",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.findmy",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.-Photos-AppIntents",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.reminders",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.Safari",
+  "installIdentifier": {
+   "__base64__": "AACAXq+sx0E="
+  }
+ },
+ {
+  "containerId": "com.apple.homed",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.intelligenceplatform.IntelligencePlatform.IntelligencePlatformDataActionsAppIntentsExtension",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.Photos",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.MobileSMS",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.systempreferences",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.WindowManager",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.Magnifier",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.GameCenter.Settings.DeviceExpertExtension",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.AppStore",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.podcasts",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.screenshot.launcher",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.donotdisturb.DoNotDisturbAppIntents",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.printcenter",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.iBooksX",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.weather",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.news",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.wallpaper.agent",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.VoiceMemos",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.Desktop-Settings.extension",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.TransparencySettingsIntents",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.journal",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.helpviewer",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.generativeassistanttools.GenerativeAssistantExtension",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.AppKit",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.AddressBook",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.Preview",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.ShortcutsActions",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.intelligenceplatformd",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.omniSearch.SearchToolExtension",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.calculator",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.finder",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.HydraUSDAppIntents",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.siri.AssistantSettingsControls",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.intelligenceflow.IntelligenceFlowAppIntentsExtension",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.PeopleViewService",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.dock",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.freeform",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.systempreferences.SharingSettingsIntents",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.Home",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.-GeoToolbox-AppIntents",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.AppIntents",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.clock",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ },
+ {
+  "containerId": "com.apple.MediaPlayer.AppIntents",
+  "installIdentifier": {
+   "__base64__": "AACA8oi2x0E="
+  }
+ }
+]

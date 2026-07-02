@@ -1,0 +1,99 @@
+=== Legacy WFActions.plist ===
+=== WorkflowKit framework resources ===
+lrwxr-xr-x  1 root  wheel  26 Mar 20 05:25 /System/Library/PrivateFrameworks/WorkflowKit.framework/Resources -> Versions/Current/Resources
+total 10584
+drwxr-xr-x  55 root  wheel      1760 Mar 20 05:25 .
+drwxr-xr-x   4 root  wheel       128 Mar 20 05:25 ..
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 ar.lproj
+-rw-r--r--   1 root  wheel    547624 Mar 20 05:25 Assets.car
+-rw-r--r--   4 root  wheel     11253 Mar 20 05:25 AssistantIntents-iPad.metadata
+-rw-r--r--   4 root  wheel     11253 Mar 20 05:25 AssistantIntents-iPhone.metadata
+-rw-r--r--   2 root  wheel      6039 Mar 20 05:25 AssistantIntents-mac.metadata
+-rw-r--r--   2 root  wheel      8679 Mar 20 05:25 AssistantIntents-vision.metadata
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 ca.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 cs.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 da.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 de.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 el.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 en_AU.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 en_GB.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 en.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 es_419.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 es_US.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 es.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 fi.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 fr_CA.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 fr.lproj
+drwxr-xr-x   3 root  wheel        96 Mar 20 05:25 Gallery.bundle
+-rw-r--r--   2 root  wheel       363 Mar 20 05:25 Handwritten.stringsdict
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 he.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 hi.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 hr.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 hu.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 id.lproj
+-rw-r--r--   1 root  wheel      1362 Mar 20 05:25 Info.plist
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 it.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 ja.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 ko.lproj
+-rw-r--r--   1 root  wheel  11143988 Mar 20 05:25 Localizable.loctable
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 ms.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 nl.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 no.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 pl.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 pt_PT.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 pt.lproj
+drwxr-xr-x  47 root  wheel      1504 Mar 20 05:25 RemoteQuarantineAsset.bundle
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 ro.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 ru.lproj
+drwxr-xr-x  16 root  wheel       512 Mar 20 05:25 Shortcuts.momd
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 sk.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 sl.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 sv.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 th.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 tr.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 uk.lproj
+-rw-r--r--   4 root  wheel       464 Mar 20 05:25 version.plist
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 vi.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 zh_CN.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 zh_HK.lproj
+drwxr-xr-x   2 root  wheel        64 Mar 20 05:25 zh_TW.lproj
+=== ToolKit / Tools-* files ===
+/Users/runner/Library/Shortcuts/ToolKit
+/Users/runner/Library/Shortcuts/ToolKit/ToolKitIndexingLog
+/Users/runner/Library/Shortcuts/ToolKit/ToolKitIndexingLog/local
+/Users/runner/Library/Shortcuts/ToolKit/ToolKitIndexingLog/local/tombstone
+/Users/runner/Library/Shortcuts/ToolKit/Tools-prod.v67-C6BE3405-8F7E-4CA4-B9D9-ADBAFA22C362.sqlite
+/Users/runner/Library/Shortcuts/ToolKit/Tools-prod.v67-C6BE3405-8F7E-4CA4-B9D9-ADBAFA22C362.sqlite.lock
+/Users/runner/Library/Shortcuts/ToolKit/Tools-prod.v67-C6BE3405-8F7E-4CA4-B9D9-ADBAFA22C362.sqlite-wal
+/Users/runner/Library/Shortcuts/ToolKit/Tools-prod.v67-C6BE3405-8F7E-4CA4-B9D9-ADBAFA22C362.sqlite-shm
+/Users/runner/Library/Shortcuts/ToolKit/Tools-active
+=== ~/Library/Shortcuts tree ===
+/Users/runner/Library/Shortcuts
+/Users/runner/Library/Shortcuts/Shortcuts.sqlite-wal
+/Users/runner/Library/Shortcuts/SpotlightIndexingLog
+/Users/runner/Library/Shortcuts/SpotlightIndexingLog/local
+/Users/runner/Library/Shortcuts/SpotlightIndexingLog/local/tombstone
+/Users/runner/Library/Shortcuts/Shortcuts.sqlite-shm
+/Users/runner/Library/Shortcuts/ssh
+/Users/runner/Library/Shortcuts/CoherenceContext.db
+/Users/runner/Library/Shortcuts/CoherenceContext.db/data.sqlite3
+/Users/runner/Library/Shortcuts/ToolKit
+/Users/runner/Library/Shortcuts/ToolKit/ToolKitIndexingLog
+/Users/runner/Library/Shortcuts/ToolKit/ToolKitIndexingLog/local
+/Users/runner/Library/Shortcuts/ToolKit/Tools-prod.v67-C6BE3405-8F7E-4CA4-B9D9-ADBAFA22C362.sqlite
+/Users/runner/Library/Shortcuts/ToolKit/Tools-prod.v67-C6BE3405-8F7E-4CA4-B9D9-ADBAFA22C362.sqlite.lock
+/Users/runner/Library/Shortcuts/ToolKit/Tools-prod.v67-C6BE3405-8F7E-4CA4-B9D9-ADBAFA22C362.sqlite-wal
+/Users/runner/Library/Shortcuts/ToolKit/Tools-prod.v67-C6BE3405-8F7E-4CA4-B9D9-ADBAFA22C362.sqlite-shm
+/Users/runner/Library/Shortcuts/ToolKit/Tools-active
+/Users/runner/Library/Shortcuts/Shortcuts.sqlite
+=== Shortcuts containers ===
+group.com.apple.shortcuts
+group.is.workflow.my.app
+group.is.workflow.shortcuts
+/Users/runner/Library/Containers/com.apple.WorkflowKit.ShortcutsViewService
+/Users/runner/Library/Containers/com.apple.shortcuts.ShortcutLiveActivityWidget
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.shortcuts
+/Users/runner/Library/Containers/com.apple.shortcuts.ShortcutsWidget
+/Users/runner/Library/Containers/com.apple.DiagnosticExtensions.ToolKit.shortcuts
+/Users/runner/Library/Containers/com.apple.shortcuts.Run-Workflow
+/Users/runner/Library/Containers/com.apple.shortcuts

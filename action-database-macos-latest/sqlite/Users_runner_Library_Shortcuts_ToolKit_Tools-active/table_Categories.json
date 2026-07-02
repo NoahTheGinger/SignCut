@@ -1,0 +1,627 @@
+[
+ {
+  "toolId": 2,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 51,
+  "locale": "en",
+  "category": "Timer"
+ },
+ {
+  "toolId": 53,
+  "locale": "en",
+  "category": "Saved Locations"
+ },
+ {
+  "toolId": 66,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 81,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 102,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 117,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 141,
+  "locale": "en",
+  "category": "Folders"
+ },
+ {
+  "toolId": 163,
+  "locale": "en",
+  "category": "Folders"
+ },
+ {
+  "toolId": 164,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 173,
+  "locale": "en",
+  "category": "Focus"
+ },
+ {
+  "toolId": 174,
+  "locale": "en",
+  "category": "Alarms"
+ },
+ {
+  "toolId": 191,
+  "locale": "en",
+  "category": "Stopwatch"
+ },
+ {
+  "toolId": 201,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 208,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 218,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 228,
+  "locale": "en",
+  "category": "App"
+ },
+ {
+  "toolId": 246,
+  "locale": "en",
+  "category": "Bookmarks"
+ },
+ {
+  "toolId": 247,
+  "locale": "en",
+  "category": "Tags"
+ },
+ {
+  "toolId": 258,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 261,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 306,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 309,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 315,
+  "locale": "en",
+  "category": "Personal Knowledge"
+ },
+ {
+  "toolId": 319,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 346,
+  "locale": "en",
+  "category": "Folders"
+ },
+ {
+  "toolId": 353,
+  "locale": "en",
+  "category": "Folders"
+ },
+ {
+  "toolId": 370,
+  "locale": "en",
+  "category": "Recordings"
+ },
+ {
+  "toolId": 376,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 386,
+  "locale": "en",
+  "category": "TABS"
+ },
+ {
+  "toolId": 402,
+  "locale": "en",
+  "category": "Calendar"
+ },
+ {
+  "toolId": 427,
+  "locale": "en",
+  "category": "Discover"
+ },
+ {
+  "toolId": 430,
+  "locale": "en",
+  "category": "Folders"
+ },
+ {
+  "toolId": 445,
+  "locale": "en",
+  "category": "Generative"
+ },
+ {
+  "toolId": 451,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 454,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 456,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 459,
+  "locale": "en",
+  "category": "World Clock"
+ },
+ {
+  "toolId": 463,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 494,
+  "locale": "en",
+  "category": "Folders"
+ },
+ {
+  "toolId": 505,
+  "locale": "en",
+  "category": "Calculator"
+ },
+ {
+  "toolId": 519,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 528,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 538,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 546,
+  "locale": "en",
+  "category": "World Clock"
+ },
+ {
+  "toolId": 563,
+  "locale": "en",
+  "category": "Intelligence Command"
+ },
+ {
+  "toolId": 571,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 578,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 607,
+  "locale": "en",
+  "category": "Alarms"
+ },
+ {
+  "toolId": 609,
+  "locale": "en",
+  "category": "App"
+ },
+ {
+  "toolId": 623,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 642,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 644,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 664,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 666,
+  "locale": "en",
+  "category": "Recordings"
+ },
+ {
+  "toolId": 675,
+  "locale": "en",
+  "category": "Search"
+ },
+ {
+  "toolId": 678,
+  "locale": "en",
+  "category": "Focus"
+ },
+ {
+  "toolId": 681,
+  "locale": "en",
+  "category": "Accounts"
+ },
+ {
+  "toolId": 682,
+  "locale": "en",
+  "category": "Intelligence Command"
+ },
+ {
+  "toolId": 686,
+  "locale": "en",
+  "category": "Intelligence Command"
+ },
+ {
+  "toolId": 707,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 727,
+  "locale": "en",
+  "category": "Alarms"
+ },
+ {
+  "toolId": 743,
+  "locale": "en",
+  "category": "Bookmarks"
+ },
+ {
+  "toolId": 749,
+  "locale": "en",
+  "category": "Stopwatch"
+ },
+ {
+  "toolId": 753,
+  "locale": "en",
+  "category": "Focus"
+ },
+ {
+  "toolId": 761,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 805,
+  "locale": "en",
+  "category": "Tab Groups"
+ },
+ {
+  "toolId": 845,
+  "locale": "en",
+  "category": "Folders"
+ },
+ {
+  "toolId": 889,
+  "locale": "en",
+  "category": "Recordings"
+ },
+ {
+  "toolId": 916,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 933,
+  "locale": "en",
+  "category": "Alarms"
+ },
+ {
+  "toolId": 962,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 968,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 980,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 994,
+  "locale": "en",
+  "category": "Safari"
+ },
+ {
+  "toolId": 997,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 1007,
+  "locale": "en",
+  "category": "World Clock"
+ },
+ {
+  "toolId": 1020,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 1044,
+  "locale": "en",
+  "category": "Timer"
+ },
+ {
+  "toolId": 1053,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 1057,
+  "locale": "en",
+  "category": "Tabs"
+ },
+ {
+  "toolId": 1078,
+  "locale": "en",
+  "category": "Tags"
+ },
+ {
+  "toolId": 1093,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 1101,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 1109,
+  "locale": "en",
+  "category": "Saved Locations"
+ },
+ {
+  "toolId": 1138,
+  "locale": "en",
+  "category": "Intelligence Text Insertion"
+ },
+ {
+  "toolId": 1153,
+  "locale": "en",
+  "category": "Tags"
+ },
+ {
+  "toolId": 1176,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 1184,
+  "locale": "en",
+  "category": "Web"
+ },
+ {
+  "toolId": 1200,
+  "locale": "en",
+  "category": "Stopwatch"
+ },
+ {
+  "toolId": 1212,
+  "locale": "en",
+  "category": "Generative"
+ },
+ {
+  "toolId": 1217,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 1220,
+  "locale": "en",
+  "category": "Recordings"
+ },
+ {
+  "toolId": 1245,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 1251,
+  "locale": "en",
+  "category": "Search"
+ },
+ {
+  "toolId": 1278,
+  "locale": "en",
+  "category": "Tabs"
+ },
+ {
+  "toolId": 1282,
+  "locale": "en",
+  "category": "Reminders"
+ },
+ {
+  "toolId": 1296,
+  "locale": "en",
+  "category": "Tab Groups"
+ },
+ {
+  "toolId": 1340,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 1346,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 1363,
+  "locale": "en",
+  "category": "Timer"
+ },
+ {
+  "toolId": 1380,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 1386,
+  "locale": "en",
+  "category": "Tabs"
+ },
+ {
+  "toolId": 1387,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 1406,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 1418,
+  "locale": "en",
+  "category": "Focus"
+ },
+ {
+  "toolId": 1421,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 1426,
+  "locale": "en",
+  "category": "Tags"
+ },
+ {
+  "toolId": 1430,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 1483,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 1526,
+  "locale": "en",
+  "category": "Search"
+ },
+ {
+  "toolId": 1537,
+  "locale": "en",
+  "category": "Tags"
+ },
+ {
+  "toolId": 1544,
+  "locale": "en",
+  "category": "Alarms"
+ },
+ {
+  "toolId": 1566,
+  "locale": "en",
+  "category": "Stopwatch"
+ },
+ {
+  "toolId": 1575,
+  "locale": "en",
+  "category": "Tabs"
+ },
+ {
+  "toolId": 1582,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 1602,
+  "locale": "en",
+  "category": "Timer"
+ },
+ {
+  "toolId": 1637,
+  "locale": "en",
+  "category": "Generative"
+ },
+ {
+  "toolId": 1643,
+  "locale": "en",
+  "category": "Tabs"
+ },
+ {
+  "toolId": 1644,
+  "locale": "en",
+  "category": "Recipes"
+ },
+ {
+  "toolId": 1646,
+  "locale": "en",
+  "category": "Updates"
+ },
+ {
+  "toolId": 1653,
+  "locale": "en",
+  "category": "Settings"
+ },
+ {
+  "toolId": 1702,
+  "locale": "en",
+  "category": "Search"
+ },
+ {
+  "toolId": 1723,
+  "locale": "en",
+  "category": "Recordings"
+ },
+ {
+  "toolId": 1777,
+  "locale": "en",
+  "category": "Media"
+ }
+]
