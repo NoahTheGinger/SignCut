@@ -1,0 +1,56 @@
+name: Extract Shortcuts Action Database
+on: workflow_dispatch
+
+jobs:
+  extract:
+    runs-on: macos-latest
+    steps:
+      - name: Record macOS version
+        run: sw_vers | tee out/os-version.txt || (mkdir -p out && sw_vers | tee out/os-version.txt)
+
+      - name: Locate and dump WFActions.plist
+        run: |
+          mkdir -p out
+          PLIST=$(find /System/Library/PrivateFrameworks -name "WFActions.plist" 2>/dev/null | head -n 1)
+          if [ -z "$PLIST" ]; then
+            echo "WFActions.plist not found in PrivateFrameworks, widening search..."
+            PLIST=$(find /System/Library -name "WFActions.plist" 2>/dev/null | head -n 1)
+          fi
+          echo "Found: $PLIST"
+          cp "$PLIST" out/WFActions.plist
+          plutil -convert json -o out/WFActions.json out/WFActions.plist
+
+      - name: Generate condensed LLM reference
+        run: |
+          python3 - <<'EOF'
+          import json
+
+          with open("out/WFActions.json") as f:
+              actions = json.load(f)
+
+          condensed = {}
+          for identifier, defn in actions.items():
+              entry = {}
+              if "ActionClass" in defn:
+                  entry["class"] = defn["ActionClass"]
+              params = []
+              for p in defn.get("Parameters", []):
+                  param = {k: p[k] for k in ("Key", "Class", "Label", "DefaultValue") if k in p}
+                  params.append(param)
+              if params:
+                  entry["parameters"] = params
+              for k in ("Input", "Output"):
+                  if k in defn:
+                      entry[k.lower()] = defn[k]
+              condensed[identifier] = entry
+
+          with open("out/actions-condensed.json", "w") as f:
+              json.dump(condensed, f, indent=1, sort_keys=True)
+
+          print(f"{len(condensed)} actions extracted")
+          EOF
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shortcuts-action-database
+          path: out/
