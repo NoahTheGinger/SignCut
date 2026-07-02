@@ -3,7 +3,7 @@ on: workflow_dispatch
 
 jobs:
   extract:
-    runs-on: macos-latest
+    runs-on: macos-26
     steps:
       - name: Check out repo (so the Mac has our script)
         uses: actions/checkout@v4
