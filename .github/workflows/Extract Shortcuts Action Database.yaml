@@ -3,161 +3,41 @@ on: workflow_dispatch
 
 jobs:
   extract:
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [macos-latest, macos-15]
-    runs-on: ${{ matrix.os }}
+    runs-on: macos-latest
     steps:
-      - name: Record system info
+      - name: Check out repo (so the Mac has our script)
+        uses: actions/checkout@v4
+
+      - name: Record macOS version
         run: |
           mkdir -p out
           sw_vers | tee out/os-version.txt
 
       - name: Nudge Shortcuts to populate its databases
         run: |
-          # ToolKit DBs may only exist after the app/daemon has run once
-          open -a Shortcuts 2>/dev/null || echo "Could not launch Shortcuts (headless?)"
+          open -a Shortcuts 2>/dev/null || echo "Could not launch Shortcuts"
           sleep 25
           osascript -e 'tell application "Shortcuts" to quit' 2>/dev/null || true
         continue-on-error: true
 
-      - name: Recon — enumerate all candidate locations
+      - name: Locate the ToolKit database
         run: |
-          set +e
-          {
-            echo "=== Legacy WFActions.plist ==="
-            find /System/Library -name "WFActions.plist" 2>/dev/null
-
-            echo "=== WorkflowKit framework resources ==="
-            ls -la /System/Library/PrivateFrameworks/WorkflowKit.framework/Resources 2>/dev/null
-            ls -la /System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/A/Resources 2>/dev/null
-
-            echo "=== ToolKit / Tools-* files ==="
-            find "$HOME/Library" \( -iname "*Tools-active*" -o -iname "*Tools-prod*" -o -ipath "*Shortcuts/ToolKit*" \) 2>/dev/null
-
-            echo "=== ~/Library/Shortcuts tree ==="
-            find "$HOME/Library/Shortcuts" -maxdepth 3 2>/dev/null
-
-            echo "=== Shortcuts containers ==="
-            ls "$HOME/Library/Group Containers" 2>/dev/null | grep -i -e shortcut -e workflow
-            find "$HOME/Library/Containers" -maxdepth 1 -iname "*shortcut*" 2>/dev/null
-          } | tee out/recon.txt
-          true
-
-      - name: Dump legacy WFActions.plist (if present)
-        run: |
-          PLIST=$(find /System/Library -name "WFActions.plist" 2>/dev/null | head -n 1)
-          if [ -n "$PLIST" ]; then
-            cp "$PLIST" out/WFActions.plist
-            plutil -convert json -o out/WFActions.json out/WFActions.plist
-            echo "Legacy plist dumped from $PLIST"
-          else
-            echo "::warning::No WFActions.plist on this image — relying on ToolKit path"
+          DB=$(find "$HOME/Library/Shortcuts/ToolKit" -name "Tools-active" 2>/dev/null | head -n 1)
+          if [ -z "$DB" ]; then
+            echo "::error::Tools-active not found — did the ToolKit path change again?"
+            find "$HOME/Library/Shortcuts" 2>/dev/null | tee out/debug-tree.txt
+            exit 1
           fi
+          echo "Found: $DB"
+          echo "DB_PATH=$DB" >> "$GITHUB_ENV"
+          cp "$DB" out/toolkit-raw.db
 
-      - name: Dump any SQLite databases (ToolKit et al.)
-        run: |
-          python3 - <<'EOF'
-          import base64, json, plistlib, shutil, sqlite3
-          from pathlib import Path
-
-          OUT = Path("out/sqlite"); OUT.mkdir(parents=True, exist_ok=True)
-          CANDIDATES = [
-              Path.home() / "Library/Shortcuts",
-              Path.home() / "Library/Group Containers",
-              Path.home() / "Library/Containers",
-              Path("/System/Library/PrivateFrameworks/WorkflowKit.framework"),
-          ]
-
-          def is_sqlite(p):
-              try:
-                  with open(p, "rb") as f:
-                      return f.read(16).startswith(b"SQLite format 3")
-              except Exception:
-                  return False
-
-          def jsonable(v):
-              if isinstance(v, bytes):
-                  try:  # many App Intents blobs are binary plists
-                      return {"__plist__": plistlib.loads(v)}
-                  except Exception:
-                      return {"__base64__": base64.b64encode(v).decode()}
-              return v
-
-          dbs = []
-          for root in CANDIDATES:
-              if not root.exists():
-                  continue
-              for p in root.rglob("*"):
-                  try:
-                      if p.is_file() and is_sqlite(p):
-                          # only bother with shortcuts-adjacent paths
-                          s = str(p).lower()
-                          if any(k in s for k in ("shortcut", "workflow", "toolkit", "tools-", "appintent", "linkaction")):
-                              dbs.append(p)
-                  except (PermissionError, OSError):
-                      pass
-
-          print(f"Found {len(dbs)} candidate DB(s)")
-          for db_path in dbs:
-              name = str(db_path).replace("/", "_").strip("_")
-              dest = OUT / name; dest.mkdir(exist_ok=True)
-              shutil.copy(db_path, dest / "raw.db")  # keep raw copy for local spelunking
-              for sidecar in (db_path.parent.glob(db_path.name + "-wal")):
-                  shutil.copy(sidecar, dest / sidecar.name)
-              try:
-                  con = sqlite3.connect(f"file:{db_path}?immutable=1", uri=True)
-                  cur = con.cursor()
-                  schema = [r[0] for r in cur.execute(
-                      "SELECT sql FROM sqlite_master WHERE sql IS NOT NULL")]
-                  (dest / "schema.sql").write_text(";\n\n".join(schema))
-                  tables = [r[0] for r in cur.execute(
-                      "SELECT name FROM sqlite_master WHERE type='table'")]
-                  for t in tables:
-                      try:
-                          cur.execute(f'SELECT * FROM "{t}" LIMIT 20000')
-                          cols = [d[0] for d in cur.description]
-                          rows = [dict(zip(cols, (jsonable(v) for v in r)))
-                                  for r in cur.fetchall()]
-                          with open(dest / f"table_{t}.json", "w") as f:
-                              json.dump(rows, f, indent=1, default=str)
-                          print(f"  {db_path.name} :: {t} -> {len(rows)} rows")
-                      except Exception as e:
-                          print(f"  !! {t}: {e}")
-                  con.close()
-              except Exception as e:
-                  print(f"!! Could not read {db_path}: {e}")
-          EOF
-
-      - name: Generate condensed LLM reference (legacy format only, for now)
-        run: |
-          if [ ! -f out/WFActions.json ]; then
-            echo "No legacy WFActions.json — skipping condensed reference on this leg"
-            exit 0
-          fi
-          python3 - <<'EOF'
-          import json
-          with open("out/WFActions.json") as f:
-              actions = json.load(f)
-          condensed = {}
-          for identifier, defn in actions.items():
-              entry = {}
-              if "ActionClass" in defn:
-                  entry["class"] = defn["ActionClass"]
-              params = [{k: p[k] for k in ("Key", "Class", "Label", "DefaultValue") if k in p}
-                        for p in defn.get("Parameters", [])]
-              if params:
-                  entry["parameters"] = params
-              condensed[identifier] = entry
-          with open("out/actions-condensed.json", "w") as f:
-              json.dump(condensed, f, indent=1, sort_keys=True)
-          print(f"{len(condensed)} actions condensed")
-          EOF
+      - name: Build condensed reference
+        run: python3 scripts/build_reference.py "$DB_PATH" out/actions-condensed.json
 
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: action-database-${{ matrix.os }}
+          name: action-database
           path: out/
           if-no-files-found: warn
