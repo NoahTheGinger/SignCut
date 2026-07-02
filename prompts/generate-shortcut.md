@@ -20,8 +20,14 @@ Shortcuts app itself uses. It is ground truth and it is current. Structure:
 ## Your task
 
 Write a complete Apple Shortcut as an **XML property list** (the `.plist`
-source of a `.shortcut` file). It will be signed by Apple's `shortcuts sign`
-tool on macOS and imported on iOS 26 — so it must be strictly valid.
+source of a `.shortcut` file). It will be processed by the SignCut GitHub
+workflow, which lints the plist, validates action identifiers against
+`actions-condensed.json`, and converts the XML plist into a binary unsigned
+`.shortcut` file.
+
+The resulting unsigned shortcut will be signed later using a trusted signer
+such as a personal Mac signed into iCloud, a private signing server, or
+HubSign for non-sensitive test shortcuts.
 
 ## Hard rules
 
@@ -38,9 +44,11 @@ tool on macOS and imported on iOS 26 — so it must be strictly valid.
    DOCTYPE, single root `<dict>` — in a single code block with no commentary
    inside it. Top-level keys: `WFWorkflowActions` (the action array),
    `WFWorkflowClientVersion` (string), `WFWorkflowMinimumClientVersion`
-   (integer) and `WFWorkflowMinimumClientVersionString`, `WFWorkflowIcon`
+   (integer), `WFWorkflowMinimumClientVersionString`, `WFWorkflowIcon`
    (dict with `WFWorkflowIconStartColor` and `WFWorkflowIconGlyphNumber`,
-   both integers), and `WFWorkflowImportQuestions` (empty array).
+   both integers), `WFWorkflowImportQuestions` (empty array), and
+   `WFWorkflowTypes` (empty array unless the shortcut specifically needs
+   a type declaration).
 5. **Variable passing:** prefer implicit input chaining where possible. Where
    an earlier result must be referenced explicitly, put a `UUID` key inside
    the producing action's `WFWorkflowActionParameters` dictionary, using an
