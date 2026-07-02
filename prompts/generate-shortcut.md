@@ -41,12 +41,12 @@ tool on macOS and imported on iOS 26 — so it must be strictly valid.
    (integer) and `WFWorkflowMinimumClientVersionString`, `WFWorkflowIcon`
    (dict with `WFWorkflowIconStartColor` and `WFWorkflowIconGlyphNumber`,
    both integers), and `WFWorkflowImportQuestions` (empty array).
-5. **Variable passing:** prefer implicit input chaining (each action
-   receives the previous action's output) where possible. Where an earlier
-   result must be referenced explicitly, give the producing action a `UUID`
-   parameter (uppercase UUIDv4) and reference it downstream as a magic
-   variable (attachment dict with `Type: ActionOutput` and `OutputUUID`).
-   Use each UUID exactly once as a producer.
+5. **Variable passing:** prefer implicit input chaining where possible. Where
+   an earlier result must be referenced explicitly, put a `UUID` key inside
+   the producing action's `WFWorkflowActionParameters` dictionary, using an
+   uppercase UUIDv4. Reference it downstream as a magic variable attachment
+   dictionary with `Type: ActionOutput` and `OutputUUID` matching that UUID.
+   Do not put `UUID` as a sibling of `WFWorkflowActionParameters`.
 6. **Control flow:** `if`/`repeat`/`menu` actions require paired begin/end
    entries sharing a `GroupingIdentifier` UUID, with `WFControlFlowMode`
    0 (begin), 1 (middle, e.g. else), 2 (end). Every begin must have its end.
