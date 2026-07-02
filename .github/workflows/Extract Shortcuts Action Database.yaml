@@ -9,102 +9,155 @@ jobs:
         os: [macos-latest, macos-15]
     runs-on: ${{ matrix.os }}
     steps:
-      - name: Record environment
+      - name: Record system info
         run: |
           mkdir -p out
           sw_vers | tee out/os-version.txt
 
-      - name: Recon — what does this image actually have?
+      - name: Nudge Shortcuts to populate its databases
         run: |
-          {
-            echo "== PrivateFrameworks matching workflow/action/shortcut =="
-            ls /System/Library/PrivateFrameworks | grep -iE 'workflow|action|shortcut' || echo "(none)"
-            echo
-            echo "== WorkflowKit.framework files on disk =="
-            find /System/Library/PrivateFrameworks/WorkflowKit.framework -type f 2>/dev/null || echo "(framework dir not on disk)"
-          } | tee out/recon.txt
+          # ToolKit DBs may only exist after the app/daemon has run once
+          open -a Shortcuts 2>/dev/null || echo "Could not launch Shortcuts (headless?)"
+          sleep 25
+          osascript -e 'tell application "Shortcuts" to quit' 2>/dev/null || true
+        continue-on-error: true
 
-      - name: Hunt for WFActions.plist (broad, sudo)
+      - name: Recon — enumerate all candidate locations
         run: |
-          FOUND=$(sudo find \
-            /System/Library \
-            /System/Cryptexes \
-            /System/Applications \
-            /System/iOSSupport \
-            /Library/Apple \
-            -name 'WFActions*.plist' 2>/dev/null | head -n 5)
-          printf '%s\n' "$FOUND" | tee out/hunt-results.txt
-          FIRST=$(printf '%s\n' "$FOUND" | head -n 1)
-          if [ -n "$FIRST" ]; then
-            sudo cp "$FIRST" out/WFActions.plist
-            sudo chown "$USER" out/WFActions.plist
-            echo "Copied: $FIRST"
+          set +e
+          {
+            echo "=== Legacy WFActions.plist ==="
+            find /System/Library -name "WFActions.plist" 2>/dev/null
+
+            echo "=== WorkflowKit framework resources ==="
+            ls -la /System/Library/PrivateFrameworks/WorkflowKit.framework/Resources 2>/dev/null
+            ls -la /System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/A/Resources 2>/dev/null
+
+            echo "=== ToolKit / Tools-* files ==="
+            find "$HOME/Library" \( -iname "*Tools-active*" -o -iname "*Tools-prod*" -o -ipath "*Shortcuts/ToolKit*" \) 2>/dev/null
+
+            echo "=== ~/Library/Shortcuts tree ==="
+            find "$HOME/Library/Shortcuts" -maxdepth 3 2>/dev/null
+
+            echo "=== Shortcuts containers ==="
+            ls "$HOME/Library/Group Containers" 2>/dev/null | grep -i -e shortcut -e workflow
+            find "$HOME/Library/Containers" -maxdepth 1 -iname "*shortcut*" 2>/dev/null
+          } | tee out/recon.txt
+          true
+
+      - name: Dump legacy WFActions.plist (if present)
+        run: |
+          PLIST=$(find /System/Library -name "WFActions.plist" 2>/dev/null | head -n 1)
+          if [ -n "$PLIST" ]; then
+            cp "$PLIST" out/WFActions.plist
+            plutil -convert json -o out/WFActions.json out/WFActions.plist
+            echo "Legacy plist dumped from $PLIST"
           else
-            echo "::warning::No WFActions.plist found on ${{ matrix.os }}"
+            echo "::warning::No WFActions.plist on this image — relying on ToolKit path"
           fi
 
-      - name: Convert + condense (plutil-proof)
+      - name: Dump any SQLite databases (ToolKit et al.)
         run: |
-          [ -f out/WFActions.plist ] || { echo "No plist on this image — skipping."; exit 0; }
           python3 - <<'EOF'
-          import base64, datetime, json, plistlib
+          import base64, json, plistlib, shutil, sqlite3
+          from pathlib import Path
 
-          def clean(o):
-              if isinstance(o, bytes): return base64.b64encode(o).decode()
-              if isinstance(o, datetime.datetime): return o.isoformat()
-              if isinstance(o, dict): return {k: clean(v) for k, v in o.items()}
-              if isinstance(o, list): return [clean(v) for v in o]
-              return o
+          OUT = Path("out/sqlite"); OUT.mkdir(parents=True, exist_ok=True)
+          CANDIDATES = [
+              Path.home() / "Library/Shortcuts",
+              Path.home() / "Library/Group Containers",
+              Path.home() / "Library/Containers",
+              Path("/System/Library/PrivateFrameworks/WorkflowKit.framework"),
+          ]
 
-          with open("out/WFActions.plist", "rb") as f:
-              actions = clean(plistlib.load(f))
-          with open("out/WFActions.json", "w") as f:
-              json.dump(actions, f, indent=1, sort_keys=True)
+          def is_sqlite(p):
+              try:
+                  with open(p, "rb") as f:
+                      return f.read(16).startswith(b"SQLite format 3")
+              except Exception:
+                  return False
 
-          condensed = {}
-          for identifier, defn in actions.items():
-              if not isinstance(defn, dict): continue
-              entry = {}
-              if "ActionClass" in defn: entry["class"] = defn["ActionClass"]
-              params = [{k: p[k] for k in ("Key","Class","Label","DefaultValue") if k in p}
-                        for p in defn.get("Parameters", []) if isinstance(p, dict)]
-              if params: entry["parameters"] = params
-              for k in ("Input", "Output"):
-                  if k in defn: entry[k.lower()] = defn[k]
-              condensed[identifier] = entry
+          def jsonable(v):
+              if isinstance(v, bytes):
+                  try:  # many App Intents blobs are binary plists
+                      return {"__plist__": plistlib.loads(v)}
+                  except Exception:
+                      return {"__base64__": base64.b64encode(v).decode()}
+              return v
 
-          with open("out/actions-condensed.json", "w") as f:
-              json.dump(condensed, f, indent=1, sort_keys=True)
-          print(f"{len(condensed)} actions extracted")
+          dbs = []
+          for root in CANDIDATES:
+              if not root.exists():
+                  continue
+              for p in root.rglob("*"):
+                  try:
+                      if p.is_file() and is_sqlite(p):
+                          # only bother with shortcuts-adjacent paths
+                          s = str(p).lower()
+                          if any(k in s for k in ("shortcut", "workflow", "toolkit", "tools-", "appintent", "linkaction")):
+                              dbs.append(p)
+                  except (PermissionError, OSError):
+                      pass
+
+          print(f"Found {len(dbs)} candidate DB(s)")
+          for db_path in dbs:
+              name = str(db_path).replace("/", "_").strip("_")
+              dest = OUT / name; dest.mkdir(exist_ok=True)
+              shutil.copy(db_path, dest / "raw.db")  # keep raw copy for local spelunking
+              for sidecar in (db_path.parent.glob(db_path.name + "-wal")):
+                  shutil.copy(sidecar, dest / sidecar.name)
+              try:
+                  con = sqlite3.connect(f"file:{db_path}?immutable=1", uri=True)
+                  cur = con.cursor()
+                  schema = [r[0] for r in cur.execute(
+                      "SELECT sql FROM sqlite_master WHERE sql IS NOT NULL")]
+                  (dest / "schema.sql").write_text(";\n\n".join(schema))
+                  tables = [r[0] for r in cur.execute(
+                      "SELECT name FROM sqlite_master WHERE type='table'")]
+                  for t in tables:
+                      try:
+                          cur.execute(f'SELECT * FROM "{t}" LIMIT 20000')
+                          cols = [d[0] for d in cur.description]
+                          rows = [dict(zip(cols, (jsonable(v) for v in r)))
+                                  for r in cur.fetchall()]
+                          with open(dest / f"table_{t}.json", "w") as f:
+                              json.dump(rows, f, indent=1, default=str)
+                          print(f"  {db_path.name} :: {t} -> {len(rows)} rows")
+                      except Exception as e:
+                          print(f"  !! {t}: {e}")
+                  con.close()
+              except Exception as e:
+                  print(f"!! Could not read {db_path}: {e}")
           EOF
 
-      - name: Poke the Shortcuts runtime + grab its database
+      - name: Generate condensed LLM reference (legacy format only, for now)
         run: |
-          shortcuts list > out/shortcuts-cli-check.txt 2>&1 || true
-          DB="$HOME/Library/Shortcuts/Shortcuts.sqlite"
-          if [ -f "$DB" ]; then
-            cp "$DB"* out/ 2>/dev/null || true
-            sqlite3 "$DB" ".tables" | tee out/sqlite-tables.txt || true
-          else
-            echo "No Shortcuts.sqlite on this runner" | tee out/sqlite-tables.txt
+          if [ ! -f out/WFActions.json ]; then
+            echo "No legacy WFActions.json — skipping condensed reference on this leg"
+            exit 0
           fi
+          python3 - <<'EOF'
+          import json
+          with open("out/WFActions.json") as f:
+              actions = json.load(f)
+          condensed = {}
+          for identifier, defn in actions.items():
+              entry = {}
+              if "ActionClass" in defn:
+                  entry["class"] = defn["ActionClass"]
+              params = [{k: p[k] for k in ("Key", "Class", "Label", "DefaultValue") if k in p}
+                        for p in defn.get("Parameters", [])]
+              if params:
+                  entry["parameters"] = params
+              condensed[identifier] = entry
+          with open("out/actions-condensed.json", "w") as f:
+              json.dump(condensed, f, indent=1, sort_keys=True)
+          print(f"{len(condensed)} actions condensed")
+          EOF
 
-      - name: Harvest App Intents metadata (modern actions)
-        run: |
-          mkdir -p out/appintents
-          sudo find /System -path /System/Volumes -prune -o \
-            -type f -name '*.actionsdata' -print 2>/dev/null \
-            | tee out/appintents-found.txt \
-            | while IFS= read -r f; do
-                safe=$(printf '%s' "$f" | sed 's|^/||; s|/|__|g')
-                sudo cp "$f" "out/appintents/$safe" 2>/dev/null || true
-              done
-          sudo chown -R "$USER" out/appintents || true
-          echo "Harvested: $(ls out/appintents | wc -l | tr -d ' ') App Intents files"
-
-      - name: Upload everything (even on failure)
+      - uses: actions/upload-artifact@v4
         if: always()
-        uses: actions/upload-artifact@v4
         with:
-          name: shortcuts-action-database-${{ matrix.os }}
+          name: action-database-${{ matrix.os }}
           path: out/
+          if-no-files-found: warn
