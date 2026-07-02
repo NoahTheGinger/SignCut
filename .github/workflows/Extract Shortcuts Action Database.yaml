@@ -3,54 +3,108 @@ on: workflow_dispatch
 
 jobs:
   extract:
-    runs-on: macos-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, macos-15]
+    runs-on: ${{ matrix.os }}
     steps:
-      - name: Record macOS version
-        run: sw_vers | tee out/os-version.txt || (mkdir -p out && sw_vers | tee out/os-version.txt)
-
-      - name: Locate and dump WFActions.plist
+      - name: Record environment
         run: |
           mkdir -p out
-          PLIST=$(find /System/Library/PrivateFrameworks -name "WFActions.plist" 2>/dev/null | head -n 1)
-          if [ -z "$PLIST" ]; then
-            echo "WFActions.plist not found in PrivateFrameworks, widening search..."
-            PLIST=$(find /System/Library -name "WFActions.plist" 2>/dev/null | head -n 1)
-          fi
-          echo "Found: $PLIST"
-          cp "$PLIST" out/WFActions.plist
-          plutil -convert json -o out/WFActions.json out/WFActions.plist
+          sw_vers | tee out/os-version.txt
 
-      - name: Generate condensed LLM reference
+      - name: Recon — what does this image actually have?
         run: |
-          python3 - <<'EOF'
-          import json
+          {
+            echo "== PrivateFrameworks matching workflow/action/shortcut =="
+            ls /System/Library/PrivateFrameworks | grep -iE 'workflow|action|shortcut' || echo "(none)"
+            echo
+            echo "== WorkflowKit.framework files on disk =="
+            find /System/Library/PrivateFrameworks/WorkflowKit.framework -type f 2>/dev/null || echo "(framework dir not on disk)"
+          } | tee out/recon.txt
 
-          with open("out/WFActions.json") as f:
-              actions = json.load(f)
+      - name: Hunt for WFActions.plist (broad, sudo)
+        run: |
+          FOUND=$(sudo find \
+            /System/Library \
+            /System/Cryptexes \
+            /System/Applications \
+            /System/iOSSupport \
+            /Library/Apple \
+            -name 'WFActions*.plist' 2>/dev/null | head -n 5)
+          printf '%s\n' "$FOUND" | tee out/hunt-results.txt
+          FIRST=$(printf '%s\n' "$FOUND" | head -n 1)
+          if [ -n "$FIRST" ]; then
+            sudo cp "$FIRST" out/WFActions.plist
+            sudo chown "$USER" out/WFActions.plist
+            echo "Copied: $FIRST"
+          else
+            echo "::warning::No WFActions.plist found on ${{ matrix.os }}"
+          fi
+
+      - name: Convert + condense (plutil-proof)
+        run: |
+          [ -f out/WFActions.plist ] || { echo "No plist on this image — skipping."; exit 0; }
+          python3 - <<'EOF'
+          import base64, datetime, json, plistlib
+
+          def clean(o):
+              if isinstance(o, bytes): return base64.b64encode(o).decode()
+              if isinstance(o, datetime.datetime): return o.isoformat()
+              if isinstance(o, dict): return {k: clean(v) for k, v in o.items()}
+              if isinstance(o, list): return [clean(v) for v in o]
+              return o
+
+          with open("out/WFActions.plist", "rb") as f:
+              actions = clean(plistlib.load(f))
+          with open("out/WFActions.json", "w") as f:
+              json.dump(actions, f, indent=1, sort_keys=True)
 
           condensed = {}
           for identifier, defn in actions.items():
+              if not isinstance(defn, dict): continue
               entry = {}
-              if "ActionClass" in defn:
-                  entry["class"] = defn["ActionClass"]
-              params = []
-              for p in defn.get("Parameters", []):
-                  param = {k: p[k] for k in ("Key", "Class", "Label", "DefaultValue") if k in p}
-                  params.append(param)
-              if params:
-                  entry["parameters"] = params
+              if "ActionClass" in defn: entry["class"] = defn["ActionClass"]
+              params = [{k: p[k] for k in ("Key","Class","Label","DefaultValue") if k in p}
+                        for p in defn.get("Parameters", []) if isinstance(p, dict)]
+              if params: entry["parameters"] = params
               for k in ("Input", "Output"):
-                  if k in defn:
-                      entry[k.lower()] = defn[k]
+                  if k in defn: entry[k.lower()] = defn[k]
               condensed[identifier] = entry
 
           with open("out/actions-condensed.json", "w") as f:
               json.dump(condensed, f, indent=1, sort_keys=True)
-
           print(f"{len(condensed)} actions extracted")
           EOF
 
-      - uses: actions/upload-artifact@v4
+      - name: Poke the Shortcuts runtime + grab its database
+        run: |
+          shortcuts list > out/shortcuts-cli-check.txt 2>&1 || true
+          DB="$HOME/Library/Shortcuts/Shortcuts.sqlite"
+          if [ -f "$DB" ]; then
+            cp "$DB"* out/ 2>/dev/null || true
+            sqlite3 "$DB" ".tables" | tee out/sqlite-tables.txt || true
+          else
+            echo "No Shortcuts.sqlite on this runner" | tee out/sqlite-tables.txt
+          fi
+
+      - name: Harvest App Intents metadata (modern actions)
+        run: |
+          mkdir -p out/appintents
+          sudo find /System -path /System/Volumes -prune -o \
+            -type f -name '*.actionsdata' -print 2>/dev/null \
+            | tee out/appintents-found.txt \
+            | while IFS= read -r f; do
+                safe=$(printf '%s' "$f" | sed 's|^/||; s|/|__|g')
+                sudo cp "$f" "out/appintents/$safe" 2>/dev/null || true
+              done
+          sudo chown -R "$USER" out/appintents || true
+          echo "Harvested: $(ls out/appintents | wc -l | tr -d ' ') App Intents files"
+
+      - name: Upload everything (even on failure)
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
-          name: shortcuts-action-database
+          name: shortcuts-action-database-${{ matrix.os }}
           path: out/
