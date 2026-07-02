@@ -1,0 +1,41 @@
+name: Sign Shortcuts
+on:
+  push:
+    paths: ['shortcuts/*.plist']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sign:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lint and sign
+        run: |
+          mkdir -p signed
+          FAIL=0
+          for f in shortcuts/*.plist; do
+            name=$(basename "$f" .plist)
+            echo "--- $name ---"
+            plutil -lint "$f" || { FAIL=1; continue; }
+            shortcuts sign --mode anyone -i "$f" -o "signed/${name}.shortcut" \
+              || { echo "::error::Signing failed for $name"; FAIL=1; }
+          done
+          exit $FAIL
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: signed-shortcuts
+          path: signed/
+
+      - name: Publish to rolling release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete latest-signed --yes --cleanup-tag || true
+          gh release create latest-signed signed/*.shortcut \
+            --title "Signed Shortcuts" \
+            --notes "Signed from ${{ github.sha }}"
