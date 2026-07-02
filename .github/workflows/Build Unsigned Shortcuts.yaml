@@ -1,0 +1,133 @@
+name: Build Unsigned Shortcuts
+
+on:
+  push:
+    paths:
+      - 'shortcuts/*.plist'
+      - 'reference/actions-condensed.json'
+      - '.github/workflows/Sign Shortcuts.yaml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-26
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Lint, validate, and build unsigned shortcuts
+        run: |
+          set -u
+
+          mkdir -p build
+          FAIL=0
+          FOUND=0
+
+          if [ ! -f reference/actions-condensed.json ]; then
+            echo "::error::Missing reference/actions-condensed.json"
+            echo "Run the Extract Shortcuts Action Database workflow and commit the generated reference file."
+            exit 1
+          fi
+
+          for f in shortcuts/*.plist; do
+            [ -e "$f" ] || continue
+            FOUND=1
+
+            name=$(basename "$f" .plist)
+            unsigned="build/${name}.unsigned.shortcut"
+
+            echo "--- $name ---"
+
+            echo "Checking XML/plist syntax..."
+            plutil -lint "$f" || { FAIL=1; continue; }
+
+            echo "Checking required Shortcut top-level keys..."
+            plutil -extract WFWorkflowActions raw -o - "$f" >/dev/null 2>&1 \
+              || { echo "::error::$f is missing WFWorkflowActions"; FAIL=1; continue; }
+
+            plutil -extract WFWorkflowIcon.WFWorkflowIconStartColor raw -o - "$f" >/dev/null 2>&1 \
+              || { echo "::error::$f is missing WFWorkflowIcon.WFWorkflowIconStartColor. Use WFWorkflowIconStartColor, not WFWorkflowIconColor."; FAIL=1; continue; }
+
+            plutil -extract WFWorkflowIcon.WFWorkflowIconGlyphNumber raw -o - "$f" >/dev/null 2>&1 \
+              || { echo "::error::$f is missing WFWorkflowIcon.WFWorkflowIconGlyphNumber"; FAIL=1; continue; }
+
+            echo "Validating action identifiers against reference/actions-condensed.json..."
+            python3 - "$f" reference/actions-condensed.json <<'PY' \
+              || { echo "::error::Action identifier validation failed for $f"; FAIL=1; continue; }
+          import json
+          import plistlib
+          import sys
+
+          plist_path = sys.argv[1]
+          reference_path = sys.argv[2]
+
+          with open(reference_path, "r", encoding="utf-8") as f:
+              reference = json.load(f)
+
+          with open(plist_path, "rb") as f:
+              shortcut = plistlib.load(f)
+
+          actions = shortcut.get("WFWorkflowActions")
+          if not isinstance(actions, list):
+              print(f"{plist_path}: WFWorkflowActions is missing or is not an array")
+              sys.exit(1)
+
+          ok = True
+          used_app_intents = []
+
+          for index, action in enumerate(actions, start=1):
+              if not isinstance(action, dict):
+                  print(f"{plist_path}: action #{index} is not a dictionary")
+                  ok = False
+                  continue
+
+              identifier = action.get("WFWorkflowActionIdentifier")
+              if not identifier:
+                  print(f"{plist_path}: action #{index} is missing WFWorkflowActionIdentifier")
+                  ok = False
+                  continue
+
+              entry = reference.get(identifier)
+              if entry is None:
+                  print(f"{plist_path}: unknown action identifier at action #{index}: {identifier}")
+                  ok = False
+                  continue
+
+              if entry.get("type") == "appIntent":
+                  used_app_intents.append(identifier)
+
+          if used_app_intents:
+              print("Warning: this shortcut uses appIntent entries, which may require additional plist serialization research:")
+              for identifier in used_app_intents:
+                  print(f"  - {identifier}")
+
+          if not ok:
+              sys.exit(1)
+
+          print(f"{plist_path}: all action identifiers found in reference")
+          PY
+
+            echo "Converting XML plist to binary unsigned .shortcut..."
+            plutil -convert binary1 -o "$unsigned" "$f" \
+              || { echo "::error::Binary conversion failed for $name"; FAIL=1; continue; }
+
+            echo "Built unsigned shortcut: $unsigned"
+          done
+
+          if [ "$FOUND" -eq 0 ]; then
+            echo "::warning::No .plist files found in shortcuts/"
+          fi
+
+          exit "$FAIL"
+
+      - name: Upload unsigned shortcuts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unsigned-shortcuts
+          path: build/
+          if-no-files-found: warn
