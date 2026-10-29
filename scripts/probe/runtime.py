@@ -272,4 +272,181 @@ if reg_cls:
                             ran3, v = guarded(f"stage3|{s}|{ident}|{p}", lambda: msg(a, p))
                             if ran3:
                                 emit(f"--- {ident}.{p}\n{desc(v)[:500000]}\n")
+
+# ---------------------------------------------------------------- stage 4/5: definitions and real serialization
+import threading, traceback
+
+_sendpp = raw(c_void_p, c_void_p, c_void_p, c_void_p, c_void_p)
+_sendbool = raw(c_void_p, c_void_p, c_void_p, c_bool)
+_sendll = raw(c_void_p, c_void_p, c_void_p, ctypes.c_longlong)
+_validplist = raw(c_bool, c_void_p, c_void_p, c_void_p, c_ulong)
+_plistdata = raw(c_void_p, c_void_p, c_void_p, c_void_p, c_ulong, c_ulong, c_void_p)
+
+
+def ns(v):
+    """Python -> Foundation object."""
+    if isinstance(v, bool):
+        return _sendbool(getClass(b"NSNumber"), sel("numberWithBool:"), v)
+    if isinstance(v, int):
+        return _sendll(getClass(b"NSNumber"), sel("numberWithLongLong:"), v)
+    if isinstance(v, str):
+        return nsstr(v)
+    if isinstance(v, list):
+        arr = msg(getClass(b"NSMutableArray"), "array")
+        for x in v:
+            _sendp(arr, sel("addObject:"), ns(x))
+        return arr
+    if isinstance(v, dict):
+        d = msg(getClass(b"NSMutableDictionary"), "dictionary")
+        for k, x in v.items():
+            _sendpp(d, sel("setObject:forKey:"), ns(x), ns(k))
+        return d
+    raise TypeError(type(v))
+
+
+def plist_text(obj):
+    """XML plist text of obj if it is property-list-clean, else its description."""
+    if not obj:
+        return "nil"
+    cls = getClass(b"NSPropertyListSerialization")
+    if _validplist(cls, sel("propertyList:isValidForFormat:"), obj, 100):
+        data = _plistdata(cls, sel("dataWithPropertyList:format:options:error:"), obj, 100, 0, None)
+        if data:
+            return ctypes.string_at(msg(data, "bytes"), _sendul(data, sel("length"))).decode("utf-8", "replace")
+    return "<!-- not a clean property list; description follows -->\n" + desc(obj)
+
+
+def block_call(block):
+    invoke = ctypes.cast(block + 16, POINTER(c_void_p))[0]        # Block_literal_1.invoke
+    return CFUNCTYPE(c_void_p, c_void_p)(invoke)(block)
+
+
+def unwrap(obj):
+    """Block -> its result; WFActionDefinition -> its backing dictionary."""
+    for _ in range(3):
+        if not obj:
+            return obj
+        cn = S(className(objGetClass(obj)))
+        if "Block" in cn:
+            obj = block_call(obj)
+        elif cn.endswith("Definition") and responds(obj, "valueForKey:"):
+            obj = _sendp(obj, sel("valueForKey:"), nsstr("_definition"))
+        else:
+            break
+    return obj
+
+
+def with_timeout(fn, secs, what):
+    box = {}
+    t = threading.Thread(target=lambda: box.setdefault("v", fn()), daemon=True)
+    t.start()
+    t.join(secs)
+    if t.is_alive():
+        log(f"TIMEOUT after {secs}s: {what}")
+        return None
+    return box.get("v")
+
+
+def safe_name(k):
+    return re.sub(r"[^A-Za-z0-9._-]", "_", k)[:150]
+
+
+DEFDIR = f"{out_dir}/definitions"
+SERDIR = f"{out_dir}/default-serialized"
+os.makedirs(DEFDIR, exist_ok=True)
+os.makedirs(SERDIR, exist_ok=True)
+
+adr = getClass(b"WFActionDefinitionRegistry")
+if adr:
+    guarded("s4|rediscover", lambda: msg(adr, "rediscoverDefinitionsIfNeeded"))
+    ran, regd = guarded("s4|registeredDefinitions", lambda: msg(adr, "registeredDefinitions"))
+    pairs = items_of(regd) if ran else []
+    log(f"stage 4: registeredDefinitions has {len(pairs)} entries (class {S(className(objGetClass(regd))) if regd else None})")
+    if not pairs:
+        # Fall back: the +actionDefinitionFor* methods register themselves when called.
+        n = c_uint(0)
+        arr = copyMethods(objGetClass(adr), ctypes.byref(n))
+        names = [S(selName(methodSel(arr[i]))) for i in range(n.value)]
+        names = [x for x in names if x.startswith("actionDefinitionFor")]
+        for nm in names:
+            guarded(f"s4|call.{nm}", lambda nm=nm: msg(adr, nm))
+        ran, regd = guarded("s4|registeredDefinitions2", lambda: msg(adr, "registeredDefinitions"))
+        pairs = items_of(regd) if ran else []
+        log(f"stage 4 (after calling {len(names)} registrars): {len(pairs)} entries")
+    for key, val in pairs:
+        try:
+            ran, d = guarded(f"s4|dump|{key}", lambda: unwrap(val))
+            if ran and d:
+                with open(f"{DEFDIR}/{safe_name(str(key))}.xml", "w", encoding="utf-8") as f:
+                    f.write(f"<!-- key={key} class={S(className(objGetClass(d)))} -->\n" + plist_text(d))
+        except Exception:
+            log(f"stage 4 error on {key}: {traceback.format_exc(limit=2)}")
+else:
+    log("stage 4: WFActionDefinitionRegistry absent")
+
+# stage 5: instantiate through the real registry and read back Apple's own serialization
+reg_cls = getClass(b"WFActionRegistry")
+ran, reg = guarded("s5|sharedRegistry", lambda: msg(reg_cls, "sharedRegistry")) if reg_cls else (False, None)
+if ran and reg:
+    with_timeout(lambda: guarded("s5|fill", lambda: msg(reg, "fill")), 120, "registry fill")
+    ran, byid = guarded("s5|actionsByIdentifier", lambda: msg(reg, "actionsByIdentifier"))
+    log(f"stage 5: actionsByIdentifier count after fill = {_sendul(byid, sel('count')) if byid else None}")
+    if byid:
+        for key, act in items_of(byid)[:3000]:
+            try:
+                if responds(act, "serializedRepresentation"):
+                    ran, rep = guarded(f"s5|rep|{key}", lambda: msg(act, "serializedRepresentation"))
+                    if ran and rep:
+                        with open(f"{SERDIR}/{safe_name(str(key))}.xml", "w", encoding="utf-8") as f:
+                            f.write(plist_text(rep))
+            except Exception:
+                log(f"stage 5 error on {key}: {traceback.format_exc(limit=2)}")
+
+    # What does Apple write back for control flow? Feed in the legacy shapes this repo's generator uses.
+    GID = "11111111-2222-3333-4444-555555555555"
+    probes = {
+        "conditional-legacy-hasanyvalue": ("is.workflow.actions.conditional", {
+            "GroupingIdentifier": GID, "WFControlFlowMode": 0, "WFCondition": "Has Any Value",
+            "WFInput": {"Type": "Variable", "Variable": {"Value": {"Type": "Variable", "VariableName": "Result"},
+                                                          "WFSerializationType": "WFTextTokenAttachment"}}}),
+        "conditional-legacy-contains": ("is.workflow.actions.conditional", {
+            "GroupingIdentifier": GID, "WFControlFlowMode": 0, "WFCondition": "Contains",
+            "WFConditionalActionString": "x",
+            "WFInput": {"Type": "Variable", "Variable": {"Value": {"Type": "Variable", "VariableName": "A"},
+                                                          "WFSerializationType": "WFTextTokenAttachment"}}}),
+        "conditional-otherwise": ("is.workflow.actions.conditional", {"GroupingIdentifier": GID, "WFControlFlowMode": 1}),
+        "conditional-end": ("is.workflow.actions.conditional", {"GroupingIdentifier": GID, "WFControlFlowMode": 2}),
+        "conditional-bare": ("is.workflow.actions.conditional", {}),
+        "menu-open": ("is.workflow.actions.choosefrommenu", {"GroupingIdentifier": GID, "WFControlFlowMode": 0,
+                                                              "WFMenuPrompt": "Pick", "WFMenuItems": ["A", "B"]}),
+        "menu-item": ("is.workflow.actions.choosefrommenu", {"GroupingIdentifier": GID, "WFControlFlowMode": 1,
+                                                              "WFMenuItemTitle": "A"}),
+        "repeat-count": ("is.workflow.actions.repeat.count", {"GroupingIdentifier": GID, "WFControlFlowMode": 0,
+                                                               "WFRepeatCount": 3}),
+        "repeat-each-bare": ("is.workflow.actions.repeat.each", {}),
+        "replace-regex": ("is.workflow.actions.text.replace", {"WFReplaceTextFind": "a", "WFReplaceTextReplace": "b",
+                                                               "WFReplaceTextRegularExpression": True}),
+        "matchtext": ("is.workflow.actions.text.match", {"WFMatchTextPattern": "x"}),
+        "setvariable": ("is.workflow.actions.setvariable", {"WFVariableName": "V"}),
+    }
+    for name, (ident, params) in probes.items():
+        try:
+            ran, act = guarded(f"s5|create|{name}", lambda: _sendpp(
+                reg, sel("createActionWithIdentifier:serializedParameters:"), nsstr(ident), ns(params)))
+            if not ran or not act:
+                emit(f"// ===== probe {name}: create returned nil\n")
+                continue
+            ran, rep = guarded(f"s5|probe-rep|{name}", lambda: msg(act, "serializedRepresentation"))
+            emit(f"// ===== probe {name} -> {S(className(objGetClass(act)))}\n// IN : {params}\n"
+                 f"{plist_text(rep) if ran else 'skipped'}\n")
+            if responds(act, "parameterDefinitions"):
+                ran, pd = guarded(f"s5|probe-pd|{name}", lambda: msg(act, "parameterDefinitions"))
+                if ran and pd:
+                    emit(f"// ----- {name}.parameterDefinitions\n{desc(pd)[:300000]}\n")
+        except Exception:
+            log(f"stage 5 probe error {name}: {traceback.format_exc(limit=2)}")
+
+
 log("probe finished")
+sys.stdout.flush()
+os._exit(0)
