@@ -1,0 +1,58 @@
+name: Lint Shortcuts
+
+# Runs every shortcuts/*.plist through Apple's own importer on macOS: Apple's migrations, the live action
+# registry (reports parameters Apple would silently drop) and the import validator. Then builds the unsigned files.
+on:
+  push:
+    paths:
+      - "shortcuts/**"
+      - "scripts/extract/**"
+      - ".github/workflows/Lint Shortcuts.yaml"
+  pull_request:
+    paths:
+      - "shortcuts/**"
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: macos-26
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lint with Apple's importer
+        run: bash scripts/extract/run_runtime.sh lint "$RUNNER_TEMP/lint" shortcuts
+
+      - name: Report
+        run: |
+          python3 - "$RUNNER_TEMP/lint/lint-summary.json" <<'PY'
+          import json, sys
+          bad = 0
+          for r in json.load(open(sys.argv[1])):
+              print(f"== {r['file']} (client version {r.get('client_version')})")
+              for n in r["notes"]:
+                  print("   note:", n)
+              for w in r["warnings"]:
+                  print(f"::warning file=shortcuts/{r['file']}::{w}")
+              for e in r["errors"]:
+                  print(f"::error file=shortcuts/{r['file']}::{e}")
+                  bad += 1
+          sys.exit(1 if bad else 0)
+          PY
+
+      - name: Build unsigned .shortcut files
+        run: |
+          mkdir -p build
+          for f in shortcuts/*.plist; do
+            python3 scripts/plist_to_shortcut.py "$f" -o "build/$(basename "$f" .plist).unsigned.shortcut"
+          done
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lint-and-unsigned
+          path: |
+            build
+            ${{ runner.temp }}/lint/lint-summary.json
+            ${{ runner.temp }}/lint/*.migrated.xml
+          if-no-files-found: warn

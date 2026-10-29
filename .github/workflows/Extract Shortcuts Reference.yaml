@@ -1,0 +1,76 @@
+name: Extract Shortcuts Reference
+
+# One run refreshes everything in reference/ from a real macOS: the ToolKit registry (every tool), Apple's
+# WorkflowKit classic action definitions (incl. If / Menu / Repeat), the WorkflowKit class dump, Apple's
+# shipped example shortcuts, and the current client version. Then it commits the result.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 1 * *"   # monthly, so the reference tracks new macOS releases
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: macos-26
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Record OS version
+        run: |
+          mkdir -p reference
+          { sw_vers; xcodebuild -version | head -1; } | tee reference/os-version.txt
+
+      - name: Let Shortcuts populate its ToolKit database
+        continue-on-error: true
+        run: |
+          open -a Shortcuts 2>/dev/null || echo "Could not launch Shortcuts"
+          sleep 30
+          osascript -e 'tell application "Shortcuts" to quit' 2>/dev/null || true
+
+      - name: ToolKit database -> actions-condensed.json
+        run: |
+          DB=$(find "$HOME/Library/Shortcuts/ToolKit" -name "Tools-active" | head -n 1)
+          [ -n "$DB" ] || { echo "::error::Tools-active not found - did the ToolKit path change?"; find "$HOME/Library/Shortcuts"; exit 1; }
+          cp "$DB" reference/toolkit-raw.db
+          python3 scripts/build_reference.py reference/toolkit-raw.db reference/actions-condensed.json
+
+      - name: WorkflowKit definitions, class dump and control-flow probes
+        run: |
+          bash scripts/extract/run_runtime.sh extract "$RUNNER_TEMP/out"
+          cp "$RUNNER_TEMP/out/action-definitions.json" reference/action-definitions.json
+          cp "$RUNNER_TEMP/out/meta.json" reference/workflowkit-meta.json
+          cp "$RUNNER_TEMP/out/control-flow-probes.xml" reference/control-flow-probes.xml
+          gzip -9 -c "$RUNNER_TEMP/out/workflowkit-class-dump.txt" > reference/workflowkit-class-dump.txt.gz
+
+      - name: Apple's own example shortcuts
+        run: bash scripts/extract/gallery.sh reference/gallery-examples
+
+      - name: Render action-catalog.md
+        run: python3 scripts/build_catalog.py reference
+
+      - name: Lint shortcuts/ with Apple's importer
+        continue-on-error: true
+        run: |
+          [ -d shortcuts ] && bash scripts/extract/run_runtime.sh lint "$RUNNER_TEMP/lint" shortcuts || echo "no shortcuts/ to lint"
+
+      - name: Commit the refreshed reference
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reference
+          if git diff --cached --quiet; then echo "reference already up to date"; else
+            git commit -m "Refresh reference from macOS $(sw_vers -productVersion) ($(sw_vers -buildVersion))"
+            git push
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: extract-output
+          path: |
+            ${{ runner.temp }}/out
+            ${{ runner.temp }}/lint
+          if-no-files-found: warn

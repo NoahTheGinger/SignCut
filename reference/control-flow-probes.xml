@@ -1,0 +1,151 @@
+<!-- probe conditional-open-legacy -> WFConditionalAction
+     input: {'GroupingIdentifier': '11111111-2222-3333-4444-555555555555', 'WFControlFlowMode': 0, 'WFCondition': 'Has Any Value', 'WFInput': {'Type': 'Variable', 'Variable': {'Value': {'Type': 'Variable', 'VariableName': 'X'}, 'WFSerializationType': 'WFTextTokenAttachment'}}} -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActionIdentifier</key>
+	<string>is.workflow.actions.conditional</string>
+	<key>WFWorkflowActionParameters</key>
+	<dict>
+		<key>GroupingIdentifier</key>
+		<string>11111111-2222-3333-4444-555555555555</string>
+		<key>WFConditions</key>
+		<dict>
+			<key>Value</key>
+			<dict>
+				<key>WFActionParameterFilterPrefix</key>
+				<integer>0</integer>
+				<key>WFActionParameterFilterTemplates</key>
+				<array/>
+				<key>WFContentPredicateBoundedDate</key>
+				<false/>
+			</dict>
+			<key>WFSerializationType</key>
+			<string>WFContentPredicateTableTemplate</string>
+		</dict>
+		<key>WFControlFlowMode</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>
+
+<!-- probe conditional-otherwise -> WFConditionalAction
+     input: {'GroupingIdentifier': '11111111-2222-3333-4444-555555555555', 'WFControlFlowMode': 1} -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActionIdentifier</key>
+	<string>is.workflow.actions.conditional</string>
+	<key>WFWorkflowActionParameters</key>
+	<dict>
+		<key>GroupingIdentifier</key>
+		<string>11111111-2222-3333-4444-555555555555</string>
+		<key>WFControlFlowMode</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>
+
+<!-- probe conditional-end -> WFConditionalAction
+     input: {'GroupingIdentifier': '11111111-2222-3333-4444-555555555555', 'WFControlFlowMode': 2} -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActionIdentifier</key>
+	<string>is.workflow.actions.conditional</string>
+	<key>WFWorkflowActionParameters</key>
+	<dict>
+		<key>GroupingIdentifier</key>
+		<string>11111111-2222-3333-4444-555555555555</string>
+		<key>WFControlFlowMode</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>
+
+<!-- probe menu-open -> WFChooseFromMenuAction
+     input: {'GroupingIdentifier': '11111111-2222-3333-4444-555555555555', 'WFControlFlowMode': 0, 'WFMenuPrompt': 'Pick', 'WFMenuItems': ['A', 'B']} -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActionIdentifier</key>
+	<string>is.workflow.actions.choosefrommenu</string>
+	<key>WFWorkflowActionParameters</key>
+	<dict>
+		<key>GroupingIdentifier</key>
+		<string>11111111-2222-3333-4444-555555555555</string>
+		<key>WFControlFlowMode</key>
+		<integer>0</integer>
+		<key>WFMenuItems</key>
+		<array>
+			<string>A</string>
+			<string>B</string>
+		</array>
+		<key>WFMenuPrompt</key>
+		<string>Pick</string>
+	</dict>
+</dict>
+</plist>
+
+<!-- probe menu-item -> WFChooseFromMenuAction
+     input: {'GroupingIdentifier': '11111111-2222-3333-4444-555555555555', 'WFControlFlowMode': 1, 'WFMenuItemTitle': 'A'} -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActionIdentifier</key>
+	<string>is.workflow.actions.choosefrommenu</string>
+	<key>WFWorkflowActionParameters</key>
+	<dict>
+		<key>GroupingIdentifier</key>
+		<string>11111111-2222-3333-4444-555555555555</string>
+		<key>WFControlFlowMode</key>
+		<integer>1</integer>
+		<key>WFMenuItemTitle</key>
+		<string>A</string>
+	</dict>
+</dict>
+</plist>
+
+<!-- probe repeat-count-open -> WFFiniteRepeatAction
+     input: {'GroupingIdentifier': '11111111-2222-3333-4444-555555555555', 'WFControlFlowMode': 0, 'WFRepeatCount': 3} -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActionIdentifier</key>
+	<string>is.workflow.actions.repeat.count</string>
+	<key>WFWorkflowActionParameters</key>
+	<dict>
+		<key>GroupingIdentifier</key>
+		<string>11111111-2222-3333-4444-555555555555</string>
+		<key>WFControlFlowMode</key>
+		<integer>0</integer>
+		<key>WFRepeatCount</key>
+		<integer>3</integer>
+	</dict>
+</dict>
+</plist>
+
+<!-- probe repeat-each-open -> WFForEachRepeatAction
+     input: {'GroupingIdentifier': '11111111-2222-3333-4444-555555555555', 'WFControlFlowMode': 0} -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WFWorkflowActionIdentifier</key>
+	<string>is.workflow.actions.repeat.each</string>
+	<key>WFWorkflowActionParameters</key>
+	<dict>
+		<key>GroupingIdentifier</key>
+		<string>11111111-2222-3333-4444-555555555555</string>
+		<key>WFControlFlowMode</key>
+		<integer>0</integer>
+	</dict>
+</dict>
+</plist>
+

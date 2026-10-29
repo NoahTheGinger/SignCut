@@ -1,70 +1,56 @@
 # 🔨 SignCut — Apple Shortcuts reference kit
 
-**Give an LLM a rich reference of Apple Shortcuts actions, have it create a complete XML plist, turn that plist into an unsigned `.shortcut` file locally, and sign the result separately.**
+**Give an LLM a reference of Apple Shortcuts actions that was read out of a real macOS, let it write an XML plist, build an unsigned `.shortcut` locally, have Apple's own importer lint it, and sign it separately.**
 
-This stripped-down edition is intentionally **not a GitHub Actions pipeline, signing service, or Shortcut repository**. The original reference data is preserved; builds happen wherever your LLM or Python environment can create a file.
-
-## Contents
+## What is in the box
 
 ```text
 SignCut/
-├── README.md
-├── reference/
-│   ├── README.md
-│   ├── actions-condensed.json    # 1,791 machine-readable actions
-│   ├── action-catalog.md        # all actions in readable Markdown
-│   ├── toolkit-raw.db           # original Apple ToolKit SQLite data
-│   └── os-version.txt           # macOS 26.4 / build 25E246
-├── prompts/
-│   └── generate-shortcut.md    # LLM instructions + request template
-└── scripts/
-    └── plist_to_shortcut.py    # standard-library plist converter
+├── reference/                         # generated from a real Mac by the Extract workflow
+│   ├── actions-condensed.json         # every ToolKit tool: parameters, enums, outputs
+│   ├── action-definitions.json        # WorkflowKit classic definitions: control flow + serialization classes
+│   ├── control-flow-and-serialization.md   # verified plist layouts: menus, If, Repeat, variables
+│   ├── gallery-examples/              # Apple's own shipped shortcuts
+│   ├── action-catalog.md  …  see reference/README.md for the full list
+├── prompts/generate-shortcut.md       # LLM instructions + request template
+├── scripts/
+│   ├── plist_to_shortcut.py           # XML plist -> unsigned binary .shortcut (standard library only)
+│   ├── build_reference.py, build_catalog.py
+│   └── extract/                       # runs on macOS: runtime introspection of WorkflowKit + the linter
+├── shortcuts/                         # put your plists here to have Apple's importer lint them
+└── .github/workflows/
+    ├── Extract Shortcuts Reference.yaml   # refreshes reference/ from macOS (manual + monthly)
+    └── Lint Shortcuts.yaml                # lints shortcuts/*.plist with Apple's own importer
 ```
 
-## Fastest way to use it with an LLM
+## Use it with an LLM
 
-1. Give your LLM **`prompts/generate-shortcut.md`** and **`reference/actions-condensed.json`** (or the whole repository if its environment supports reading files). You can also supply `reference/action-catalog.md` for browsing and `reference/toolkit-raw.db` if advanced investigation is needed.
-2. Replace `[DESCRIBE YOUR SHORTCUT HERE]` in the prompt with the Shortcut behavior you want.
-3. Ask the LLM to create an XML plist named, for example, `my-shortcut.plist` **and an actual downloadable `.unsigned.shortcut` file**, not merely a code block. It should validate the structure and action IDs against the reference; import-time behavior cannot be guaranteed from the registry alone.
-4. If the LLM cannot produce a binary attachment, save the XML plist and convert it yourself:
+1. Give your LLM `prompts/generate-shortcut.md` and the `reference/` folder (at minimum `actions-condensed.json`, `action-definitions.json`, `control-flow-and-serialization.md`). Replace `[DESCRIBE YOUR SHORTCUT HERE]`.
+2. Ask for the XML plist **and** an actual `.unsigned.shortcut` file. If it can't produce a binary, convert the plist yourself:
 
-   **Windows (PowerShell):**
-   ```powershell
-   py scripts/plist_to_shortcut.py my-shortcut.plist
-   ```
-
-   **macOS/Linux/iSH (if Python is installed):**
    ```bash
-   python3 scripts/plist_to_shortcut.py my-shortcut.plist
+   python3 scripts/plist_to_shortcut.py my-shortcut.plist        # Windows: py scripts/plist_to_shortcut.py …
    ```
 
-   The default output is `my-shortcut.unsigned.shortcut`, next to the input. Override with `-o output.unsigned.shortcut`.
-5. Upload **the `.unsigned.shortcut` file** to [Shortcuty Signer](https://sign.shortcuty.app/), download its **signed** `.shortcut` output, and import it into Apple Shortcuts on your iPhone. Shortcuty is a third-party remote signing service: it receives the complete file, so **don't upload secrets or private data**.
+   The converter checks the envelope and every action identifier (including the control-flow ones), and warns when the client version would skip Apple's migrations.
+3. **Lint it with Apple's own code (recommended).** Commit the plist to `shortcuts/` and push. The `Lint Shortcuts` workflow runs it through the real importer on macOS: Apple's migrations, the live action registry (it reports every parameter Apple would silently drop) and the import validator. It fails the run on errors, and attaches the `.unsigned.shortcut` and the migrated plist as artifacts.
+4. Upload the `.unsigned.shortcut` to [Shortcuty Signer](https://sign.shortcuty.app/), download the signed file and import it on your iPhone. Shortcuty is a third-party service that receives the complete file, so never put secrets in it. Signing can't run in CI: `shortcuts sign` needs an iCloud sign-in.
+
+## Keeping the reference current
+
+Run **Actions → Extract Shortcuts Reference → Run workflow** (it also runs monthly). One run refreshes everything in `reference/` from the runner's macOS and commits it. See `reference/README.md` for how, and `reference/os-version.txt` for the version in the repo now.
+
+## Honest limits
+
+- The data comes from **macOS**. Mac-only actions are marked (`DisabledOnPlatforms`), but nothing here proves an action exists or behaves on a given iPhone.
+- The ToolKit database alone cannot describe If / Menu / Repeat (they are not tools); `action-definitions.json` and the guide cover them. The If **condition** layout is verified only for "Has Any Value"; other conditions need a lint run.
+- App-Intents actions are serialized differently from classic actions and are not covered.
+- Apple's native code can crash during extraction; the scripts retry and log what was skipped (`progress.log` in the run artifact).
 
 ## Requirements
 
-- **Python 3.9+**, using only built-in `plistlib`, `json`, and other standard-library modules. No macOS, Xcode, GitHub Actions or signing certificate is required to *create the unsigned file*.
-- A compatible signing solution is still required before iOS import.
-- For Windows, use `py` (or `python`, depending on your installation). On iSH, install Python first if needed (`apk add python3`).
+Python 3.9+ standard library for the converter. The workflows need GitHub-hosted `macos-26` runners (free on public repositories). No certificate or Xcode setup.
 
-## Converter options
+## Privacy
 
-```bash
-python3 scripts/plist_to_shortcut.py --help
-python3 scripts/plist_to_shortcut.py my-shortcut.plist -o ready.unsigned.shortcut
-python3 scripts/plist_to_shortcut.py my-shortcut.plist --no-reference-check
-```
-
-The script validates plist syntax, the expected Shortcut envelope, and action identifiers against the included reference by default. It does **not** certify parameter serialization, iPhone compatibility, runtime behavior, or signature validity. `--no-reference-check` turns off only the identifier lookup (for example, if you deliberately work with newer actions than this snapshot).
-
-## What the Apple action reference covers
-
-The snapshot contains **1,791 tool records**: **382 classic actions**, **87 Siri intents**, and **1,322 App Intents**. IDs, names, descriptions, parameters, enum cases, outputs and deprecation data are provided wherever available. This is an extracted **macOS Shortcuts runtime registry**, rather than a complete, public authoring API or a guarantee that every action works on your iPhone.
-
-For complex Shortcuts (conditionals, loops, magic variables, App Intents), working examples exported by the Shortcuts app can be more important than the action reference: the database does not describe all plist serialization details. Avoid guessing opaque parameter payloads and warn about unverified encodings.
-
-## Privacy and maintenance
-
-Never hardcode API tokens, private messages, contacts, secrets or other sensitive values in a file that will be uploaded to a signing service. Have the Shortcut ask for runtime inputs or load secrets locally after import where possible. Your generated plist and unsigned output can remain local until you choose where to sign them.
-
-**No extract/build/sign workflows are retained.** This kit preserves the original reference snapshot, the instructions for LLM generation, and one local conversion script. To update the database for a future OS release, supply a newer extracted reference manually.
+Never hardcode tokens, messages, contacts or other secrets in a plist that will be uploaded to a signing service; have the shortcut ask for them at run time.
