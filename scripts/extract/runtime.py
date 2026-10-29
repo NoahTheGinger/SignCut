@@ -507,7 +507,10 @@ def lint(directory):
                         ran, ser = guarded(f"rtrep|{name}|{i}", lambda: msg(obj, "serializedRepresentation"))
                         out = (to_py(ser) or {}).get("WFWorkflowActionParameters", {}) if ran else {}
                         for finding in diff_params(params, out):
-                            if finding.startswith("dropped"):
+                            # The migrator copies the opening If's input onto Otherwise/End If; the loader ignores it. Benign.
+                            benign = (ident.endswith(".conditional") and params.get("WFControlFlowMode") in (1, 2)
+                                      and finding == "dropped WFInput")
+                            if finding.startswith("dropped") and not benign:
                                 rep["warnings"].append(f"action #{i} {ident}: Apple's loader {finding}")
                 except TypeError as e:
                     rep["warnings"].append(f"action #{i} {ident}: {e}")
