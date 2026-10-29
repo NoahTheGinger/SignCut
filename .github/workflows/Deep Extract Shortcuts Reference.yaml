@@ -37,7 +37,6 @@ jobs:
         continue-on-error: true
         run: |
           mkdir -p out/db
-          cp -R "$HOME/Library/Shortcuts" out/db/Library-Shortcuts 2>&1 | tail -3
           DB=$(find "$HOME/Library/Shortcuts/ToolKit" -name "Tools-active" | head -n 1)
           [ -n "$DB" ] && cp "$DB" out/toolkit-raw.db && echo "ToolKit DB: $DB"
 
@@ -48,7 +47,7 @@ jobs:
 
       - name: Filesystem recon
         continue-on-error: true
-        run: bash scripts/probe/recon.sh out
+        run: LIGHT=1 bash scripts/probe/recon.sh out
 
       - name: Runtime introspection under Apple's platform-binary Python (re-runs past crashes)
         continue-on-error: true

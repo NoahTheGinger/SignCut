@@ -22,6 +22,7 @@ for d in "$PF" "$FW"; do
   done
 done
 wc -l "$R/dlopen-list.txt"
+[ -n "$LIGHT" ] && { echo "light recon done"; exit 0; }
 
 echo "== full tree of the key bundles =="
 for b in "$PF/WorkflowKit.framework" "$PF/ToolKit.framework" "$PF/ActionKit.framework" \

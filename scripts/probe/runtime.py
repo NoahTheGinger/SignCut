@@ -289,6 +289,8 @@ def ns(v):
         return _sendbool(getClass(b"NSNumber"), sel("numberWithBool:"), v)
     if isinstance(v, int):
         return _sendll(getClass(b"NSNumber"), sel("numberWithLongLong:"), v)
+    if isinstance(v, float):
+        return raw(c_void_p, c_void_p, c_void_p, ctypes.c_double)(getClass(b"NSNumber"), sel("numberWithDouble:"), v)
     if isinstance(v, str):
         return nsstr(v)
     if isinstance(v, list):
@@ -445,6 +447,218 @@ if ran and reg:
                     emit(f"// ----- {name}.parameterDefinitions\n{desc(pd)[:300000]}\n")
         except Exception:
             log(f"stage 5 probe error {name}: {traceback.format_exc(limit=2)}")
+
+
+
+# ---------------------------------------------------------------- stage 6: JSON definitions + Apple-side lint of sample shortcuts
+import json, base64
+
+_isKind = raw(c_bool, c_void_p, c_void_p, c_void_p)
+_retll = raw(ctypes.c_longlong, c_void_p, c_void_p)
+_retdbl = raw(ctypes.c_double, c_void_p, c_void_p)
+_init3 = raw(c_void_p, c_void_p, c_void_p, c_void_p, c_void_p, c_bool)
+_init4 = raw(c_void_p, c_void_p, c_void_p, c_void_p, c_void_p, c_void_p, POINTER(c_void_p))
+_bool_err = raw(c_bool, c_void_p, c_void_p, c_void_p, POINTER(c_void_p))
+_rec_err = raw(c_void_p, c_void_p, c_void_p, POINTER(c_void_p))
+_NS = {n: getClass(n.encode()) for n in ("NSString", "NSNumber", "NSArray", "NSDictionary", "NSData", "NSDate", "NSNull", "NSSet")}
+
+
+def is_kind(o, n):
+    return bool(_isKind(o, sel("isKindOfClass:"), _NS[n]))
+
+
+def has_ivar(o, name):
+    n = c_uint(0)
+    arr = copyIvars(objGetClass(o), ctypes.byref(n))
+    found = bool(arr) and any(S(ivarName(arr[i])) == name for i in range(n.value))
+    if arr:
+        libc.free(arr)
+    return found
+
+
+LOC = re.compile(r'LocalizationValue\(arguments: \[\], key: \\*"([^"\\]*)')
+
+
+def to_py(o, depth=0):
+    """Recursive Foundation -> JSON-able Python. Unwraps WF*Definition objects and localized strings."""
+    if not o:
+        return None
+    if depth > 14:
+        return "<max depth>"
+    cn = S(className(objGetClass(o)))
+    if is_kind(o, "NSString"):
+        return S(_sendstr(o, sel("UTF8String")))
+    if is_kind(o, "NSNumber"):
+        if "Boolean" in cn:
+            return bool(_retll(o, sel("longLongValue")))
+        if S(_sendstr(o, sel("objCType"))) in ("f", "d"):
+            return _retdbl(o, sel("doubleValue"))
+        return _retll(o, sel("longLongValue"))
+    if is_kind(o, "NSNull"):
+        return None
+    if is_kind(o, "NSData"):
+        n = _sendul(o, sel("length"))
+        return {"__data_b64__": base64.b64encode(ctypes.string_at(msg(o, "bytes"), min(n, 100000))).decode(), "length": n}
+    if is_kind(o, "NSDate"):
+        return {"__date__": desc(o)}
+    if is_kind(o, "NSDictionary"):
+        return {desc(k): to_py(v, depth + 1) for k, v in items_of(o)}
+    if is_kind(o, "NSArray") or is_kind(o, "NSSet"):
+        arr = o if is_kind(o, "NSArray") else msg(o, "allObjects")
+        return [to_py(x, depth + 1) for x in _arr(arr)]
+    if has_ivar(o, "_definition"):
+        return to_py(_sendp(o, sel("valueForKey:"), nsstr("_definition")), depth + 1)
+    text = desc(o)
+    m = LOC.search(text)
+    if m or "Localiz" in cn:
+        return {"__localized__": m.group(1) if m else text[:300]}
+    return {"__object__": cn, "description": text[:1500]}
+
+
+def diff_params(inp, out, path=""):
+    f = []
+    if isinstance(inp, dict) and isinstance(out, dict):
+        f += [f"dropped {path}{k}" for k in inp if k not in out]
+        f += [f"added {path}{k}" for k in out if k not in inp]
+        for k in inp:
+            if k in out:
+                f += diff_params(inp[k], out[k], f"{path}{k}.")
+    elif isinstance(inp, list) and isinstance(out, list):
+        if len(inp) != len(out):
+            f.append(f"list length changed at {path}: {len(inp)} -> {len(out)}")
+        else:
+            for i, (a, b) in enumerate(zip(inp, out)):
+                f += diff_params(a, b, f"{path}[{i}].")
+    elif inp != out:
+        f.append(f"changed {path}: {inp!r} -> {out!r}")
+    return f
+
+
+JSONDIR = f"{out_dir}/definitions-json"
+LINTDIR = f"{out_dir}/lint"
+os.makedirs(JSONDIR, exist_ok=True)
+os.makedirs(LINTDIR, exist_ok=True)
+
+# 6a. every registered definition as JSON (parameters unwrapped, localized strings resolved)
+if adr:
+    ran, regd = guarded("s6|registeredDefinitions", lambda: msg(adr, "registeredDefinitions"))
+    merged = {}
+    for key, val in (items_of(regd) if ran and regd else []):
+        try:
+            ran2, d = guarded(f"s6|def|{key}", lambda: unwrap(val))
+            if ran2 and d:
+                py = to_py(d)
+                merged[str(key)] = py
+                with open(f"{JSONDIR}/{safe_name(str(key))}.json", "w", encoding="utf-8") as f:
+                    json.dump(py, f, indent=1, sort_keys=True, default=str)
+        except Exception:
+            log(f"stage 6a error on {key}: {traceback.format_exc(limit=2)}")
+    with open(f"{out_dir}/action-definitions.json", "w", encoding="utf-8") as f:
+        json.dump(merged, f, indent=1, sort_keys=True, default=str)
+    log(f"stage 6a: {len(merged)} definitions written as JSON")
+
+# 6b. default serialization of every bundled action, via the bundled provider
+if reg:
+    provs_obj = msg(reg, "actionProvidersForLoading")
+    provs = _arr(provs_obj) if provs_obj else []
+    bundled = [p for p in provs if S(className(objGetClass(p))) == "WFBundledActionProvider"]
+    if bundled:
+        ran, acts = guarded("s6|createAll", lambda: with_timeout(lambda: msg(bundled[0], "createAllAvailableActions"), 180, "createAllAvailableActions"))
+        defaults = {}
+        if ran and acts:
+            for i, a in enumerate(_arr(acts)):
+                try:
+                    ran2, rep = guarded(f"s6|ser|{i}", lambda: msg(a, "serializedRepresentation"))
+                    if ran2 and rep:
+                        py = to_py(rep)
+                        defaults[py.get("WFWorkflowActionIdentifier", f"#{i}")] = py
+                except Exception:
+                    log(f"stage 6b error #{i}: {traceback.format_exc(limit=2)}")
+        with open(f"{out_dir}/default-serialized.json", "w", encoding="utf-8") as f:
+            json.dump(defaults, f, indent=1, sort_keys=True, default=str)
+        log(f"stage 6b: {len(defaults)} default serialized actions")
+
+# 6c. run sample shortcuts through Apple's own import path and diff every action against the registry round-trip
+samples_dir = sys.argv[3] if len(sys.argv) > 3 else None
+if samples_dir and os.path.isdir(samples_dir) and reg:
+    wff = getClass(b"WFWorkflowFile")
+    for fn in sorted(os.listdir(samples_dir)):
+        if not fn.endswith((".plist", ".wflow", ".shortcut")):
+            continue
+        path = os.path.join(samples_dir, fn)
+        name = os.path.splitext(fn)[0]
+        report = {"file": fn}
+        try:
+            orig = to_py(_sendp(getClass(b"NSDictionary"), sel("dictionaryWithContentsOfFile:"), nsstr(path)))
+            if not orig:
+                report["error"] = "could not parse as a property list"
+            else:
+                report["client_version"] = orig.get("WFWorkflowClientVersion")
+                for migrate in (False, True):
+                    ran, f = guarded(f"s6|file|{name}|{migrate}", lambda: _init3(
+                        msg(wff, "alloc"), sel("initWithDictionary:name:performMigration:"),
+                        _sendp(getClass(b"NSDictionary"), sel("dictionaryWithContentsOfFile:"), nsstr(path)),
+                        nsstr(name), migrate))
+                    if ran and f:
+                        root = msg(f, "rootObject")
+                        with open(f"{LINTDIR}/{name}.migrate-{str(migrate).lower()}.xml", "w", encoding="utf-8") as fh:
+                            fh.write(plist_text(root))
+                        report[f"migrate_{str(migrate).lower()}_diff_vs_input"] = diff_params(
+                            {k: v for k, v in orig.items() if k != "WFWorkflowActions"},
+                            {k: v for k, v in (to_py(root) or {}).items() if k != "WFWorkflowActions"})
+                        mig_actions = (to_py(root) or {}).get("WFWorkflowActions", [])
+                        report[f"migrate_{str(migrate).lower()}_action_changes"] = [
+                            {"index": i, "id": a.get("WFWorkflowActionIdentifier"),
+                             "findings": diff_params(o.get("WFWorkflowActionParameters", {}), a.get("WFWorkflowActionParameters", {}))}
+                            for i, (o, a) in enumerate(zip(orig.get("WFWorkflowActions", []), mig_actions))
+                            if diff_params(o.get("WFWorkflowActionParameters", {}), a.get("WFWorkflowActionParameters", {}))]
+                # registry round trip, action by action, against the ORIGINAL (unmigrated) parameters
+                rt = []
+                for i, a in enumerate(orig.get("WFWorkflowActions", [])):
+                    ident = a.get("WFWorkflowActionIdentifier")
+                    params = a.get("WFWorkflowActionParameters", {})
+                    try:
+                        ran, obj = guarded(f"s6|rt|{name}|{i}", lambda: _sendpp(
+                            reg, sel("createActionWithIdentifier:serializedParameters:"), nsstr(ident), ns(params)))
+                        if not ran:
+                            rt.append({"index": i, "id": ident, "findings": ["skipped: crashed on an earlier attempt"]})
+                            continue
+                        if not obj:
+                            rt.append({"index": i, "id": ident, "findings": ["registry returned nil (unknown identifier?)"]})
+                            continue
+                        ran, rep = guarded(f"s6|rtrep|{name}|{i}", lambda: msg(obj, "serializedRepresentation"))
+                        out = (to_py(rep) or {}).get("WFWorkflowActionParameters", {}) if ran else {}
+                        fnd = diff_params(params, out)
+                        if fnd:
+                            rt.append({"index": i, "id": ident, "class": S(className(objGetClass(obj))), "findings": fnd})
+                    except TypeError as e:
+                        rt.append({"index": i, "id": ident, "findings": [f"python could not marshal parameter: {e}"]})
+                report["registry_roundtrip_findings"] = rt
+                # Apple's import validator, if we can build a WFWorkflow without a database
+                ran, f = guarded(f"s6|file-v|{name}", lambda: _init3(
+                    msg(wff, "alloc"), sel("initWithDictionary:name:performMigration:"),
+                    _sendp(getClass(b"NSDictionary"), sel("dictionaryWithContentsOfFile:"), nsstr(path)), nsstr(name), True))
+                if ran and f:
+                    err = c_void_p()
+                    ran, rec = guarded(f"s6|rec|{name}", lambda: _rec_err(f, sel("recordRepresentationWithError:"), ctypes.byref(err)))
+                    report["record_error"] = desc(err.value) if err.value else None
+                    if ran and rec:
+                        err2 = c_void_p()
+                        ran, wf = guarded(f"s6|wf|{name}", lambda: _init4(
+                            msg(getClass(b"WFWorkflow"), "alloc"), sel("initWithRecord:reference:storageProvider:error:"),
+                            rec, None, None, ctypes.byref(err2)))
+                        report["workflow_error"] = desc(err2.value) if err2.value else None
+                        if ran and wf:
+                            err3 = c_void_p()
+                            ran, ok = guarded(f"s6|validate|{name}", lambda: _bool_err(
+                                getClass(b"WFShortcutValidator"), sel("validateForImportWorkflow:error:"), wf, ctypes.byref(err3)))
+                            report["validateForImport"] = {"ok": bool(ok) if ran else None,
+                                                           "error": desc(err3.value) if err3.value else None}
+        except Exception:
+            report["exception"] = traceback.format_exc(limit=3)
+        with open(f"{LINTDIR}/{name}.report.json", "w", encoding="utf-8") as fh:
+            json.dump(report, fh, indent=1, default=str)
+        log(f"stage 6c: linted {fn}")
 
 
 log("probe finished")
