@@ -1,0 +1,77 @@
+name: Deep Extract Shortcuts Reference
+
+# Goes beyond the ToolKit registry: control-flow definitions, serialization metadata, gallery
+# shortcuts and a runtime dump of the WorkflowKit stack. Everything lands in one artifact.
+on:
+  workflow_dispatch:
+  push:
+    branches: [deep-extract]
+    paths:
+      - ".github/workflows/Deep Extract Shortcuts Reference.yaml"
+      - "scripts/probe/**"
+
+jobs:
+  extract:
+    runs-on: macos-26
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Record OS version
+        run: |
+          mkdir -p out
+          sw_vers | tee out/os-version.txt
+          uname -a | tee -a out/os-version.txt
+          xcodebuild -version 2>&1 | tee -a out/os-version.txt || true
+
+      - name: Nudge Shortcuts to populate its databases
+        continue-on-error: true
+        run: |
+          open -a Shortcuts 2>/dev/null || echo "Could not launch Shortcuts"
+          sleep 30
+          # Exercise the CLI too; some of this may seed more state.
+          shortcuts list 2>&1 | tee out/shortcuts-list.txt || true
+          osascript -e 'tell application "Shortcuts" to quit' 2>/dev/null || true
+
+      - name: Copy ToolKit and Shortcuts databases
+        continue-on-error: true
+        run: |
+          mkdir -p out/db
+          cp -R "$HOME/Library/Shortcuts" out/db/Library-Shortcuts 2>&1 | tail -3
+          DB=$(find "$HOME/Library/Shortcuts/ToolKit" -name "Tools-active" | head -n 1)
+          [ -n "$DB" ] && cp "$DB" out/toolkit-raw.db && echo "ToolKit DB: $DB"
+
+      - name: Build condensed reference from ToolKit
+        continue-on-error: true
+        run: |
+          python3 scripts/build_reference.py out/toolkit-raw.db out/actions-condensed.json
+
+      - name: Filesystem recon
+        continue-on-error: true
+        run: bash scripts/probe/recon.sh out
+
+      - name: Compile runtime probe
+        id: compile
+        continue-on-error: true
+        run: swiftc -O scripts/probe/probe.swift -o probe 2>&1 | tee out/swiftc.log
+
+      - name: Run runtime probe (re-runs past crashes)
+        if: steps.compile.outcome == 'success'
+        continue-on-error: true
+        run: |
+          mkdir -p out/runtime
+          for i in 1 2 3 4 5 6 7 8 9 10 11 12; do
+            echo "=== probe attempt $i ==="
+            ./probe out/recon/dlopen-list.txt out/runtime > "out/runtime/attempt-$i.stdout" 2> "out/runtime/attempt-$i.stderr"
+            rc=$?
+            echo "exit code $rc"
+            [ "$rc" -eq 0 ] && grep -q "probe finished" out/runtime/probe.log && break
+          done
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: deep-extract
+          path: out/
+          if-no-files-found: warn
+          compression-level: 9
