@@ -498,6 +498,8 @@ def to_py(o, depth=0):
         return None
     if is_kind(o, "NSData"):
         n = _sendul(o, sel("length"))
+        if n == 0:
+            return {"__data_b64__": "", "length": 0}
         return {"__data_b64__": base64.b64encode(ctypes.string_at(msg(o, "bytes"), min(n, 100000))).decode(), "length": n}
     if is_kind(o, "NSDate"):
         return {"__date__": desc(o)}
@@ -545,9 +547,11 @@ if adr:
     merged = {}
     for key, val in (items_of(regd) if ran and regd else []):
         try:
-            ran2, d = guarded(f"s6|def|{key}", lambda: unwrap(val))
-            if ran2 and d:
-                py = to_py(d)
+            ran2, py = guarded(f"s6|def|{key}", lambda: to_py(unwrap(val)))
+            if not ran2:
+                merged[str(key)] = {"__error__": "native crash while converting this definition (skipped on retry)"}
+                log(f"stage 6a: skipped {key} (crashed earlier)")
+            elif py:
                 merged[str(key)] = py
                 with open(f"{JSONDIR}/{safe_name(str(key))}.json", "w", encoding="utf-8") as f:
                     json.dump(py, f, indent=1, sort_keys=True, default=str)
@@ -568,9 +572,8 @@ if reg:
         if ran and acts:
             for i, a in enumerate(_arr(acts)):
                 try:
-                    ran2, rep = guarded(f"s6|ser|{i}", lambda: msg(a, "serializedRepresentation"))
-                    if ran2 and rep:
-                        py = to_py(rep)
+                    ran2, py = guarded(f"s6|ser|{i}", lambda: to_py(msg(a, "serializedRepresentation")))
+                    if ran2 and py:
                         defaults[py.get("WFWorkflowActionIdentifier", f"#{i}")] = py
                 except Exception:
                     log(f"stage 6b error #{i}: {traceback.format_exc(limit=2)}")
