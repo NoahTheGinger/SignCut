@@ -1,4 +1,0 @@
-CREATE TABLE Counters(
-Id BLOB PRIMARY KEY NOT NULL,
-Counter INTEGER,
-Timestamp INTEGER)

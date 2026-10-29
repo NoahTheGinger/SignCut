@@ -1,365 +1,70 @@
-# 🔨 SignCut
+# 🔨 SignCut — Apple Shortcuts reference kit
 
-**Write iOS Shortcuts as code. Validate them against Apple's own action
-database. Build unsigned `.shortcut` files in GitHub Actions. Sign them later
-with a trusted signer.**
+**Give an LLM a rich reference of Apple Shortcuts actions, have it create a complete XML plist, turn that plist into an unsigned `.shortcut` file locally, and sign the result separately.**
 
-SignCut is a personal pipeline for vibe-coding Apple Shortcuts with an LLM
-instead of building them manually in the Shortcuts editor.
+This stripped-down edition is intentionally **not a GitHub Actions pipeline, signing service, or Shortcut repository**. The original reference data is preserved; builds happen wherever your LLM or Python environment can create a file.
 
-The project solves the hardest part first: giving the LLM a current,
-machine-readable reference of the Shortcuts action universe so it stops
-inventing fake `WFWorkflowActionIdentifier` values.
-
-## What this repo does
-
-SignCut has three jobs:
-
-1. **Extract Apple's action database**
-   - Runs on a macOS GitHub Actions runner.
-   - Opens the Shortcuts runtime enough to populate Apple's ToolKit database.
-   - Reads the live ToolKit SQLite database from:
-     `~/Library/Shortcuts/ToolKit/Tools-active`
-   - Builds `actions-condensed.json`, a compact LLM-friendly reference.
-
-2. **Guide LLM shortcut generation**
-   - The prompt template in `prompts/generate-shortcut.md` explains how an LLM
-     should use `reference/actions-condensed.json`.
-   - Generated shortcuts are written as XML plist files in `shortcuts/`.
-
-3. **Validate and build unsigned shortcut files**
-   - The build workflow lints plist syntax.
-   - Checks required Shortcut top-level keys.
-   - Validates every `WFWorkflowActionIdentifier` against
-     `reference/actions-condensed.json`.
-   - Converts XML plist files into binary `.unsigned.shortcut` files.
-   - Uploads those unsigned files as GitHub Actions artifacts.
-
-## What this repo does *not* currently do
-
-It does **not** fully sign shortcuts on GitHub-hosted macOS runners.
-
-Apple's `shortcuts sign` command exists on macOS, but in practice the GitHub
-hosted runner fails with:
-
-```text
-Error: In order to do this, you must be signed into iCloud.
-```
-
-So SignCut currently stops at producing valid unsigned `.shortcut` files.
-
-Final signing must happen through one of these trusted paths:
-
-* a personal Mac signed into iCloud,
-* a self-hosted GitHub runner on a Mac signed into iCloud,
-* a private shortcut-signing server backed by your own Mac,
-* or a third-party signing service such as HubSign, only for non-sensitive
-  shortcuts.
-
-## Repo layout
+## Contents
 
 ```text
 SignCut/
-├── .github/workflows/
-│   ├── Extract Shortcuts Action Database.yaml
-│   └── Sign Shortcuts.yaml
-├── prompts/
-│   └── generate-shortcut.md
+├── README.md
 ├── reference/
-│   └── actions-condensed.json
-├── scripts/
-│   └── build_reference.py
-└── shortcuts/
-    └── example.plist
+│   ├── README.md
+│   ├── actions-condensed.json    # 1,791 machine-readable actions
+│   ├── action-catalog.md        # all actions in readable Markdown
+│   ├── toolkit-raw.db           # original Apple ToolKit SQLite data
+│   └── os-version.txt           # macOS 26.4 / build 25E246
+├── prompts/
+│   └── generate-shortcut.md    # LLM instructions + request template
+└── scripts/
+    └── plist_to_shortcut.py    # standard-library plist converter
 ```
 
-## Core files
+## Fastest way to use it with an LLM
 
-### `reference/actions-condensed.json`
+1. Give your LLM **`prompts/generate-shortcut.md`** and **`reference/actions-condensed.json`** (or the whole repository if its environment supports reading files). You can also supply `reference/action-catalog.md` for browsing and `reference/toolkit-raw.db` if advanced investigation is needed.
+2. Replace `[DESCRIBE YOUR SHORTCUT HERE]` in the prompt with the Shortcut behavior you want.
+3. Ask the LLM to create an XML plist named, for example, `my-shortcut.plist` **and an actual downloadable `.unsigned.shortcut` file**, not merely a code block. It should validate the structure and action IDs against the reference; import-time behavior cannot be guaranteed from the registry alone.
+4. If the LLM cannot produce a binary attachment, save the XML plist and convert it yourself:
 
-This is the precious artifact.
+   **Windows (PowerShell):**
+   ```powershell
+   py scripts/plist_to_shortcut.py my-shortcut.plist
+   ```
 
-It is generated from Apple's current Shortcuts ToolKit database and contains
-the available actions, identifiers, parameter keys, parameter labels, enum
-values, output types, and deprecation info.
+   **macOS/Linux/iSH (if Python is installed):**
+   ```bash
+   python3 scripts/plist_to_shortcut.py my-shortcut.plist
+   ```
 
-Top-level keys are action identifiers such as:
+   The default output is `my-shortcut.unsigned.shortcut`, next to the input. Override with `-o output.unsigned.shortcut`.
+5. Upload **the `.unsigned.shortcut` file** to [Shortcuty Signer](https://sign.shortcuty.app/), download its **signed** `.shortcut` output, and import it into Apple Shortcuts on your iPhone. Shortcuty is a third-party remote signing service: it receives the complete file, so **don't upload secrets or private data**.
 
-```text
-is.workflow.actions.gettext
-is.workflow.actions.showresult
-is.workflow.actions.notification
-```
+## Requirements
 
-These exact strings are what generated plist files must use in
-`WFWorkflowActionIdentifier`.
+- **Python 3.9+**, using only built-in `plistlib`, `json`, and other standard-library modules. No macOS, Xcode, GitHub Actions or signing certificate is required to *create the unsigned file*.
+- A compatible signing solution is still required before iOS import.
+- For Windows, use `py` (or `python`, depending on your installation). On iSH, install Python first if needed (`apk add python3`).
 
-### `prompts/generate-shortcut.md`
-
-This is the reusable LLM prompt template.
-
-Use it whenever asking an LLM to generate a new Shortcut plist. Give the LLM:
-
-1. the prompt template,
-2. the specific shortcut idea,
-3. `reference/actions-condensed.json`.
-
-The LLM should use the JSON as ground truth and refuse to invent identifiers
-or parameter keys that are not present.
-
-### `shortcuts/*.plist`
-
-These are XML plist source files for generated shortcuts.
-
-Each plist should be a complete Shortcut source file with:
-
-* `WFWorkflowActions`
-* `WFWorkflowClientVersion`
-* `WFWorkflowMinimumClientVersion`
-* `WFWorkflowMinimumClientVersionString`
-* `WFWorkflowIcon`
-* `WFWorkflowImportQuestions`
-* optionally `WFWorkflowTypes`
-
-The build workflow converts each `.plist` into a binary
-`.unsigned.shortcut` artifact.
-
-## Workflows
-
-### `Extract Shortcuts Action Database`
-
-Manual workflow.
-
-It runs on macOS 26 and extracts the live Shortcuts ToolKit database. It then
-uses `scripts/build_reference.py` to produce:
-
-```text
-out/actions-condensed.json
-out/toolkit-raw.db
-out/os-version.txt
-```
-
-After running this workflow, download the artifact and commit the generated
-file to:
-
-```text
-reference/actions-condensed.json
-```
-
-Re-run this after macOS / iOS / Shortcuts updates to refresh the action
-database.
-
-### `Build Unsigned Shortcuts`
-
-Triggered by changes to:
-
-```text
-shortcuts/*.plist
-reference/actions-condensed.json
-.github/workflows/Sign Shortcuts.yaml
-```
-
-It performs:
-
-1. plist syntax linting,
-2. required Shortcut top-level key checks,
-3. action identifier validation against `reference/actions-condensed.json`,
-4. XML plist → binary `.unsigned.shortcut` conversion,
-5. artifact upload.
-
-The output artifact is named:
-
-```text
-unsigned-shortcuts
-```
-
-Inside it, files look like:
-
-```text
-test1.unsigned.shortcut
-```
-
-## Using SignCut
-
-### 1. Generate or refresh the action reference
-
-Run:
-
-```text
-Actions → Extract Shortcuts Action Database → Run workflow
-```
-
-Download the artifact and copy:
-
-```text
-actions-condensed.json
-```
-
-into:
-
-```text
-reference/actions-condensed.json
-```
-
-Commit it.
-
-### 2. Ask an LLM to write a shortcut
-
-Open:
-
-```text
-prompts/generate-shortcut.md
-```
-
-Give the LLM:
-
-* the prompt template,
-* your shortcut idea,
-* `reference/actions-condensed.json`.
-
-Ask it to produce one complete XML plist.
-
-### 3. Save the plist
-
-Save the generated plist under:
-
-```text
-shortcuts/<shortcut-name>.plist
-```
-
-Commit and push.
-
-### 4. Build the unsigned shortcut
-
-GitHub Actions will run automatically.
-
-Download the `unsigned-shortcuts` artifact from the workflow run.
-
-### 5. Sign the shortcut
-
-The artifact is not yet importable on iOS because modern Shortcuts requires
-signed shortcut files.
-
-You have several signing options.
-
-#### Option A: Sign on your own Mac
-
-On a Mac signed into iCloud:
+## Converter options
 
 ```bash
-shortcuts sign --mode anyone \
-  --input "test1.unsigned.shortcut" \
-  --output "test1.shortcut"
+python3 scripts/plist_to_shortcut.py --help
+python3 scripts/plist_to_shortcut.py my-shortcut.plist -o ready.unsigned.shortcut
+python3 scripts/plist_to_shortcut.py my-shortcut.plist --no-reference-check
 ```
 
-Then send `test1.shortcut` to your iPhone and open it.
+The script validates plist syntax, the expected Shortcut envelope, and action identifiers against the included reference by default. It does **not** certify parameter serialization, iPhone compatibility, runtime behavior, or signature validity. `--no-reference-check` turns off only the identifier lookup (for example, if you deliberately work with newer actions than this snapshot).
 
-#### Option B: Use HubSign
+## What the Apple action reference covers
 
-HubSign is RoutineHub's shortcut signing service. Cherri uses HubSign as a
-fallback signing path when it cannot sign locally on macOS.
+The snapshot contains **1,791 tool records**: **382 classic actions**, **87 Siri intents**, and **1,322 App Intents**. IDs, names, descriptions, parameters, enum cases, outputs and deprecation data are provided wherever available. This is an extracted **macOS Shortcuts runtime registry**, rather than a complete, public authoring API or a guarantee that every action works on your iPhone.
 
-Use this only for shortcuts that contain no sensitive data.
+For complex Shortcuts (conditionals, loops, magic variables, App Intents), working examples exported by the Shortcuts app can be more important than the action reference: the database does not describe all plist serialization details. Avoid guessing opaque parameter payloads and warn about unverified encodings.
 
-Do not send shortcuts containing:
+## Privacy and maintenance
 
-* API keys,
-* webhook URLs,
-* personal contacts,
-* message contents,
-* home addresses,
-* calendar details,
-* private notes,
-* health data,
-* authentication tokens,
-* anything you would not want a third party to see.
+Never hardcode API tokens, private messages, contacts, secrets or other sensitive values in a file that will be uploaded to a signing service. Have the Shortcut ask for runtime inputs or load secrets locally after import where possible. Your generated plist and unsigned output can remain local until you choose where to sign them.
 
-Also remember: HubSign availability, account requirements, or subscription
-requirements may change, so check RoutineHub before relying on it.
-
-#### Option C: Self-host a signing backend
-
-A private signing server or self-hosted GitHub runner can work if it is backed
-by a Mac that is signed into iCloud.
-
-This is the likely long-term automation path for personal/private shortcuts.
-
-## Important lessons learned
-
-### `WFActions.plist` is no longer the source of truth
-
-Older Shortcuts reverse-engineering notes refer to:
-
-```text
-/System/Library/PrivateFrameworks/WorkflowKit.framework/Resources/WFActions.plist
-```
-
-On current macOS runners, that file is gone.
-
-The useful action data now lives in the Shortcuts ToolKit SQLite database:
-
-```text
-~/Library/Shortcuts/ToolKit/Tools-active
-```
-
-### ToolKit contains both old and new action worlds
-
-`actions-condensed.json` includes entries with:
-
-```json
-"type": "action"
-```
-
-and:
-
-```json
-"type": "appIntent"
-```
-
-For now, prefer `"type": "action"` entries when generating plist shortcuts.
-
-Classic `"action"` entries map more directly to
-`WFWorkflowActionIdentifier` plist serialization.
-
-`"appIntent"` entries are documented in the ToolKit database, but their exact
-plist serialization may require more round-trip research.
-
-### `plutil -lint` is not enough
-
-`plutil -lint` only checks whether the file is a syntactically valid plist.
-
-A file can pass `plutil` and still fail as a Shortcut.
-
-That is why the build workflow also checks required Shortcut keys and validates
-action identifiers against `reference/actions-condensed.json`.
-
-### Do not hardcode secrets in generated shortcuts
-
-Even private repos can leak through accidents, old commits, collaborators,
-forks, compromised tokens, or future public release plans.
-
-Avoid committing shortcuts containing secrets or personal data.
-
-If this project ever becomes public, create a fresh clean-room public repo
-rather than trying to scrub private commit history.
-
-## Future ideas
-
-* Add stricter parameter-key validation.
-* Add a workflow that diffs old vs. new `actions-condensed.json`.
-* Add a local/private signer path.
-* Add example shortcuts known to build and sign cleanly.
-* Add decompilation / round-trip tests from hand-built shortcuts.
-* Research plist serialization for `appIntent` actions.
-* Add a searchable mini-doc site generated from `actions-condensed.json`.
-
-## Why this exists
-
-Because writing:
-
-```text
-"Make me a shortcut that does X"
-```
-
-and getting a valid Shortcut file back is cooler than dragging 40 blocks around
-on a phone screen.
+**No extract/build/sign workflows are retained.** This kit preserves the original reference snapshot, the instructions for LLM generation, and one local conversion script. To update the database for a future OS release, supply a newer extracted reference manually.
