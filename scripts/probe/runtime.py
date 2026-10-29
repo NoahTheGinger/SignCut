@@ -600,9 +600,13 @@ if reg:
     provs_obj = msg(reg, "actionProvidersForLoading")
     provs = _arr(provs_obj) if provs_obj else []
     bundled = [p for p in provs if S(className(objGetClass(p))) == "WFBundledActionProvider"]
+    log(f"stage 6b: {len(provs)} providers loaded, {len(bundled)} bundled")
     if bundled:
+        ids_obj = msg(bundled[0], "availableActionIdentifiers")
+        log(f"stage 6b: bundled provider availableActionIdentifiers -> {S(className(objGetClass(ids_obj))) if ids_obj else None} count={_sendul(ids_obj, sel('count')) if ids_obj else None}")
         ran, acts = guarded("s6|createAll", lambda: with_timeout(lambda: msg(bundled[0], "createAllAvailableActions"), 180, "createAllAvailableActions"))
         defaults = {}
+        log(f"stage 6b: createAllAvailableActions ran={ran} -> {S(className(objGetClass(acts))) if acts else None} count={_sendul(acts, sel('count')) if acts else None}")
         if ran and acts:
             for i, a in enumerate(_arr(acts)):
                 try:
