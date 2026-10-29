@@ -15,6 +15,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_REFERENCE = REPO_ROOT / "reference" / "actions-condensed.json"
+# Apple's WorkflowKit definitions: includes the control-flow actions (If, Choose from Menu, Repeat) that ToolKit lacks.
+DEFAULT_DEFINITIONS = REPO_ROOT / "reference" / "action-definitions.json"
 REQUIRED_KEYS = (
     "WFWorkflowActions",
     "WFWorkflowClientVersion",
@@ -93,6 +95,12 @@ def main() -> int:
                 reference = json.load(handle)
             if not isinstance(reference, dict):
                 raise ValueError("The reference JSON must contain a top-level object.")
+            if args.reference == DEFAULT_REFERENCE and DEFAULT_DEFINITIONS.exists():
+                with DEFAULT_DEFINITIONS.open("r", encoding="utf-8") as handle:
+                    for identifier in json.load(handle):
+                        # A WorkflowKit definition means it is a classic action, whatever ToolKit labels it
+                        # (Match Text, Split Text, Change Case, ... are tagged siriIntent there but serialize classically).
+                        reference[identifier] = {**reference.get(identifier, {}), "type": "action"}
         count, unusual_types = validate(shortcut, reference)
         destination = args.output or args.plist.with_name(args.plist.stem + ".unsigned.shortcut")
         if destination.resolve() == args.plist.resolve():
@@ -104,6 +112,12 @@ def main() -> int:
         print(f"Error: {exc}", file=sys.stderr)
         return 1
 
+    client = str(shortcut["WFWorkflowClientVersion"])
+    if client.split(".")[0].isdigit() and int(client.split(".")[0]) >= 1000:
+        print(f"Warning: WFWorkflowClientVersion {client} is a modern version, so Apple's import-time migrations "
+              "(implicit action chaining, legacy If conditions, ...) will NOT run. Unless this plist came from a "
+              "Shortcuts export, set it to \"900\" and let the device migrate it. "
+              "See reference/control-flow-and-serialization.md.", file=sys.stderr)
     print(f"Created: {destination} ({len(data):,} bytes; {count} actions)")
     if unusual_types:
         print("Warning: the following Siri/App Intents may need specialized plist serialization:", file=sys.stderr)
