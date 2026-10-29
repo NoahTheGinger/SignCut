@@ -23,6 +23,10 @@ from ctypes import (CFUNCTYPE, POINTER, c_bool, c_char_p, c_int64, c_uint, c_ulo
 
 list_path, out_dir = sys.argv[1], sys.argv[2]
 os.makedirs(out_dir, exist_ok=True)
+import faulthandler, signal
+_fh = open(f"{out_dir}/fault.log", "a")
+faulthandler.enable(file=_fh, all_threads=True)
+faulthandler.register(signal.SIGTRAP, file=_fh, all_threads=True, chain=True)   # Swift traps arrive as SIGTRAP
 LOG, PROGRESS = f"{out_dir}/probe.log", f"{out_dir}/progress.log"
 
 libc = ctypes.CDLL("/usr/lib/libc.dylib")
@@ -64,6 +68,12 @@ def log(msg):
     print(msg, file=sys.stderr, flush=True)
     with open(LOG, "a") as f:
         f.write(msg + "\n")
+
+def trace(what):
+    """Persist the last object kind touched so a native crash can be attributed."""
+    with open(f"{out_dir}/trace.log", "w") as f:
+        f.write(what)
+
 
 def raw(restype, *argtypes):
     return CFUNCTYPE(restype, *argtypes)(("objc_msgSend", objc))
@@ -204,8 +214,13 @@ def items_of(obj):
     if not obj:
         return []
     if responds(obj, "allKeys") and responds(obj, "objectForKey:"):
+        trace(f"items_of {S(className(objGetClass(obj)))}: allKeys")
         keys = msg(obj, "allKeys")
-        return [(desc(k), msg(obj, "objectForKey:", k)) for k in _arr(keys)]
+        out = []
+        for k in _arr(keys):
+            trace(f"items_of {S(className(objGetClass(obj)))}: objectForKey: {desc(k)}")
+            out.append((desc(k), msg(obj, "objectForKey:", k)))
+        return out
     if responds(obj, "objectAtIndex:") and responds(obj, "count"):
         return list(enumerate(_arr(obj)))
     return []
@@ -486,12 +501,6 @@ SUMMARY_IVARS = {
 }
 
 
-def trace(what):
-    """Persist the last object kind touched so a native crash can be attributed."""
-    with open(f"{out_dir}/trace.log", "w") as f:
-        f.write(what)
-
-
 LOC = re.compile(r'LocalizationValue\(arguments: \[\], key: \\*"([^"\\]*)')
 
 
@@ -520,7 +529,12 @@ def to_py(o, depth=0):
     if is_kind(o, "NSDate"):
         return {"__date__": desc(o)}
     if is_kind(o, "NSDictionary"):
-        return {desc(k): to_py(v, depth + 1) for k, v in items_of(o)}
+        out = {}
+        trace(f"dict {cn}: enumerating keys")
+        for k, v in items_of(o):
+            trace(f"dict {cn}: key={k!r} valueclass={S(className(objGetClass(v))) if v else None}")
+            out[str(k)] = to_py(v, depth + 1)
+        return out
     if is_kind(o, "NSArray") or is_kind(o, "NSSet"):
         arr = o if is_kind(o, "NSArray") else msg(o, "allObjects")
         return [to_py(x, depth + 1) for x in _arr(arr)]

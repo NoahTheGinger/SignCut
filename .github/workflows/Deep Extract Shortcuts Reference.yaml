@@ -54,7 +54,7 @@ jobs:
         run: |
           set +e
           mkdir -p out/runtime
-          for i in $(seq 1 150); do
+          for i in $(seq 1 12); do
             echo "=== attempt $i ==="
             /usr/bin/python3 scripts/probe/runtime.py out/recon/dlopen-list.txt out/runtime               > "out/runtime/attempt-$i.stdout" 2> "out/runtime/attempt-$i.stderr"
             rc=$?
