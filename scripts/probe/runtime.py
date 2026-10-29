@@ -156,6 +156,10 @@ if os.path.exists(PROGRESS):
 skip = began - done
 if skip:
     log(f"skipping calls that crashed earlier: {sorted(skip)}")
+    try:
+        log(f"last object kind touched before the previous crash: {open(f'{out_dir}/trace.log').read()}")
+    except OSError:
+        pass
 
 def guarded(key, fn):
     """Run fn() with crash bookkeeping; returns (ran, value)."""
@@ -476,6 +480,18 @@ def has_ivar(o, name):
     return found
 
 
+SUMMARY_IVARS = {
+    "WFActionParameterSummary": ["_title", "_singleFormatString", "_possibleValues"],
+    "WFActionParameterSummaryValue": ["_key", "_summaryString", "_requiredValues", "_requiredVisibleParameterKeys"],
+}
+
+
+def trace(what):
+    """Persist the last object kind touched so a native crash can be attributed."""
+    with open(f"{out_dir}/trace.log", "w") as f:
+        f.write(what)
+
+
 LOC = re.compile(r'LocalizationValue\(arguments: \[\], key: \\*"([^"\\]*)')
 
 
@@ -508,13 +524,17 @@ def to_py(o, depth=0):
     if is_kind(o, "NSArray") or is_kind(o, "NSSet"):
         arr = o if is_kind(o, "NSArray") else msg(o, "allObjects")
         return [to_py(x, depth + 1) for x in _arr(arr)]
+    trace(cn)
     if has_ivar(o, "_definition"):
         return to_py(_sendp(o, sel("valueForKey:"), nsstr("_definition")), depth + 1)
-    text = desc(o)
-    m = LOC.search(text)
-    if m or "Localiz" in cn:
+    if cn in SUMMARY_IVARS:
+        # Read ivars directly: -description on these can trap for some actions.
+        return {iv.lstrip("_"): to_py(_sendp(o, sel("valueForKey:"), nsstr(iv)), depth + 1) for iv in SUMMARY_IVARS[cn]}
+    if "Localiz" in cn:
+        text = desc(o)
+        m = LOC.search(text)
         return {"__localized__": m.group(1) if m else text[:300]}
-    return {"__object__": cn, "description": text[:1500]}
+    return {"__object__": cn}
 
 
 def diff_params(inp, out, path=""):
